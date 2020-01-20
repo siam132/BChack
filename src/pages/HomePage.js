@@ -3,9 +3,11 @@ import "../App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Landing from "../components/Landing";
 import About from "../components/About";
+import Tracks from "../components/Tracks"
 import Schedule from "../components/Schedule";
 import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
+import Contact from "../components/Contact";
 
 function App() {
   return (
@@ -13,12 +15,18 @@ function App() {
       <ul className="nav">
         <li className="nav-item">
           <a className="nav-link active" href="#landing">
-            Landing
+            {/* code for home is under "../components/Landing.jsx" */}
+            Home
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#about">
             About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#tracks">
+            Tracks
           </a>
         </li>
         <li className="nav-item">
@@ -32,17 +40,19 @@ function App() {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#schedule">
-            Schedule
+          <a className="nav-link" href="#contact">
+            Contact
           </a>
         </li>
       </ul>
       <div className="container-fluid">
         <Landing />
         <About />
+        <Tracks />
         <Schedule />
         <Sponsors />
         <FAQ />
+        <Contact />
       </div>
     </div>
   );

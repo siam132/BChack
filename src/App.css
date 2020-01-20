@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+#landing, #about{
+height: 110vh;
+border: 1px solid red;
+}
+
+#about {
+  border: 1px solid blue
+}
+
+#schedule {
+  height: 110vh;
+  border: green solid;
+}

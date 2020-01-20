@@ -5,6 +5,7 @@ import Landing from "../components/Landing";
 import About from "../components/About";
 import Tracks from "../components/Tracks"
 import Schedule from "../components/Schedule";
+import PreHack from "../components/PreHack";
 import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
@@ -35,6 +36,11 @@ function App() {
           </a>
         </li>
         <li className="nav-item">
+          <a className="nav-link" href="#prehack">
+            Pre-hackathon events
+          </a>
+        </li>
+        <li className="nav-item">
           <a className="nav-link" href="#schedule">
             Sponsors
           </a>
@@ -50,6 +56,7 @@ function App() {
         <About />
         <Tracks />
         <Schedule />
+        <PreHack /> 
         <Sponsors />
         <FAQ />
         <Contact />

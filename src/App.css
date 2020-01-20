@@ -1,36 +1,24 @@
-.App {
+.row.about {
+  /* height: inherit; */
+  padding: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row.about h1 {
+  width: 100%;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .about .col-4 img {
+  vertical-align: middle;
+} */
+
+#landing, #about, #schedule{
+height: 100vh;
 }
 
-.App-header {
-  background-color: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-#landing, #about{
-height: 110vh;
-border: 1px solid red;
+#landing {
+  border: 1px solid red
 }
 
 #about {
@@ -38,6 +26,5 @@ border: 1px solid red;
 }
 
 #schedule {
-  height: 110vh;
   border: green solid;
 }

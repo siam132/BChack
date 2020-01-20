@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import "bootstrap/dist/css/bootstrap.css";
 import Landing from "../components/landing";
 import About from "../components/About";
 import Schedule from "../components/Schedule";

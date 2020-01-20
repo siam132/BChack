@@ -1,4 +1,14 @@
-#landing, #about, #sponsors, #faq, #schedule{
+#landing, #about, #sponsors, #faq, #schedule {
   height: 100vh;
   border: 1px solid red;
+}
+
+.row.about {
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
 }

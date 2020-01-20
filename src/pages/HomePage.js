@@ -1,26 +1,38 @@
 import React from "react";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import Landing from "../components/landing";
+import Landing from "../components/Landing";
 import About from "../components/About";
 import Schedule from "../components/Schedule";
+import Sponsors from "../components/Sponsors";
+import FAQ from "../components/FAQ";
 
 function App() {
   return (
     <div className="App-header">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="#landing">
+      <ul className="nav">
+        <li className="nav-item">
+          <a className="nav-link active" href="#landing">
             Landing
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">
+        <li className="nav-item">
+          <a className="nav-link" href="#about">
             About
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#schedule">
+        <li className="nav-item">
+          <a className="nav-link" href="#schedule">
+            Schedule
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#schedule">
+            Sponsors
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#schedule">
             Schedule
           </a>
         </li>
@@ -29,6 +41,8 @@ function App() {
         <Landing />
         <About />
         <Schedule />
+        <Sponsors />
+        <FAQ />
       </div>
     </div>
   );

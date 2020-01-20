@@ -39,5 +39,14 @@ border: 1px solid red;
 
 #schedule {
   height: 110vh;
+  color: black;
   border: green solid;
+}
+
+.schedule-style{
+ text-decoration: underline;
+}
+
+ul{
+  list-style-type: none;
 }

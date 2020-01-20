@@ -8,19 +8,19 @@ import Schedule from "../components/Schedule";
 function App() {
   return (
     <div className="App-header">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="#landing">
+      <ul className="nav">
+        <li className="nav-item">
+          <a className="nav-link active" href="#landing">
             Landing
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">
+        <li className="nav-item">
+          <a className="nav-link" href="#about">
             About
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#schedule">
+        <li className="nav-item">
+          <a className="nav-link" href="#schedule">
             Schedule
           </a>
         </li>

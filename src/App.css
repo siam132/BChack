@@ -82,12 +82,8 @@ a.nav-link:hover {
   padding: 5vh;
 }
 
-#genPadding {
-  padding: 1%;
-}
-
-#genPaddingLg {
-  padding: 5%;
+.col-6.schedule {
+  margin: 0 auto;
 }
 
 
@@ -110,7 +106,6 @@ h1 {
 #schedule {
   height: 150vh;
   color: black;
-  border: green solid;
 }
 
 .clock {

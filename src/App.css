@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(180deg, #001b85, #780df7, #e852c9c7, #ffc107);
+  background: linear-gradient(180deg, #001b85,  #780df7, #780df7, #e852c9c7, #ffc107);
 }
 
 body * {
@@ -30,6 +30,27 @@ a.nav-link {
   text-align: center;
   padding: 10%;
 } 
+
+#landing h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 4em
+}
+
+#landing * {
+  font-size: 25px;
+  line-height: 1;
+}
+#landing a {
+  font-size: 15px;
+  line-height: 1;
+  padding: 15px
+}
+
+#landing a:hover {
+  background-color: #e852c9c7;
+  color:white;
+  border: 1px solid white
+}
 
 #landing div.bttn-group {
   width: 100%;
@@ -101,5 +122,6 @@ ul{
 
 .Faq-question{
   background-color: rgb(99, 99, 99);
-
 }
+
+

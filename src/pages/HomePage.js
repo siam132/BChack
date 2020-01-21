@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import Landing from "../components/Landing";
 import About from "../components/About";
 import Tracks from "../components/Tracks"
 import Schedule from "../components/Schedule";
@@ -52,7 +51,6 @@ function App() {
         </li>
       </ul>
       <div className="container-fluid">
-        <Landing />
         <About />
         <Tracks />
         <Schedule />

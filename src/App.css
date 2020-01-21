@@ -19,6 +19,10 @@ a.nav-link {
   color: lightyellow;
 }
 
+a.nav-link:hover {
+  color:#f077f7;
+}
+
 #landing, #about, #sponsors, #faq, #schedule, #tracks, #contact, #prehack {
   padding: 30px;
 }
@@ -26,7 +30,6 @@ a.nav-link {
 /*LANDING PAGE ------------------------------- */
 #landing {
   min-height: 100vh;
-  /* responsive screen size / fill screen  */
   text-align: center;
   padding: 10%;
 } 
@@ -54,6 +57,7 @@ a.nav-link {
 
 #landing div.bttn-group {
   width: 100%;
+  padding-top: 15px;
 }
 /*------------------------------------*/
 

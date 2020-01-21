@@ -21,13 +21,18 @@ h1 {
 }
 
 #schedule {
-  height: 110vh;
+  height: 150vh;
   color: black;
   border: green solid;
 }
 
 .schedule-style{
- text-decoration: underline;
+}
+
+.clock{
+  color:darkolivegreen;
+  font-size: 5em;
+  font-weight: bold;
 }
 
 ul{

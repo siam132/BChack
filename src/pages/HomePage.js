@@ -9,6 +9,7 @@ import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
 
+
 function App() {
   return (
     <div className="App-header">
@@ -59,8 +60,8 @@ function App() {
         <FAQ />
         <Contact />
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

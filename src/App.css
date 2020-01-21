@@ -38,13 +38,12 @@ border: 1px solid red;
 }
 
 #schedule {
-  height: 110vh;
+  height: 150vh;
   color: black;
   border: green solid;
 }
 
 .schedule-style{
- text-decoration: underline;
 }
 
 ul{

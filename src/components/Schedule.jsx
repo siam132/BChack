@@ -1,33 +1,38 @@
 import React, { Component } from "react";
+import scheduleData from "../data/Schedule";
 
 function Schedule() {
   return (
     <div id="schedule">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-5 py-3">
+          <div className="col-4 py-3">
             <h1>Clock</h1>
           </div>
-          <div className="col-5 py-3">
-            <h1>Schedule</h1>
-
-            <div className="row schedule-style py-5">
-            <div className="col-3 ">
-              <ul>
-                <li>7:00 am</li>
-                <li>8:00 am</li>
-                <li>9:00 am</li>
-              </ul>
-            </div>
-            <div className="col-8">
-                <h3>Breakfast</h3>
-                <h3>Not let shahzoda in because she sucks </h3>
-                <h3>Hail siam as the new king and conclude the event</h3>
-            </div>
-            </div>
+          <div className="col-7 py-3">
+            <h1 className="py-4 text-success rounded">Schedule</h1>
+            {scheduleData.map(e => {
+              return <ActivityRenderer time={e.time} activity={e.activity} />;
+            })}
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+function ActivityRenderer(props) {
+  return (
+    <div className="row border-top schedule-style py-2">
+      <div className="col-3 ">
+        <ul>
+          <li>{props.time}</li>
+        </ul>
+      </div>
+      <div className="col-8">
+        <h3>{props.activity}</h3>
+      </div>
+      
     </div>
   );
 }

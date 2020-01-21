@@ -1,4 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
+import Clock from "react-live-clock";
+
 import scheduleData from "../data/Schedule";
 
 function Schedule() {
@@ -6,8 +8,15 @@ function Schedule() {
     <div id="schedule">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-4 py-3">
-            <h1>Clock</h1>
+          <div className="col-4 py-5">
+            
+              <Clock
+                className="clock"
+                format={"HH:mm:ss"}
+                ticking={true}
+                timezone={"US/Eastern"}
+              />
+         
           </div>
           <div className="col-7 py-3">
             <h1 className="py-4 text-success rounded">Schedule</h1>
@@ -32,7 +41,6 @@ function ActivityRenderer(props) {
       <div className="col-8">
         <h3>{props.activity}</h3>
       </div>
-      
     </div>
   );
 }

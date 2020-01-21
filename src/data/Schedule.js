@@ -1,63 +1,55 @@
 let schedule = [
   {
-    time: "7:00 AM",
-    activity: "Checkin & registration begin, grab some breakfast! (9-11am)"
+    time: "07:00 - ",
+    activity: "Checkin & registration begin, grab some breakfast! "
   },
   {
-    time: "8:00 AM",
+    time: "07:30 - ",
     activity: "Opening ceremony, success tips for hackathons"
   },
   {
-    time: "8:30 AM",
-    activity: "Find teammates "
+    time: "08:00 - ",
+    activity: "Let the Hacking Begin"
   },
   {
-    time: "9:30 AM",
-    activity: "Workshop 1 (Build and Deploy your First Website)"
+    time: "08:30 - ",
+    activity: "Workshop 1"
   },
   {
-    time: "10:30 AM",
-    activity: "Break (Get Hacking)"
+    time: "10:30 - ",
+    activity: "Workshop 2"
   },
   {
-    time: "12:30 AM",
-    activity: "Workshop 2 (Accelerate Your C# Learning with Unity)"
+    time: "12:00 - ",
+    activity: "Workshop 3 & Workshop 4"
   },
   {
-    time: "1:30 PM",
-    activity: "Break (Get Hacking)"
-  },
-  {
-    time: "2:00 PM",
-    activity: "Workshop 3 (Twilio 201: Build your first App) "
-  },
-  {
-    time: "2:00 PM",
-    activity: "Workshop 4 (Intro to API Workshop) "
-  },
-  {
-    time: "3:30 PM",
+    time: "14:30 - ",
     activity: "Lunch Break"
   },
   {
-    time: "4:00 PM",
-    activity: "Cup Stacking"
+    time: "15:00 - ",
+    activity: "Post Lunch Surprise"
   },
   {
-    time: "4:00 PM",
-    activity: "Workshop 6 (Intermediate to APIs Workshop)"
+    time: "16:00 - ",
+    activity: "Workshop 6"
   },
   {
-    time: "5:00 PM",
-    activity: "Workshop 5 (Basic Training: An Introduction to Python Skills)"
+    time: "18:00 - ",
+    activity: "Workshop 7"
   },
   {
-    time: "7:30 PM",
-    activity: "Judging"
+    time: "20:00 - ",
+    activity: "End of Hacking & Start Judging"
   },
   {
-    time: "9:30 PM",
-    activity: "Farewell note"
+    time: "21:00 - ",
+    activity: "Closing Ceremony"
+  },
+  {
+    time: "21:30 - ",
+    activity: "Awarding Ceremony"
   }
 ];
 

@@ -1,11 +1,9 @@
 import React from "react";
-
 import scheduleData from "../data/Schedule";
 
 function Schedule() {
   return (
-    
-      <div id="schedule" className="container-fluid">
+    <div id="schedule">
         <div className="row">
           <div className="col-4 col-md-4 col-sm-4 py-5">
           </div>
@@ -33,12 +31,10 @@ function Schedule() {
 
 function ActivityRenderer(props) {
   return (
-    <tbody>
       <tr>
         <td>{props.time}</td>
         <td>{props.activity}</td>
       </tr>
-    </tbody>
   );
 }
 

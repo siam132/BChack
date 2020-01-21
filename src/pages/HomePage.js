@@ -33,7 +33,7 @@ function App() {
           <a className="nav-link" href="#faq">
             FAQ
           </a>
-        </li>]
+        </li>
       </ul>
 
       <div className="container-fluid">

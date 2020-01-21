@@ -1,9 +1,9 @@
 import React from "react";
 // import Button from 'react-bootstrap/Button';
 
-function sendToTypeForm() {
+// function sendToTypeForm() {
 
-}
+// }
 
 
 function Landing() {
@@ -29,8 +29,10 @@ function Landing() {
        {/* button to typeform */}
         <div className="row">
           <div className="bttn-group">
-            <a href="#" class="btn btn-outline-primary" role="button">Register</a>
-            <a href="#" class="btn btn-outline-primary" role="button">Volunteer</a>
+            <button href="#" className="btn btn-danger mx-2 px-5 ">Register</button>
+            <button href="#" className="btn btn-success mx-2 px-5">Volunteer</button>
+          
+           
           </div>
 
         </div>

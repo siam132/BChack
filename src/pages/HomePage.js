@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "../App.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import Landing from "../components/Landing";
 import About from "../components/About";

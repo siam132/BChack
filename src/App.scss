@@ -1,9 +1,14 @@
+html{
+  scroll-behavior: smooth;
+}
+
 #about,
 #sponsors,
 #faq,
 #tracks,
 #contact,
 #prehack {
+  padding: 30px;
   height: 100vh;
 }
 
@@ -15,10 +20,10 @@ body {
     rgba(87, 214, 130, 1) 76%,
     rgba(0, 212, 255, 1) 100%
   );
-}
 
-body * {
-  color: white;
+  & * {
+    color: white;
+  }
 }
 
 a.btn {
@@ -32,14 +37,16 @@ a.nav-link {
   background: transparent;
   border: transparent;
   color: lightyellow;
-}
-
-a.nav-link:hover {
-  color:#f077f7;
-}
-
-#landing, #about, #sponsors, #faq, #schedule, #tracks, #contact, #prehack {
   padding: 30px;
+  font-size: 1em;
+
+  &:hover {
+    text-decoration: underline;
+    font-size: 1.5em;
+    padding: 0.8em;
+    font-weight: bold;
+    text-decoration-color: darkorange;  
+  }
 }
 
 /*LANDING PAGE ------------------------------- */
@@ -47,45 +54,51 @@ a.nav-link:hover {
   min-height: 100vh;
   text-align: center;
   padding: 10%;
+
+  & a {
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px;
+  }
+
+  & a:hover {
+    background-color: #e852c9c7;
+    color: white;
+    border: 1px solid white;
+  }
+
+  & div.bttn-group {
+    width: 100%;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  & h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 4em;
+  }
+
+  & * {
+    font-size: 25px;
+    line-height: 1;
+  }
 }
 
-#landing h1 {
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 4em
-}
 
-#landing * {
-  font-size: 25px;
-  line-height: 1;
-}
-#landing a {
-  font-size: 15px;
-  line-height: 1;
-  padding: 15px
-}
 
-#landing a:hover {
-  background-color: #e852c9c7;
-  color:white;
-  border: 1px solid white
-}
-
-#landing div.bttn-group {
-  width: 100%;
-  padding-top: 15px;
-}
 /*------------------------------------*/
 
 /* ABOUT PAGE------------------------------- */
 .about_text {
   font-size: 2em;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .about_title {
   font-size: 4em;
   font-weight: bold;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   letter-spacing: 4px;
 }
 /* ----------------------------------------- */
@@ -118,12 +131,6 @@ h1 {
 #schedule {
   height: 150vh;
   color: black;
-}
-
-.clock {
-  color: darkolivegreen;
-  font-size: 5em;
-  font-weight: bold;
 }
 
 ul {

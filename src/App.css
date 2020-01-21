@@ -1,4 +1,9 @@
- #about, #sponsors, #faq, #tracks, #contact, #prehack {
+#about,
+#sponsors,
+#faq,
+#tracks,
+#contact,
+#prehack {
   height: 100vh;
   border: 1px solid red;
   padding: 30px;
@@ -26,20 +31,16 @@ h1 {
   border: green solid;
 }
 
-.schedule-style{
-}
-
-.clock{
-  color:darkolivegreen;
+.clock {
+  color: darkolivegreen;
   font-size: 5em;
   font-weight: bold;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-.Faq-question{
+.Faq-question {
   background-color: rgb(99, 99, 99);
-
 }

@@ -11,7 +11,7 @@ function Schedule() {
           <div className="col-4 col-md-4 col-sm-4 py-5">
           </div>
           <div className="col-7 col-md-7 col-sm-6 py-3">
-            <h1 className="py-4 text-success rounded">Schedule</h1>
+            <h1 className="py-4 text-warning rounded">Schedule</h1>
             <table className="table">
               <thead>
                 <tr>

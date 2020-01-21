@@ -1,10 +1,11 @@
 import React from "react";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import Landing from "../components/Landing";
+import Landing from "../components/landing";
 import About from "../components/About";
 import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
+import Schedule from "../components/Schedule";
 
 
 function App() {
@@ -26,6 +27,11 @@ function App() {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#schedule">
+            Schedule
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#schedule">
             Sponsors
           </a>
         </li>
@@ -39,6 +45,7 @@ function App() {
       <div className="container-fluid">
         <Landing />
         <About />
+        <Schedule/>
         <Sponsors />
         <FAQ />
       </div>

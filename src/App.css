@@ -1,5 +1,6 @@
 #landing, #about, #sponsors, #faq, #schedule, #tracks, #contact, #prehack {
   border: 1px solid red;
+  padding: 30px;
 }
 
 /*LANDING PAGE ------------------------------- */
@@ -14,6 +15,12 @@
   width: 100%;
 }
 /*------------------------------------*/
+
+
+/*SCHEDULE -----------------------------*/
+#schedule {
+  min-height: 65em;
+}
 
 #footer {
   height: 20vh; 
@@ -34,19 +41,30 @@
   text-align: center;
 }
 
+#sponsors img {
+  width: 200px;
+  height: 200px;
+  margin-left: 15px;
+}
+
 h1 {
   width: 100%;
   text-align: center;
 }
 
 #schedule {
-  height: 110vh;
+  height: 150vh;
   color: black;
   border: green solid;
 }
 
 .schedule-style{
- text-decoration: underline;
+}
+
+.clock{
+  color:darkolivegreen;
+  font-size: 5em;
+  font-weight: bold;
 }
 
 ul{

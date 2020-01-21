@@ -11,6 +11,7 @@ import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
+
 function App() {
   return (
     <div className="App-header">
@@ -67,7 +68,8 @@ function App() {
         <Footer />
       </div>
     </div>
-  );
-}
+    );
+  }
+
 
 export default App;

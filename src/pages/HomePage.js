@@ -3,13 +3,8 @@ import "../App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Landing from "../components/Landing";
 import About from "../components/About";
-import Tracks from "../components/Tracks";
-import Schedule from "../components/Schedule";
-import PreHack from "../components/PreHack";
 import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 
 
 function App() {
@@ -30,21 +25,6 @@ function App() {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#tracks">
-            Tracks
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#schedule">
-            Schedule
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#prehack">
-            Pre-Hackathon Events
-          </a>
-        </li>
-        <li className="nav-item">
           <a className="nav-link" href="#schedule">
             Sponsors
           </a>
@@ -53,24 +33,14 @@ function App() {
           <a className="nav-link" href="#faq">
             FAQ
           </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#contact">
-            Contact
-          </a>
-        </li>
+        </li>]
       </ul>
 
       <div className="container-fluid">
         <Landing />
         <About />
-        <Tracks />
-        <Schedule />
-        <PreHack />
         <Sponsors />
         <FAQ />
-        <Contact />
-        <Footer />
       </div>
     </div>
     );

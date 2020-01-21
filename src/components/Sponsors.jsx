@@ -9,9 +9,9 @@ function Sponsors() {
         <p>Care about empowering diverse students to tackle large-scale issues around the 
             world? Get in touch with us to support the cause.</p>
         <button type="button" class="btn btn-success">Contact us</button>
-        <div>
-            <img src={ Cookies } class="rounded float-left" alt="Linkedin Logo" /> 
-            <img src={ LinkedIn } class="rounded float-left" alt="Insomnia Cookies logo" />
+        <div align="left" id="genPadding">
+            <img src={ Cookies } className="rounded" alt="Linkedin Logo"/> 
+            <img src={ LinkedIn } className="rounded" alt="Insomnia Cookies logo"/>
         </div>
     </div>
   );

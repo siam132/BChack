@@ -11,6 +11,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 
 function FAQ() {
   return (
+
     <div className="container-fluid">
       <div className="row" id="faq">
         <h1>FAQ</h1>
@@ -20,6 +21,8 @@ function FAQ() {
           })}
         </div>
         
+
+
       </div>
     </div>
   );

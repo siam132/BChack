@@ -1,7 +1,7 @@
 let schedule = [
   {
     time: "07:00 - ",
-    activity: "Checkin & registration begin, grab some breakfast! "
+    activity: "Checkin & registration begin, grab some breakfast!"
   },
   {
     time: "07:30 - ",

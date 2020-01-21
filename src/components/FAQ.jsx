@@ -15,7 +15,7 @@ function FAQ() {
     <div className="container-fluid">
       <div className="row" id="faq">
         <h1>FAQ</h1>
-        <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 py-4">
+        <div className="col-12">
           {FAQData.map(e => {
             return <FaqRenderer question={e.Question} answer={e.Answer} />;
           })}

@@ -1,3 +1,13 @@
+
+#about,
+#sponsors,
+#faq,
+#tracks,
+#contact,
+#prehack {
+  height: 100vh;
+}
+
 body {
   background: linear-gradient(180deg, #001b85,  #780df7, #780df7, #e852c9c7, #ffc107);
 }
@@ -103,18 +113,17 @@ h1 {
   border: green solid;
 }
 
-.schedule-style{
-}
-
-.clock{
-  color:darkolivegreen;
+.clock {
+  color: darkolivegreen;
   font-size: 5em;
   font-weight: bold;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
+
+
 
 .map {
   -webkit-filter: grayscale(100%);

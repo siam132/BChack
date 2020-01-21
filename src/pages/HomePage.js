@@ -5,6 +5,7 @@ import Landing from "../components/Landing";
 import About from "../components/About";
 import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
+import Schedule from "../components/Schedule";
 
 
 
@@ -27,6 +28,11 @@ function App() {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#schedule">
+            Schedule
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#sponsors">
             Sponsors
           </a>
         </li>
@@ -40,6 +46,7 @@ function App() {
       <div className="container-fluid">
         <Landing />
         <About />
+        <Schedule/>
         <Sponsors />
         <FAQ />
       </div>

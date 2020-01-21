@@ -1,7 +1,33 @@
 #landing, #about, #sponsors, #faq, #schedule, #tracks, #contact, #prehack {
-  height: 100vh;
   border: 1px solid red;
 }
+
+/*LANDING PAGE ------------------------------- */
+#landing {
+  /* responsive screen size / fill screen  */
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 10%;
+} 
+
+#landing div.bttn-group {
+  width: 100%;
+}
+/*------------------------------------*/
+
+#footer {
+  height: 20vh; 
+  padding: 5vh;
+}
+
+#genPadding {
+  padding: 1%;
+}
+
+#genPaddingLg {
+  padding: 5%;
+}
+
 
 .row.about {
   padding: 30px;
@@ -25,4 +51,12 @@ h1 {
 
 ul{
   list-style-type: none;
+}
+
+.map {
+  -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+       -o-filter: grayscale(100%);
+          filter: grayscale(100%);
 }

@@ -9,10 +9,13 @@ import PreHack from "../components/PreHack";
 import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function App() {
   return (
     <div className="App-header">
+
+     {/* NAV BAR */}
       <ul className="nav">
         <li className="nav-item">
           <a className="nav-link active" href="#landing">
@@ -37,7 +40,7 @@ function App() {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#prehack">
-            Pre-hackathon events
+            Pre-Hackathon Events
           </a>
         </li>
         <li className="nav-item">
@@ -51,6 +54,7 @@ function App() {
           </a>
         </li>
       </ul>
+
       <div className="container-fluid">
         <Landing />
         <About />
@@ -60,6 +64,7 @@ function App() {
         <Sponsors />
         <FAQ />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

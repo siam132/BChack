@@ -10,7 +10,7 @@ function Schedule() {
         </div>
         </div>
         <div className="row">
-        <div className="col-6 schedule col-sm-12">
+        <div className="col-6 schedule">
           <table className="table">
             <thead>
               <tr>

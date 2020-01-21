@@ -60,8 +60,9 @@ function App() {
         <FAQ />
         <Contact />
       </div>
+    </div>
     );
   }
-}
+
 
 export default App;

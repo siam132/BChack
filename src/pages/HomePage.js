@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import Landing from "../components/landing";
+import Landing from "../components/Landing";
 import About from "../components/About";
 import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";

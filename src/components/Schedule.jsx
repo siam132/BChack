@@ -1,5 +1,4 @@
 import React from "react";
-import Clock from "react-live-clock";
 
 import scheduleData from "../data/Schedule";
 
@@ -12,6 +11,7 @@ function Schedule() {
           </div>
           <div className="col-7 col-md-7 col-sm-6 py-3">
             <h1 className="py-4 text-warning rounded">Schedule</h1>
+            <div className="row">
             <table className="table">
               <thead>
                 <tr>
@@ -25,6 +25,7 @@ function Schedule() {
             </table>
           </div>
         </div>
+      </div>
       </div>
 
   );

@@ -1,4 +1,3 @@
-
 #about,
 #sponsors,
 #faq,
@@ -10,7 +9,13 @@
 }
 
 body {
-  background: linear-gradient(180deg, #001b85, #780df7, #e852c9c7, #ffc107);
+  background: rgb(140, 136, 201);
+  background: linear-gradient(
+    180deg,
+    rgba(140, 136, 201, 1) 0%,
+    rgba(87, 214, 130, 1) 76%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 /* body * {
@@ -30,21 +35,32 @@ a.nav-link {
   color: lightyellow;
 }
 
-
-
 /*LANDING PAGE ------------------------------- */
 #landing {
   min-height: 100vh;
   /* responsive screen size / fill screen  */
   text-align: center;
   padding: 10%;
-} 
+}
 
 #landing div.bttn-group {
   width: 100%;
 }
 /*------------------------------------*/
 
+/* ABOUT PAGE------------------------------- */
+.about_text {
+  font-size: 2em;
+  font-family: 'Montserrat';
+}
+
+.about_title {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Bangers', sans-serif;
+  letter-spacing: 4px;
+}
+/* ----------------------------------------- */
 
 /*SCHEDULE -----------------------------*/
 #schedule {
@@ -52,7 +68,7 @@ a.nav-link {
 }
 
 #footer {
-  height: 20vh; 
+  height: 20vh;
   padding: 5vh;
 }
 
@@ -62,12 +78,6 @@ a.nav-link {
 
 #genPaddingLg {
   padding: 5%;
-}
-
-
-.row.about {
-  padding: 30px;
-  text-align: center;
 }
 
 #sponsors img {
@@ -97,13 +107,10 @@ ul {
   list-style-type: none;
 }
 
-
-
 .map {
   -webkit-filter: grayscale(100%);
-     -moz-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-       -o-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-

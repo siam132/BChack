@@ -1,4 +1,4 @@
- #about, #sponsors, #faq, #schedule, #tracks, #contact, #prehack {
+ #about, #sponsors, #faq, #tracks, #contact, #prehack {
   height: 100vh;
   border: 1px solid red;
   padding: 30px;
@@ -37,4 +37,9 @@ h1 {
 
 ul{
   list-style-type: none;
+}
+
+.Faq-question{
+  background-color: rgb(99, 99, 99);
+
 }

@@ -5,10 +5,10 @@ import scheduleData from "../data/Schedule";
 
 function Schedule() {
   return (
-    <div id="schedule">
-      <div className="container-fluid">
+    <div id="schedule container-fluid">
+      <div className="">
         <div className="row">
-          <div className="col-4 py-5">
+          <div className="col-4 col-md-4 col-sm-4 py-5">
             
               <Clock
                 className="clock"
@@ -18,7 +18,7 @@ function Schedule() {
               />
          
           </div>
-          <div className="col-7 py-3">
+          <div className="col-7 col-md-7 col-sm-6 py-3">
             <h1 className="py-4 text-success rounded">Schedule</h1>
             {scheduleData.map(e => {
               return <ActivityRenderer time={e.time} activity={e.activity} />;
@@ -32,13 +32,13 @@ function Schedule() {
 
 function ActivityRenderer(props) {
   return (
-    <div className="row border-top schedule-style py-2">
-      <div className="col-3 ">
+    <div className="row border-top schedule-style p-2">
+      <div className="col-3 col-md-3 col-sm-3 ">
         <ul>
-          <li>{props.time}</li>
+          <li className="h3">{props.time}</li>
         </ul>
       </div>
-      <div className="col-8">
+      <div className="col-8 col-md-8 col-sm-8">
         <h3>{props.activity}</h3>
       </div>
     </div>

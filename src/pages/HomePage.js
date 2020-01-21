@@ -3,7 +3,7 @@ import "../App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Landing from "../components/Landing";
 import About from "../components/About";
-import Tracks from "../components/Tracks"
+import Tracks from "../components/Tracks";
 import Schedule from "../components/Schedule";
 import PreHack from "../components/PreHack";
 import Sponsors from "../components/Sponsors";
@@ -50,6 +50,11 @@ function App() {
           </a>
         </li>
         <li className="nav-item">
+          <a className="nav-link" href="#faq">
+            FAQ
+          </a>
+        </li>
+        <li className="nav-item">
           <a className="nav-link" href="#contact">
             Contact
           </a>
@@ -61,7 +66,7 @@ function App() {
         <About />
         <Tracks />
         <Schedule />
-        <PreHack /> 
+        <PreHack />
         <Sponsors />
         <FAQ />
         <Contact />

@@ -1,44 +1,111 @@
+#about,
+#sponsors,
+#faq,
+#tracks,
+#contact,
+#prehack {
+  height: 100vh;
+}
+
+body {
+  background: rgb(140, 136, 201);
+  background: linear-gradient(
+    180deg,
+    rgba(140, 136, 201, 1) 0%,
+    rgba(87, 214, 130, 1) 76%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+body * {
+  color: white;
+}
+
+a.btn {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  margin: 1px;
+}
+
+a.nav-link {
+  background: transparent;
+  border: transparent;
+  color: lightyellow;
+}
+
+a.nav-link:hover {
+  color:#f077f7;
+}
+
 #landing, #about, #sponsors, #faq, #schedule, #tracks, #contact, #prehack {
-  border: 1px solid red;
   padding: 30px;
 }
 
 /*LANDING PAGE ------------------------------- */
 #landing {
-  /* responsive screen size / fill screen  */
-  border: 1px solid #fff;
+  min-height: 100vh;
   text-align: center;
   padding: 10%;
-} 
+}
+
+#landing h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 4em
+}
+
+#landing * {
+  font-size: 25px;
+  line-height: 1;
+}
+#landing a {
+  font-size: 15px;
+  line-height: 1;
+  padding: 15px
+}
+
+#landing a:hover {
+  background-color: #e852c9c7;
+  color:white;
+  border: 1px solid white
+}
 
 #landing div.bttn-group {
   width: 100%;
+  padding-top: 15px;
 }
 /*------------------------------------*/
 
+/* ABOUT PAGE------------------------------- */
+#about {
+  min-height: 150vh;
+}
+
+.about_text {
+  font-size: 2em;
+  font-family: 'Montserrat';
+}
+
+.about_title {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing: 4px;
+}
+/* ----------------------------------------- */
 
 /*SCHEDULE -----------------------------*/
 #schedule {
-  min-height: 65em;
+  min-height: 150vh;
 }
 
 #footer {
-  height: 20vh; 
+  height: 20vh;
   padding: 5vh;
 }
 
-#genPadding {
-  padding: 1%;
-}
-
-#genPaddingLg {
-  padding: 5%;
-}
-
-
-.row.about {
-  padding: 30px;
-  text-align: center;
+.col-6.schedule {
+  margin: 0 auto;
 }
 
 #sponsors img {
@@ -55,26 +122,22 @@ h1 {
 #schedule {
   height: 150vh;
   color: black;
-  border: green solid;
 }
 
-.schedule-style{
-}
-
-.clock{
-  color:darkolivegreen;
+.clock {
+  color: darkolivegreen;
   font-size: 5em;
   font-weight: bold;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
 .map {
   -webkit-filter: grayscale(100%);
-     -moz-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-       -o-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }

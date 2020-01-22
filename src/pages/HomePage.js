@@ -17,7 +17,7 @@ function App() {
     <div className="App-header">
 
      {/* NAV BAR */}
-      <ul className="nav">
+      <ul className="nav" >
         <li className="nav-item">
           <a className="nav-link active" href="#landing">
             {/* code for home is under "../components/Landing.jsx" */}

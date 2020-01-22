@@ -8,7 +8,10 @@
 }
 
 body {
-  background: rgb(140, 136, 201);
+  /* background-image: url("https://cdn.pixabay.com/photo/2020/01/15/09/37/dragon-4767447_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto; */
+  background: purple;
   background: linear-gradient(
     180deg,
     rgba(140, 136, 201, 1) 0%,
@@ -46,7 +49,7 @@ a.nav-link:hover {
 #landing {
   min-height: 100vh;
   text-align: center;
-  padding: 5%;
+  padding: 3%;
 }
 
 #landing h1 {
@@ -93,7 +96,7 @@ a.nav-link:hover {
 
 /* ABOUT PAGE------------------------------- */
 #about {
-  min-height: 150vh;
+  min-height: 200vh;
 }
 
 .about_text {
@@ -106,6 +109,21 @@ a.nav-link:hover {
   font-weight: bold;
   font-family: 'Luckiest Guy', cursive;
   letter-spacing: 4px;
+  text-align: left;
+}
+
+#about div.card {
+  padding: 1%;
+  width: 15rem;
+  display: inline-block;
+}
+
+#about h4, p.card-text {
+  color: #000;
+}
+
+#about p.card-text {
+  font-size: 18px;
 }
 /* ----------------------------------------- */
 

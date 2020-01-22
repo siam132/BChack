@@ -8,6 +8,8 @@ import MWEI from "../Logos/MWEILogo.png";
 function Contacts() {
   return (
     <div id="contact">
+    
+      {/* TO DO: MAKE THE SLIDE HAPPEN WHEN THE ORGANIZERS SECTION IS VIEWED */}
       <div className="slide-left">
         <h1>Meet the Organizers!</h1>
       </div>

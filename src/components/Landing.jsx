@@ -1,25 +1,31 @@
 import React from "react";
-import Typical from 'react-typical'
+import styled, {keyframes} from 'styled-components';
+import {fadeIn} from 'react-animations';
 
-
+const FadeIn = styled.div`animation: 3s ${keyframes`${fadeIn}`} `;
 
 function Landing() {
   return (
     <div id="landing">
       <div className="container-fluid">
-        <div className="row" id="organizers">
+      <FadeIn>
+        <div className="row">
           
           <div className="col-12">
-           
-            <h1 className="glitch">HACK</h1>
-            <Typical
+        
+            <p>Where Your Fantasies Come Alive</p>
+            <p><br /></p>
+            <h1 className="glitch">HACK <br /> Brooklyn</h1>
+            {/* <Typical
               steps={['', 1000, 'Brooklyn', 1000]}
               loop={Infinity}
               wrapper="h1"
               className="glitch"
-            /> 
+            />  */}
             
-            <p>Where Your Fantasies Come Alive</p>
+            <p>
+            ❤We love women, non-binary and LGBTQ❤ ️
+            </p>
             <p>⏰ March 29th </p>
             {/* link to location */}
             <p>
@@ -44,6 +50,7 @@ function Landing() {
 
         </div>
 
+        </FadeIn>
       </div>
     </div>
   );

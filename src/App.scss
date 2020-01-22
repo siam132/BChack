@@ -1,9 +1,14 @@
+html{
+  scroll-behavior: smooth;
+}
+
 #about,
 #sponsors,
 #faq,
 #tracks,
 #contact,
 #prehack {
+  padding: 30px;
   height: 100vh;
 }
 
@@ -18,10 +23,10 @@ body {
     rgba(87, 214, 130, 1) 76%,
     rgba(0, 212, 255, 1) 100%
   );
-}
 
-body * {
-  color: white;
+  & * {
+    color: white;
+  }
 }
 
 a.btn {
@@ -35,14 +40,16 @@ a.nav-link {
   background: transparent;
   border: transparent;
   color: lightyellow;
-}
-
-a.nav-link:hover {
-  color:#f077f7;
-}
-
-#landing, #about, #sponsors, #faq, #schedule, #tracks, #contact, #prehack {
   padding: 30px;
+  font-size: 1em;
+
+  &:hover {
+    text-decoration: underline;
+    font-size: 1.5em;
+    padding: 0.8em;
+    font-weight: bold;
+    text-decoration-color: darkorange;  
+  }
 }
 
 /*LANDING PAGE ------------------------------- */
@@ -184,12 +191,6 @@ h1 {
 #schedule {
   height: 150vh;
   color: black;
-}
-
-.clock {
-  color: darkolivegreen;
-  font-size: 5em;
-  font-weight: bold;
 }
 
 ul {

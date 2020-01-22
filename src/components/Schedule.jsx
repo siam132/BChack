@@ -1,12 +1,13 @@
 import React from "react";
 import scheduleData from "../data/Schedule";
 
+
 function Schedule() {
   return (
     <div id="schedule">
         <div className="row">
         <div className="col-12 text-center">
-          <h1>Schedule</h1>
+          <h1 className="section_title">Schedule</h1>
         </div>
         </div>
         <div className="row">
@@ -26,6 +27,7 @@ function Schedule() {
           </table>
         </div>
       </div>
+
       </div>
 
   );

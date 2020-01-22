@@ -6,6 +6,7 @@ import About from "../components/About";
 import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
 import Schedule from "../components/Schedule";
+import Contact from "../components/Contact";
 
 
 
@@ -49,6 +50,7 @@ function App() {
         <Schedule/>
         <Sponsors />
         <FAQ />
+        <Contact />
       </div>
     </div>
     );

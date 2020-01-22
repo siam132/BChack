@@ -46,12 +46,12 @@ a.nav-link:hover {
 #landing {
   min-height: 100vh;
   text-align: center;
-  padding: 10%;
+  padding: 5%;
 }
 
 #landing h1 {
   font-family: 'Luckiest Guy', cursive;
-  font-size: 4em
+  font-size: 4em;
 }
 
 #landing * {
@@ -73,6 +73,10 @@ a.nav-link:hover {
 #landing div.bttn-group {
   width: 100%;
   padding-top: 15px;
+}
+
+#typicalSz {
+  font-size:4em;
 }
 /*------------------------------------*/
 
@@ -98,6 +102,13 @@ a.nav-link:hover {
 #schedule {
   min-height: 150vh;
 }
+
+/*CONTACT --------------------------------*/
+#contact span.nobreak{
+  white-space: nowrap;
+}
+/*-------------------------------*/
+
 
 #footer {
   height: 20vh;
@@ -134,10 +145,11 @@ ul {
   list-style-type: none;
 }
 
-.map {
+/* ADD MAP IMAGE, THIS TURNS IT B&W */
+/* .map {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-}
+} */

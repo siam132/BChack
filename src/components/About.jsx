@@ -6,7 +6,7 @@ function About() {
     <div id="about">
       <div className="row p-4">
         <div className="col-9">
-          <h1 className="about_title">About</h1>
+          <h1 className="section_title">About</h1>
           <p className="about_text">
             Brooklyn College sits at the heart of a borough well-known for its
             innovation. Brooklyn College has always served to bring

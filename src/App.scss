@@ -41,7 +41,7 @@ a.nav-link {
   font-size: 1em;
 
   &:hover {
-    text-decoration: underline;
+    text-dgecoration: underline;
     font-size: 1.5em;
     padding: 0.8em;
     font-weight: bold;
@@ -85,6 +85,12 @@ a.nav-link {
   }
 }
 
+.section_title {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: "Luckiest Guy", cursive;
+  letter-spacing: 4px;
+}
 
 
 /*------------------------------------*/
@@ -93,13 +99,6 @@ a.nav-link {
 .about_text {
   font-size: 2em;
   font-family: "Montserrat";
-}
-
-.about_title {
-  font-size: 4em;
-  font-weight: bold;
-  font-family: "Luckiest Guy", cursive;
-  letter-spacing: 4px;
 }
 /* ----------------------------------------- */
 

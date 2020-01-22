@@ -1,24 +1,38 @@
 import React from "react";
-// import Button from 'react-bootstrap/Button';
+import styled, {keyframes} from 'styled-components';
+import {fadeIn} from 'react-animations';
 
-// function sendToTypeForm() {
-
-// }
-
+const FadeIn = styled.div`animation: 3s ${keyframes`${fadeIn}`} `;
 
 function Landing() {
   return (
     <div id="landing">
       <div className="container-fluid">
+      <FadeIn>
         <div className="row">
           
           <div className="col-12">
-          <h1 className="glitch">HACK Brooklyn</h1>
+        
+            <p>Where Your Fantasies Come Alive</p>
+            <p><br /></p>
+            <h1 className="glitch">HACK <br /> Brooklyn</h1>
+            {/* <Typical
+              steps={['', 1000, 'Brooklyn', 1000]}
+              loop={Infinity}
+              wrapper="h1"
+              className="glitch"
+            />  */}
+            
+            <p>
+            ❤We love women, non-binary and LGBTQ❤ ️
+            </p>
             <p>⏰ March 29th </p>
-            <p>📍 Brooklyn College</p>   
-            {/* <a href="https://www.google.com/maps/place/Brooklyn+College/@40.6304648,-73.9543017,17z/data=!4m5!3m4!1s0x89c244b4f418b1cd:0xb1d4b115f28f8e17!8m2!3d40.6302494!4d-73.9553609">
-              <img className="o-50" src="https://toppng.com/uploads/preview/royalty-free-stock-maps-icon-free-download-png-white-google-map-ico-115629001883xm3bupqk9.png" width="40px" height="40px" /> 
-            </a>  */}
+            {/* link to location */}
+            <p>
+              <a className="locater" href="https://www.google.com/maps/place/Brooklyn+College/@40.6304648,-73.9543017,17z/data=!4m5!3m4!1s0x89c244b4f418b1cd:0xb1d4b115f28f8e17!8m2!3d40.6302494!4d-73.9553609">
+                📍Brooklyn College
+              </a>
+            </p>   
           </div>
         
           {/* EMBED GOOGLE MAPS */}
@@ -28,6 +42,7 @@ function Landing() {
        
        {/* button to typeform */}
         <div className="row">
+
           <div className="bttn-group">
             <button href="#" className="btn btn-danger mx-2 px-5 ">Register</button>
             <button href="#" className="btn btn-success mx-2 px-5">Volunteer</button>
@@ -36,6 +51,8 @@ function Landing() {
           </div>
 
         </div>
+
+        </FadeIn>
       </div>
     </div>
   );

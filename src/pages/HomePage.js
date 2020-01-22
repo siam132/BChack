@@ -7,6 +7,7 @@ import About from "../components/About";
 import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
 import Schedule from "../components/Schedule";
+import Contact from "../components/Contact";
 
 function App() {
   return (
@@ -39,6 +40,11 @@ function App() {
             FAQ
           </a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#contact">
+            Contact
+          </a>
+        </li>
       </ul>
 
       <div className="container-fluid">
@@ -47,6 +53,7 @@ function App() {
         <Schedule />
         <Sponsors />
         <FAQ />
+        <Contact />
       </div>
       <ScrollUpButton
         StopPosition={0}

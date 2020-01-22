@@ -13,7 +13,10 @@ html{
 }
 
 body {
-  background: rgb(140, 136, 201);
+  /* background-image: url("https://cdn.pixabay.com/photo/2020/01/15/09/37/dragon-4767447_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto; */
+  background: purple;
   background: linear-gradient(
     180deg,
     rgba(140, 136, 201, 1) 0%,
@@ -41,7 +44,7 @@ a.nav-link {
   font-size: 1em;
 
   &:hover {
-    text-dgecoration: underline;
+    text-decoration: underline;
     font-size: 1.5em;
     padding: 0.8em;
     font-weight: bold;
@@ -53,59 +56,117 @@ a.nav-link {
 #landing {
   min-height: 100vh;
   text-align: center;
-  padding: 10%;
-
-  & a {
-    font-size: 15px;
-    line-height: 1;
-    padding: 15px;
-  }
-
-  & a:hover {
-    background-color: #e852c9c7;
-    color: white;
-    border: 1px solid white;
-  }
-
-  & div.bttn-group {
-    width: 100%;
-    padding-top: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
-
-  & h1 {
-    font-family: "Luckiest Guy", cursive;
-    font-size: 4em;
-  }
-
-  & * {
-    font-size: 25px;
-    line-height: 1;
-  }
+  padding: 3%;
 }
 
-.section_title {
+#landing h1 {
+  font-family: 'Luckiest Guy', cursive;
   font-size: 4em;
-  font-weight: bold;
-  font-family: "Luckiest Guy", cursive;
-  letter-spacing: 4px;
 }
 
+#landing * {
+  font-size: 25px;
+  line-height: 1;
+}
+#landing a {
+  font-size: 15px;
+  line-height: 1;
+  padding: 15px;
+}
 
+#landing a.btn:hover {
+  background-color: #e852c9c7;
+  color:white;
+  border: 1px solid white;
+}
+
+#landing a.locater {
+  font-family: 'Helvetica';
+  font-size: 20px;
+  color: #fff;
+}
+
+#landing a.locater:hover {
+  font-size:22px;
+  color: #e852c9c7;
+}
+
+#landing div.bttn-group {
+  width: 100%;
+  padding-top: 15px;
+}
+
+#typicalSz {
+  font-size:4em;
+}
 /*------------------------------------*/
 
 /* ABOUT PAGE------------------------------- */
+#about {
+  min-height: 200vh;
+}
+
 .about_text {
   font-size: 2em;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
+}
+
+.about_title {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing: 4px;
+  text-align: left;
+}
+
+#about div.card {
+  padding: 1%;
+  width: 15rem;
+  display: inline-block;
+}
+
+#about h4, p.card-text {
+  color: #000;
+}
+
+#about p.card-text {
+  font-size: 18px;
 }
 /* ----------------------------------------- */
 
 /*SCHEDULE -----------------------------*/
 #schedule {
-  min-height: 65em;
+  min-height: 150vh;
 }
+
+/*CONTACT --------------------------------*/
+#contact span.nobreak{
+  white-space: nowrap;
+}
+
+div.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+
+#contact div.slide-left h1 {
+  animation: slide-left 1s; 
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/*-------------------------------*/
+
 
 #footer {
   height: 20vh;
@@ -136,10 +197,11 @@ ul {
   list-style-type: none;
 }
 
-.map {
+/* ADD MAP IMAGE, THIS TURNS IT B&W */
+/* .map {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-}
+} */

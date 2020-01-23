@@ -104,6 +104,9 @@ a.nav-link {
 /* ABOUT PAGE------------------------------- */
 #about {
   min-height: 200vh;
+  img.witch {
+    float: right
+  }
 }
 
 .about_text {
@@ -119,15 +122,29 @@ a.nav-link {
   text-align: left;
 }
 
-#about div.card {
-  padding: 1%;
-  width: 15rem;
-  display: inline-block;
+// #about div.card {
+//   padding: 1%;
+//   width: 15rem;
+//   display: inline-block;
+// }
+
+#about * {
+  color: #000;
+  .card {
+    min-height: 300px;
+    margin-bottom: 15px;
+    height: 100%;
+    box-shadow: 10px 10px 8px 0px #464646;
+    padding: 5px;
+    img {
+      border-radius: 50%;
+      padding: 5px;
+      border: 2px solid green;
+    }
+  }
 }
 
-#about h4, p.card-text {
-  color: #000;
-}
+
 
 #about p.card-text {
   font-size: 18px;

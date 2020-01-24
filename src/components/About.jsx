@@ -26,7 +26,7 @@ function About() {
         </div>
       </Slide>
 
-      <div className="row text-center">
+      <div className="row text-center cards-group">
         <div className="col-12">
           <p className="about_text">Our 4 Sectors of Social Good:</p>
         </div>

@@ -127,7 +127,6 @@ a {
 
 // ABOUT PAGE
 #about {
-  min-height: 200vh;
   color: rgb(255, 253, 253);
   img.witch {
     float: right
@@ -136,8 +135,11 @@ a {
     font-size: 2em;
     font-family: 'Montserrat';
   }
+  .cards-group {
+    padding-bottom: 15px; // to offset the box-shadow (10px) & margin (5px) of the cards
+    margin-bottom: 15px; // so it doesn't look cluttered. 
+  }
   .card {
-    min-height: 300px;
     margin: 5px 20px;
     height: 100%;
     box-shadow: 10px 10px #ba81f7;;
@@ -159,11 +161,12 @@ a {
 // SCHEDULE
 #schedule {
   color: black;
+  .schedule {
+    margin: 0 auto;
+  }
 }
 
-.col-6.schedule {
-  margin: 0 auto;
-}
+
 
 // CONTACT 
 #contact span.nobreak{

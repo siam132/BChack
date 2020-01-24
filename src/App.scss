@@ -16,12 +16,11 @@ body {
   /* background-image: url("https://cdn.pixabay.com/photo/2020/01/15/09/37/dragon-4767447_960_720.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto; */
-  background: purple;
   background: linear-gradient(
     180deg,
-    rgba(140, 136, 201, 1) 0%,
-    rgba(87, 214, 130, 1) 76%,
-    rgba(0, 212, 255, 1) 100%
+    rgb(0, 0, 0) 0%,
+    rgb(161, 87, 214) 76%,
+    rgb(255, 0, 247) 100%
   );
 
   & * {
@@ -42,7 +41,6 @@ a.nav-link {
   color: lightyellow;
   padding: 30px;
   font-size: 1em;
-
   &:hover {
     text-decoration: underline;
     font-size: 1.5em;
@@ -57,11 +55,35 @@ a.nav-link {
   min-height: 100vh;
   text-align: center;
   padding: 3%;
+  .intro {
+    letter-spacing: 5px;
+    font-family: fantasy;
+  }
+  h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff00;
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/26/18/42/storm-clouds-3499982_1280.jpg);
+    animation: clouds-moving infinite 20s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    text-align: center;
+    letter-spacing: 10px;
+  }
 }
 
-#landing h1 {
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 4em;
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	}
 }
 
 #landing * {
@@ -91,9 +113,19 @@ a.nav-link {
   color: #e852c9c7;
 }
 
+
+
 #landing div.bttn-group {
   width: 100%;
   padding-top: 15px;
+}
+
+.bttn-group button {
+  background: transparent;
+  &.btn-danger {
+    color: #fff;
+    border-color: #7d86f2;
+  }
 }
 
 #typicalSz {
@@ -128,14 +160,17 @@ a.nav-link {
 //   display: inline-block;
 // }
 
-#about * {
-  color: #000;
+#about {
+  color: rgb(255, 253, 253);
   .card {
     min-height: 300px;
     margin-bottom: 15px;
     height: 100%;
-    box-shadow: 10px 10px 8px 0px #464646;
+    box-shadow: 10px 10px #ba81f7;;
     padding: 5px;
+    * {
+      color: black;
+    }
     img {
       border-radius: 50%;
       padding: 5px;

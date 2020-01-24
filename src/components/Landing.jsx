@@ -1,19 +1,20 @@
 import React from "react";
 import styled, {keyframes} from 'styled-components';
-import {fadeIn} from 'react-animations';
+// import {fadeIn} from 'react-animations';
+import Zoom from 'react-reveal/Zoom';
 
-const FadeIn = styled.div`animation: 3s ${keyframes`${fadeIn}`} `;
+// const FadeIn = styled.div`animation: 3s ${keyframes`${fadeIn}`} `;
 
 function Landing() {
   return (
     <div id="landing">
       <div className="container-fluid">
-      <FadeIn>
+      {/* <FadeIn> */}
         <div className="row">
           
           <div className="col-12">
         
-            <p>Where Your Fantasies Come Alive</p>
+            <Zoom cascade duration={3000}><p className="intro">Where Your Fantasies Come Alive</p></Zoom>
             <p><br /></p>
             <h1 className="glitch">HACK <br /> Brooklyn</h1>
             {/* <Typical
@@ -24,7 +25,7 @@ function Landing() {
             />  */}
             
             <p>
-            ❤We love women, non-binary and LGBTQ❤ ️
+            {/* ❤We love women, non-binary and LGBTQ❤ ️ */}
             </p>
             <p>⏰ March 29th </p>
             {/* link to location */}
@@ -52,7 +53,7 @@ function Landing() {
 
         </div>
 
-        </FadeIn>
+        {/* </FadeIn> */}
       </div>
     </div>
   );

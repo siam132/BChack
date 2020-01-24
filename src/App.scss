@@ -2,59 +2,68 @@ html{
   scroll-behavior: smooth;
 }
 
-#about,
-#sponsors,
-#faq,
-#tracks,
-#contact,
-#prehack {
-  padding: 30px;
-  height: 100vh;
-}
-
 body {
-  /* background-image: url("https://cdn.pixabay.com/photo/2020/01/15/09/37/dragon-4767447_960_720.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto; */
+  // background-image: url("https://cdn.pixabay.com/photo/2020/01/15/09/37/dragon-4767447_960_720.jpg");
+  // background-repeat: no-repeat;
+  // background-size: 100% auto; 
   background: linear-gradient(
     180deg,
     rgb(0, 0, 0) 0%,
     rgb(161, 87, 214) 76%,
     rgb(255, 0, 247) 100%
   );
-
-  & * {
+  * {
     color: white;
   }
 }
 
-a.btn {
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#about,
+#sponsors,
+#faq,
+#tracks,
+#contact,
+#prehack {
+  padding: 20px 0;
+  margin:0;
+  padding: 0;
+}
+
+a {
+ &.btn {
   color: black;
   background: white;
   border: 1px solid black;
   margin: 1px;
-}
-
-a.nav-link {
-  background: transparent;
-  border: transparent;
-  color: lightyellow;
-  padding: 30px;
-  font-size: 1em;
-  &:hover {
-    text-decoration: underline;
-    font-size: 1.5em;
-    padding: 0.8em;
-    font-weight: bold;
-    text-decoration-color: darkorange;  
+  }
+  &.nav-link {
+    background: transparent;
+    border: transparent;
+    color: #7d86f2;;
+    font-size: 1em;
+    &:hover {
+      color: darkorange;
+    }
   }
 }
 
-/*LANDING PAGE ------------------------------- */
+// LANDING PAGE 
 #landing {
   min-height: 100vh;
   text-align: center;
   padding: 3%;
+  * {
+    font-size: 25px;
+    line-height: 1;
+  }
   .intro {
     letter-spacing: 5px;
     font-family: fantasy;
@@ -63,6 +72,7 @@ a.nav-link {
     font-family: 'Luckiest Guy', cursive;
     font-size: 4em;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: #ffffff00;
     background-image: url(https://cdn.pixabay.com/photo/2018/06/26/18/42/storm-clouds-3499982_1280.jpg);
     animation: clouds-moving infinite 20s;
@@ -71,6 +81,35 @@ a.nav-link {
     animation-timing-function: linear;
     text-align: center;
     letter-spacing: 10px;
+  }
+  a.btn:hover {
+    background-color: #e852c9c7;
+    color:white;
+    border: 1px solid white;
+  }
+  a.locater {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: #fff;
+  }
+  a.locater:hover {
+    font-size:22px;
+    color: #e852c9c7;
+  }
+  div.bttn-group {
+    width: 100%;
+    padding-top: 15px;
+  }
+}
+ 
+.bttn-group button {
+  background: transparent;
+  &.btn-danger {
+    color: #fff;
+    border-color: #7d86f2;
+    &:hover {
+      background-color: #7d86f2;
+    }
   }
 }
 
@@ -86,82 +125,24 @@ a.nav-link {
 	}
 }
 
-#landing * {
-  font-size: 25px;
-  line-height: 1;
-}
-#landing a {
-  font-size: 15px;
-  line-height: 1;
-  padding: 15px;
-}
-
-#landing a.btn:hover {
-  background-color: #e852c9c7;
-  color:white;
-  border: 1px solid white;
-}
-
-#landing a.locater {
-  font-family: 'Helvetica';
-  font-size: 20px;
-  color: #fff;
-}
-
-#landing a.locater:hover {
-  font-size:22px;
-  color: #e852c9c7;
-}
-
-
-
-#landing div.bttn-group {
-  width: 100%;
-  padding-top: 15px;
-}
-
-.bttn-group button {
-  background: transparent;
-  &.btn-danger {
-    color: #fff;
-    border-color: #7d86f2;
-  }
-}
-
-#typicalSz {
-  font-size:4em;
-}
-/*------------------------------------*/
-
-/* ABOUT PAGE------------------------------- */
+// ABOUT PAGE
 #about {
   min-height: 200vh;
+  color: rgb(255, 253, 253);
   img.witch {
     float: right
   }
-}
-
-.about_text {
-  font-size: 2em;
-  font-family: 'Montserrat';
-}
-
-.about_title {
-  font-size: 4em;
-  font-weight: bold;
-  font-family: 'Luckiest Guy', cursive;
-  letter-spacing: 4px;
-  text-align: left;
-}
-
-// #about div.card {
-//   padding: 1%;
-//   width: 15rem;
-//   display: inline-block;
-// }
-
-#about {
-  color: rgb(255, 253, 253);
+  .about_text {
+    font-size: 2em;
+    font-family: 'Montserrat';
+  }
+  .about_title {
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 4px;
+    text-align: left;
+  }
   .card {
     min-height: 300px;
     margin-bottom: 15px;
@@ -176,78 +157,41 @@ a.nav-link {
       padding: 5px;
       border: 2px solid green;
     }
+    p.card-text {
+      font-size: 18px;
+    }
   }
 }
 
-
-
-#about p.card-text {
-  font-size: 18px;
-}
-/* ----------------------------------------- */
-
-/*SCHEDULE -----------------------------*/
+// SCHEDULE
 #schedule {
-  min-height: 150vh;
-}
-
-/*CONTACT --------------------------------*/
-#contact span.nobreak{
-  white-space: nowrap;
-}
-
-div.slide-left {
-  width:100%;
-  overflow:hidden;
-}
-
-#contact div.slide-left h1 {
-  animation: slide-left 1s; 
-}
-
-@keyframes slide-left {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-/*-------------------------------*/
-
-
-#footer {
-  height: 20vh;
-  padding: 5vh;
+  color: black;
 }
 
 .col-6.schedule {
   margin: 0 auto;
 }
 
-#sponsors img {
-  width: 200px;
-  height: 200px;
-  margin-left: 15px;
+// CONTACT 
+#contact span.nobreak{
+  white-space: nowrap;
 }
 
-h1 {
-  width: 100%;
-  text-align: center;
+// FOOTER
+#footer {
+  height: 20vh;
+  padding: 5vh;
 }
 
-#schedule {
-  height: 150vh;
-  color: black;
+// SPONSORS
+#sponsors {
+  img {
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+  }
 }
 
-ul {
-  list-style-type: none;
-}
 
 /* ADD MAP IMAGE, THIS TURNS IT B&W */
 /* .map {

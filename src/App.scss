@@ -194,11 +194,21 @@ hr:after {
   }
 }
 
-
-
 // CONTACT 
-#contact span.nobreak{
-  white-space: nowrap;
+#contact {
+  span.nobreak{
+    white-space: nowrap;
+  }
+  .logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+  i.fab {
+    margin: 4px;
+    font-size: 41px;
+  }
 }
 
 // FOOTER

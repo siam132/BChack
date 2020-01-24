@@ -35,6 +35,7 @@ function About() {
             <div className="card text-center">
               <div className="card-body">
                 <h5 class="card-title">Sustainability</h5>
+                <hr></hr>
                 <p className="card-text">Tackle issues like climate change, energy,
                 food production, water scarcity, and biodiversity </p>
               </div>
@@ -46,6 +47,7 @@ function About() {
             <div className="card text-center">
               <div className="card-body">
                 <h5 class="card-title">Accessibility</h5>
+                <hr></hr>
                 <p className="card-text">Help make the world more accessible,
                 create tools for different needs! </p>
               </div>
@@ -57,6 +59,7 @@ function About() {
             <div className="card text-center">
               <div className="card-body">
                 <h5 class="card-title">Education</h5>
+                <hr></hr>
                 <p className="card-text">Find ways to improve education quality, and 
                 increase access to knowledge around the world.</p>
               </div>
@@ -68,6 +71,7 @@ function About() {
             <div className="card text-center">
               <div className="card-body">
                 <h5 class="card-title">Health</h5>
+                <hr></hr>
                 <p className="card-text">Alert: Engineers Needed!</p>
               </div>
             </div>

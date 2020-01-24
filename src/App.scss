@@ -12,8 +12,13 @@ body {
     rgb(161, 87, 214) 30%,
     rgb(255, 0, 247) 85%
   );
+  margin:0;
+  padding: 0;
   * {
     color: white;
+  }
+  h1 {
+    font-family: fantasy;
   }
 }
 
@@ -26,15 +31,13 @@ ul {
   list-style-type: none;
 }
 
-#about,
 #sponsors,
 #faq,
-#tracks,
-#contact,
-#prehack {
-  padding: 20px 0;
-  margin:0;
-  padding: 0;
+#about,
+#schedule,
+#contact
+{
+  padding-bottom: 15vh;
 }
 
 a {
@@ -87,8 +90,10 @@ a {
     color:white;
     border: 1px solid white;
   }
+  p, a {
+    font-family: fantasy;
+  }
   a.locater {
-    font-family: 'Helvetica';
     font-size: 20px;
     color: #fff;
   }
@@ -131,13 +136,12 @@ a {
   img.witch {
     float: right
   }
-  .about_text {
+  .about_text{
     font-size: 2em;
-    font-family: 'Montserrat';
+    font-family: fantasy;
   }
   .cards-group {
     padding-bottom: 15px; // to offset the box-shadow (10px) & margin (5px) of the cards
-    margin-bottom: 15px; // so it doesn't look cluttered. 
   }
   .card {
     margin: 5px 20px;
@@ -155,7 +159,31 @@ a {
     p.card-text {
       font-size: 18px;
     }
+    .card-title {
+      font-family: fantasy;
+      font-weight: bold;
+    }
   }
+}
+
+/* hr styling creds: Glyph, by Harry Roberts */
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr:after {
+  content: "§";
+  font-weight: 100;
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
 }
 
 // SCHEDULE
@@ -188,6 +216,15 @@ a {
   }
 }
 
+// FAQ
+.accordion__button {
+  box-shadow: 5px 5px rebeccapurple;
+  border: 2px solid #0062cc;
+  margin-top: 35px;
+  text-align: center;
+  font-family: fantasy;
+  border-radius: 20px;
+}
 
 /* ADD MAP IMAGE, THIS TURNS IT B&W */
 /* .map {

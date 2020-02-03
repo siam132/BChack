@@ -12,11 +12,11 @@ function About() {
           <div className="col-9 col-sm-12">
             <p className="about_text" style={{ 'text-align': 'left' }}>
               Hack Brooklyn is where your quest begins.
-              Step into a world of magic on March 29th where 200 students will come
+              Step into a world of magic on March 29th where 150 students will come
               to build innovative solutions for
-            <Typical
-                steps={['educational disparity.', 1000, 'accessibility.', 1000, 'climate change.', 1000, 'social good.', 1000, 'housing inequality.', 1000, 'racism.', 1000, 'mental health.', 1000, 'sustainability.', 1000]}
-                loop={Infinity}
+
+              <Typical className="about-text-changing" steps={['educational disparity.', 1000, 'accessibility.', 1000, 'climate change.', 1000, 'social good.', 1000, 'housing inequality.', 1000, 'racism.', 1000, 'mental health.', 1000, 'sustainability.', 1000]}
+              loop={Infinity}
               />
             </p>
           </div>

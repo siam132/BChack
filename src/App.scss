@@ -6,13 +6,16 @@ body {
   // background-image: url("https://cdn.pixabay.com/photo/2020/01/15/09/37/dragon-4767447_960_720.jpg");
   // background-repeat: no-repeat;
   // background-size: 100% auto; 
-  background: linear-gradient(
-    180deg,
-    rgb(0, 0, 0) 0%,
-    rgb(161, 87, 214) 30%,
-    rgb(255, 0, 247) 85%
-  );
-  margin:0;
+  // background: linear-gradient(
+  //   180deg,
+  //   rgb(0, 0, 0) 0%,
+  //   rgb(161, 87, 214) 30%,
+  //   rgb(255, 0, 247) 85%
+  // );
+  background-image: url(./assets/background.svg);
+  background-size: 100vw 100vh;  // Breaks mobile background, but makes desktop background work (we'll fix it eventually lol)
+  background-repeat: no-repeat;
+  margin: 0;
   padding: 0;
   * {
     color: white;
@@ -95,14 +98,20 @@ a {
     font-size: 4em;
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: #ffffff00;
+    -webkit-text-fill-color: #fff;
+    text-shadow: 5px 5px purple;
+    text-align: center;
+    letter-spacing: 10px;
+
+    /*
+    Animated Title
+
     background-image: url(https://cdn.pixabay.com/photo/2018/06/26/18/42/storm-clouds-3499982_1280.jpg);
     animation: clouds-moving infinite 20s;
     animation-fill-mode: forwards;
     animation-play-state: running;
     animation-timing-function: linear;
-    text-align: center;
-    letter-spacing: 10px;
+    */
   }
   a.btn:hover {
     background-color: #e852c9c7;
@@ -111,6 +120,7 @@ a {
   }
   p, a {
     font-family: fantasy;
+    font-weight: 900;
   }
   a.locater {
     font-size: 20px;
@@ -151,16 +161,29 @@ a {
 
 // ABOUT PAGE
 #about {
-  color: rgb(255, 253, 253);
+  margin: -15px;  // Reset the margin from an inherited value
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0%,
+    rgb(186, 169, 228) 100%
+  );
+  color: rgb(142, 29, 203);
+
   img.witch {
-    float: right
+    float: right;
   }
   .about_text{
+    padding: 1em;
+    color: rgb(142, 29, 203);
     font-size: 2em;
     font-family: fantasy;
   }
+  .about-text-changing {
+    color: rgb(142, 29, 203);
+  }
   .cards-group {
-    padding-bottom: 15px; // to offset the box-shadow (10px) & margin (5px) of the cards
+    padding: 5em;
+    padding-bottom: 15px;  // to offset the box-shadow (10px) & margin (5px) of the cards
   }
   .card {
     margin: 5px 20px;
@@ -189,6 +212,12 @@ a {
 
 // SCHEDULE
 #schedule {
+  margin: -15px;  // Reset the margin from an inherited value
+  background: linear-gradient(
+    180deg,
+    rgb(186, 169, 228) 0%,
+    rgb(22, 148, 239) 100%
+    );
   color: black;
   .schedule {
     margin: 0 auto;
@@ -197,6 +226,12 @@ a {
 
 // CONTACT 
 #contact {
+  margin: -15px;  // Reset the margin from an inherited value
+  background: linear-gradient(
+    180deg,
+    rgb(6, 148, 249) 0%,
+    rgb(248, 254, 79) 100%
+    );
   span.nobreak{
     white-space: nowrap;
   }
@@ -221,6 +256,12 @@ a {
 
 // SPONSORS
 #sponsors {
+  margin: -15px;  // Reset the margin from an inherited value
+  background: linear-gradient(
+    180deg,
+    rgb(45, 149, 224) 0%,
+    rgb(22, 148, 239) 100%
+    );
   img {
     width: 200px;
     height: 200px;
@@ -229,7 +270,16 @@ a {
 }
 
 // FAQ
+#faq {
+  margin: -30px;  // Reset the margin from an inherited value
+  background: linear-gradient(
+    180deg,
+    rgb(22, 148, 239) 0%,
+    rgb(6, 148, 249) 100%
+    );
+}
 .accordion__button {
+  margin: 15px;  // Re-add the margin to the buttons
   box-shadow: 5px 5px rebeccapurple;
   border: 2px solid #0062cc;
   margin-top: 35px;

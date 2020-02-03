@@ -19,6 +19,9 @@
 .env.production.local
 package-lock.json
 
+# WebStorm
+.idea
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

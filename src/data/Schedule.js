@@ -1,7 +1,7 @@
 let schedule = [
   {
     time: "07:00 - ",
-    activity: "Checkin & registration begin, grab some breakfast!"
+    activity: "Check-in & registration begins, grab some breakfast!"
   },
   {
     time: "07:30 - ",
@@ -29,7 +29,7 @@ let schedule = [
   },
   {
     time: "15:00 - ",
-    activity: "Post Lunch Surprise"
+    activity: "Post Lunch Surprise!"
   },
   {
     time: "16:00 - ",
@@ -41,7 +41,7 @@ let schedule = [
   },
   {
     time: "20:00 - ",
-    activity: "End of Hacking & Start Judging"
+    activity: "Hacking Ends; Judging Starts"
   },
   {
     time: "21:00 - ",
@@ -49,8 +49,8 @@ let schedule = [
   },
   {
     time: "21:30 - ",
-    activity: "Awarding Ceremony"
+    activity: "Awards"
   }
 ];
 
-module.exports = schedule;
+export default schedule;

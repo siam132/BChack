@@ -1,8 +1,8 @@
 let FAQ = [
   {
-    Question: "But what is a hackathon?",
+    Question: "What is a \"hackathon\"?",
     Answer:
-      "A hackathon is a creative event for tech enthusiasts to gather and share their ideas. Hackathon participants typically form groups to work from scratch on a software or hardware project ‘hack’ in a given limited time. What do they build? Imagination is their only limit!"
+      "A hackathon is a creative event for tech enthusiasts to gather and share their ideas. Hackathon participants typically form groups to work from scratch on a software or hardware project ‘hack’ in a given limited time. What will they build? The only limit is their imagination!"
   },
   {
     Question: "I’m not a coder... can I apply?",
@@ -17,13 +17,13 @@ let FAQ = [
   {
     Question: "Do I need a team?",
     Answer:
-      "You can hack as one or as a group! If you will be hacking as a team, your team size is limited to 4 students. If you are looking teammates, feel free to reach out to those who have been accepted. There will also be a team building event the-day-of for you, in case you can’t find a team before then!"
+      "You can hack as one or as a team! If you will be hacking as a team, your team size is limited to 4 students. If you are looking teammates, feel free to reach out to those who have been accepted. There will also be a team building event before hacking starts, in case you can’t find a team before then!"
   },
   {
     Question: "How much does it cost?",
     Answer:
-      "Attendance is entirely free, and the food is on us. But we’ll have to ask for 24 hours of your time!"
+      "Attendance is entirely free, and the food is on us. But we’ll have to ask for 12 hours of your time!"
   }
 ];
 
-module.exports = FAQ;
+export default FAQ;

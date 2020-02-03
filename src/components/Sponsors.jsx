@@ -1,6 +1,6 @@
 import React from "react";
-import Cookies from "../insomniacookies.png";
-import LinkedIn from "../linkedin.png";
+import Cookies from "../assets/company_logos/insomniacookies.png";
+import LinkedIn from "../assets/company_logos/linkedin.png";
 
 function Sponsors() {
   return (

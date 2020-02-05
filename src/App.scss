@@ -7,14 +7,12 @@ body {
   // background-repeat: no-repeat;
   // background-size: 100% auto; 
   // background: linear-gradient(
-  //   180deg,
-  //   rgb(0, 0, 0) 0%,
-  //   rgb(161, 87, 214) 30%,
-  //   rgb(255, 0, 247) 85%
-  // );
-  background-image: url(./assets/background.svg);
-  background-size: 100vw 100vh;  // Breaks mobile background, but makes desktop background work (we'll fix it eventually lol)
-  background-repeat: no-repeat;
+    //   180deg,
+    //   rgb(0, 0, 0) 0%,
+    //   rgb(161, 87, 214) 30%,
+    //   rgb(255, 0, 247) 85%
+    // );
+  background-color: #5D28E3;
   margin: 0;
   padding: 0;
   * {
@@ -77,11 +75,18 @@ a {
 #schedule,
 #contact
 {
+  padding-top: 5vh;
   padding-bottom: 15vh;
 }
 
 // LANDING PAGE 
 #landing {
+  margin: -15px;
+  background-image: url(./assets/background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+
   min-height: 100vh;
   text-align: center;
   padding: 3%;

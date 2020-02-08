@@ -1,12 +1,13 @@
 import React from "react";
-import "../App.scss";
-import "bootstrap/dist/css/bootstrap.css";
 import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
+import "bootstrap/dist/css/bootstrap.css";
+
+import "../App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
-import Sponsors from "../components/Sponsors";
-import FAQ from "../components/FAQ";
 import Schedule from "../components/Schedule";
+import FAQ from "../components/FAQ";
+import Sponsors from "../components/Sponsors";
 import Contact from "../components/Contact";
 
 function App() {

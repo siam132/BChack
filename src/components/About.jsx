@@ -19,12 +19,12 @@ function About() {
   return (
     <div id="about" className="col-lg-14 disable-user-select">
       <div>
-        <img className="witch" src={witch} alt="..."/>
+        <img className="witch" src={witch} alt="witch"/>
         <div className="ml-5">
           <div className="about-header">
             <h2>Welcome to <span className="bold">Hack Brooklyn!</span></h2>
           </div>
-          <p className="about_text" style={{ 'text-align': 'left' }}>
+          <p className="about-summary" style={{ 'text-align': 'left' }}>
             Hack Brooklyn is where your quest begins. Step into a world of magic on <span className="bold">March 29th</span> where over 150 of the brightest students in New York will come together to build innovative solutions for <span className="about-text-changing"><Typical
                 wrapper="span"
                 steps={steps}
@@ -32,7 +32,7 @@ function About() {
             /></span>
           </p>
 
-          <div className="about-additional">
+          <div className="about-description">
               <p>Over the course of 12 hours, teams of up to four students will collaborate to use the technology of today to solve present-day problems and create the world of tomorrow. Create a project, acquire new skills, and network with other hackers and companies as you learn and grow in the heart of Brooklyn. Whether this is the first time you’ve ever seen a line of code or the hundredth time you’ve published an app, Hack Brooklyn has something for everyone. With a multitude of interactive workshops and events ranging from the basics of programming to the hottest and latest technologies, you’ll leave Hack Brooklyn with something new.</p>
               <p>One of our goals for Hack Brooklyn is to encourage diversity by supporting, boosting, and emboldening women and minorities in tech, as well as creating a safe, inclusive community where we can all work on changing the make-up and attitudes of the tech community. Regardless of who you are, Hack Brooklyn welcomes you. Join us for 12 hours of exploration and discovery and unlock your true potential.</p>
           </div>

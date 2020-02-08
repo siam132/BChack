@@ -179,13 +179,15 @@ a {
   );
   color: rgb(142, 29, 203);
 
-  img.witch {
-    margin: 5em;
-    width: 508.49px;
-    height: 672.03px;
-    float: right;
+  .about-header h2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #9400D3;
   }
-  .about_text{
+
+  .about-summary{
     padding: 1em;
     color: rgb(142, 29, 203);
     font-size: 2em;
@@ -194,6 +196,7 @@ a {
     font-style: normal;
     font-weight: normal;
   }
+
   .about-text-changing span {
     color: rgb(142, 29, 203);
     font-size: 32px;
@@ -201,6 +204,7 @@ a {
     font-style: normal;
     font-weight: normal;
   }
+
   .about-additional p {
     padding-left: 1em;
     padding-right: 1em;
@@ -211,12 +215,11 @@ a {
     font-weight: normal;
   }
 
-  .about-header h2 {
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    color: #9400D3;
+  img.witch {
+    margin: 5em;
+    width: 508.49px;
+    height: 672.03px;
+    float: right;
   }
 
   .cards-group {
@@ -244,6 +247,7 @@ a {
       font-weight: bold;
     }
   }
+  
   .bold {
     font-weight: bold;
     color: rgb(142, 29, 203);

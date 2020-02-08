@@ -3,15 +3,6 @@
 // }
 
 body {
-  // background-image: url("https://cdn.pixabay.com/photo/2020/01/15/09/37/dragon-4767447_960_720.jpg");
-  // background-repeat: no-repeat;
-  // background-size: 100% auto; 
-  // background: linear-gradient(
-    //   180deg,
-    //   rgb(0, 0, 0) 0%,
-    //   rgb(161, 87, 214) 30%,
-    //   rgb(255, 0, 247) 85%
-    // );
   background-color: #5D28E3;
   margin: 0;
   padding: 0;
@@ -67,6 +58,11 @@ a {
       color: darkorange;
     }
   }
+}
+
+.disable-user-select {
+  user-select: none;
+  cursor: default;
 }
 
 #sponsors,
@@ -181,15 +177,42 @@ a {
     font-size: 48px;
     color: #9400D3;
   }
-  .about_text{
+
+  .about-summary{
     padding: 1em;
     color: rgb(142, 29, 203);
     font-size: 2em;
-    font-family: fantasy;
+    font-size: 32px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
   }
-  .about-text-changing {
+
+  .about-text-changing span {
     color: rgb(142, 29, 203);
+    font-size: 32px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
   }
+
+  .about-additional p {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+    font-size: 32px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  img.witch {
+    margin: 5em;
+    width: 508.49px;
+    height: 672.03px;
+    float: right;
+  }
+
   .cards-group {
     padding: 5em;
     padding-bottom: 15px;  // to offset the box-shadow (10px) & margin (5px) of the cards
@@ -214,6 +237,11 @@ a {
       font-family: fantasy;
       font-weight: bold;
     }
+  }
+  
+  .bold {
+    font-weight: bold;
+    color: rgb(142, 29, 203);
   }
 }
 

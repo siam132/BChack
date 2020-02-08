@@ -69,6 +69,11 @@ a {
   }
 }
 
+.disable-user-select {
+  user-select: none;
+  cursor: default;
+}
+
 #sponsors,
 #faq,
 #about,
@@ -175,17 +180,45 @@ a {
   color: rgb(142, 29, 203);
 
   img.witch {
+    margin: 5em;
+    width: 508.49px;
+    height: 672.03px;
     float: right;
   }
   .about_text{
     padding: 1em;
     color: rgb(142, 29, 203);
     font-size: 2em;
-    font-family: fantasy;
+    font-size: 32px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
   }
-  .about-text-changing {
+  .about-text-changing span {
     color: rgb(142, 29, 203);
+    font-size: 32px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
   }
+  .about-additional p {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+    font-size: 32px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .about-header h2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #9400D3;
+  }
+
   .cards-group {
     padding: 5em;
     padding-bottom: 15px;  // to offset the box-shadow (10px) & margin (5px) of the cards
@@ -210,6 +243,10 @@ a {
       font-family: fantasy;
       font-weight: bold;
     }
+  }
+  .bold {
+    font-weight: bold;
+    color: rgb(142, 29, 203);
   }
 }
 

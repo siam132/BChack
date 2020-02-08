@@ -1,37 +1,50 @@
 import React from "react";
 import Typical from 'react-typical';
-import witch from "../witchHack.svg";
+import witch from "../Side Art.svg";
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
 
 function About() {
-  return (
-    <div id="about">
-      <Slide top duration={1000}>
-        <div className="row p-4" >
-          <div className="col-9 col-sm-12">
-            <p className="about_text" style={{ 'text-align': 'left' }}>
-              Hack Brooklyn is where your quest begins.
-              Step into a world of magic on March 29th where 150 students will come
-              to build innovative solutions for
 
-              <Typical className="about-text-changing" steps={['educational disparity.', 1000, 'accessibility.', 1000, 'climate change.', 1000, 'social good.', 1000, 'housing inequality.', 1000, 'racism.', 1000, 'mental health.', 1000, 'sustainability.', 1000]}
-              loop={Infinity}
-              />
-            </p>
+  const steps = [
+    'educational disparity.', 1000, 
+    'accessibility.', 1000, 
+    'climate change.', 1000, 
+    'social good.', 1000, 
+    'housing inequality.', 1000, 
+    'mental health.', 1000, 
+    'sustainability.', 1000
+  ];
+
+  return (
+    <div id="about" className="col-lg-14 disable-user-select">
+      <div>
+        <img className="witch" src={witch} alt="..."/>
+        <div className="ml-5">
+          <div className="about-header">
+            <h2>Welcome to <span className="bold">Hack Brooklyn!</span></h2>
           </div>
-          <div className="col-12">
-            <img className="witch" src={witch} alt="..." height="300px" width="300px" />
+          <p className="about_text" style={{ 'text-align': 'left' }}>
+            Hack Brooklyn is where your quest begins. Step into a world of magic on <span className="bold">March 29th</span> where over 150 of the brightest students in New York will come together to build innovative solutions for <span className="about-text-changing"><Typical
+                wrapper="span"
+                steps={steps}
+                loop={Infinity}
+            /></span>
+          </p>
+
+          <div className="about-additional">
+              <p>Over the course of 12 hours, teams of up to four students will collaborate to use the technology of today to solve present-day problems and create the world of tomorrow. Create a project, acquire new skills, and network with other hackers and companies as you learn and grow in the heart of Brooklyn. Whether this is the first time you’ve ever seen a line of code or the hundredth time you’ve published an app, Hack Brooklyn has something for everyone. With a multitude of interactive workshops and events ranging from the basics of programming to the hottest and latest technologies, you’ll leave Hack Brooklyn with something new.</p>
+              <p>One of our goals for Hack Brooklyn is to encourage diversity by supporting, boosting, and emboldening women and minorities in tech, as well as creating a safe, inclusive community where we can all work on changing the make-up and attitudes of the tech community. Regardless of who you are, Hack Brooklyn welcomes you. Join us for 12 hours of exploration and discovery and unlock your true potential.</p>
           </div>
+          
         </div>
-      </Slide>
+      </div>
 
       <div className="row text-center cards-group">
         <div className="col-12">
           <p className="about_text">Our 4 Sectors of Social Good:</p>
         </div>
         <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-          <Fade top duration={1000}>
             <div className="card text-center">
               <div className="card-body">
                 <h5 class="card-title">Sustainability</h5>
@@ -40,10 +53,8 @@ function About() {
                 food production, water scarcity, and biodiversity </p>
               </div>
             </div>
-          </Fade>
         </div>
         <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-          <Fade top duration={1000} delay={100}>
             <div className="card text-center">
               <div className="card-body">
                 <h5 class="card-title">Accessibility</h5>
@@ -52,10 +63,8 @@ function About() {
                 create tools for different needs! </p>
               </div>
             </div>
-          </Fade>
         </div>
         <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-          <Fade top duration={1000} delay={200}>
             <div className="card text-center">
               <div className="card-body">
                 <h5 class="card-title">Education</h5>
@@ -64,10 +73,8 @@ function About() {
                 increase access to knowledge around the world.</p>
               </div>
             </div>
-          </Fade>
         </div>
         <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-          <Fade top duration={1000} delay={300}>
             <div className="card text-center">
               <div className="card-body">
                 <h5 class="card-title">Health</h5>
@@ -75,7 +82,6 @@ function About() {
                 <p className="card-text">Alert: Engineers Needed!</p>
               </div>
             </div>
-          </Fade>
         </div>
       </div>
     </div>

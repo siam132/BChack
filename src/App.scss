@@ -174,8 +174,12 @@ a {
   );
   color: rgb(142, 29, 203);
 
-  img.witch {
-    float: right;
+  .about-header h2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #9400D3;
   }
   .about_text{
     padding: 1em;

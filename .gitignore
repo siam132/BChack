@@ -19,6 +19,10 @@
 .env.production.local
 package-lock.json
 
+
+# VS Code
+.vscode
+
 # WebStorm
 .idea
 

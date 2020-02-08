@@ -6,7 +6,7 @@ before_install:
     # - openssl aes-256-cbc -K $encrypted_3f2297868246_key -iv $encrypted_3f2297868246_iv
     # - in travis-client-secret.json.enc -out travis-client-secret.json -d  
 script:
-  - "npm run build"
+  - "yarn build"
 
 # Deploy to Google App Engine
 # deploy:

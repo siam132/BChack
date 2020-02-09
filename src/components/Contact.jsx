@@ -11,7 +11,7 @@ function Contacts() {
         <h1>Meet the Organizers!</h1>
       </div>
 
-      <div className="row" style={{ padding: 30 }}>
+      <div className="row m-0" style={{ padding: 30 }}>
         <div className="col-4" align="center">
           <img src={CS} alt="Computer Science Club logo" className="logo cs" />
           <p><b>Computer Science Club </b></p>

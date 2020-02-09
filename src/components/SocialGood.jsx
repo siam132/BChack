@@ -9,7 +9,7 @@ function SocialGood() {
 
   return (
     <div id="socialgood" className="col-lg-14 disable-user-select">
-      <div className="row text-center cards-group">
+      <div className="row m-0 text-center cards-group">
         <div className="col-12">
           <p className="socialgood_text">Our 4 Sectors of Social Good</p>
         </div>

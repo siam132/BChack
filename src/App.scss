@@ -75,6 +75,7 @@ a {
 }
 
 #sponsors,
+#socialgood,
 #faq,
 #about,
 #schedule,
@@ -175,7 +176,7 @@ a {
   background: linear-gradient(
     180deg,
     rgb(255, 255, 255) 0%,
-    rgb(186, 169, 228) 100%
+    rgb(159, 131, 231) 100%
   );
   color: rgb(142, 29, 203);
 
@@ -231,12 +232,17 @@ a {
 // SOCIAL GOOD
 #socialgood {
   margin: -15px;  // Reset the margin from an inherited value
-  background:rgb(186, 169, 228);
+  background:linear-gradient(
+    180deg,
+    rgb(159, 131, 231) 0%,
+    rgb(143, 107, 235) 20%
+  );
+  padding-bottom: 5em;
 
   .socialgood_text {
     font-family: Nunito;
     font-size: 58px;
-    color: #7700E7;
+    color: rgb(233, 213, 246);
   }
   
   .cards-group {
@@ -246,7 +252,7 @@ a {
   .card {
     margin: 5px 20px;
     height: 100%;
-    box-shadow: 10px 10px #ba81f7;;
+    box-shadow: 10px 10px #8246c2;;
     padding: 5px;
     * {
       color: black;
@@ -275,10 +281,12 @@ a {
   margin: -15px;  // Reset the margin from an inherited value
   background: linear-gradient(
     180deg,
-    rgb(186, 169, 228) 0%,
-    rgb(22, 148, 239) 100%
+    rgb(143, 107, 235) 0%,
+    rgb(126, 87, 224) 20%
     );
   color: black;
+  padding-top: 8em;
+  padding-bottom: 0em;
   .schedule {
     margin: 0 auto;
   }
@@ -289,8 +297,8 @@ a {
   margin: -15px;  // Reset the margin from an inherited value
   background: linear-gradient(
     180deg,
-    rgb(6, 148, 249) 0%,
-    rgb(248, 254, 79) 100%
+    rgb(90, 47, 199) 0%,
+    #5D28E3 30%
     );
   span.nobreak{
     white-space: nowrap;
@@ -317,10 +325,11 @@ a {
 // SPONSORS
 #sponsors {
   margin: -15px;  // Reset the margin from an inherited value
+  padding-top: 10em;
   background: linear-gradient(
     180deg,
-    rgb(45, 149, 224) 0%,
-    rgb(22, 148, 239) 100%
+    rgb(126, 87, 224) 0%,
+    rgb(112, 71, 216) 30%
     );
   img {
     width: 200px;
@@ -334,8 +343,8 @@ a {
   margin: -30px;  // Reset the margin from an inherited value
   background: linear-gradient(
     180deg,
-    rgb(22, 148, 239) 0%,
-    rgb(6, 148, 249) 100%
+    rgb(112, 71, 216) 0%,
+    rgb(90, 47, 197) 100%
     );
 }
 .accordion__button {

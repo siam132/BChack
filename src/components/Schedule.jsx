@@ -5,12 +5,12 @@ import scheduleData from "../data/Schedule";
 function Schedule() {
   return (
     <div id="schedule">
-        <div className="row">
+        <div className="row m-0">
         <div className="col-12 text-center">
           <h1 className="section_title">Schedule</h1>
         </div>
         </div>
-        <div className="row">
+        <div className="row m-0">
         <div className="col-xs-12 col-s-12 col-md-9 col-lg-6 schedule">
           <table className="table">
             <thead>

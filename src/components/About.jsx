@@ -1,8 +1,6 @@
 import React from "react";
 import Typical from 'react-typical';
 import witch from "../Side Art.svg";
-import Slide from 'react-reveal/Slide';
-import Fade from 'react-reveal/Fade';
 
 function About() {
 
@@ -37,51 +35,6 @@ function About() {
               <p>One of our goals for Hack Brooklyn is to encourage diversity by supporting, boosting, and emboldening women and minorities in tech, as well as creating a safe, inclusive community where we can all work on changing the make-up and attitudes of the tech community. Regardless of who you are, Hack Brooklyn welcomes you. Join us for 12 hours of exploration and discovery and unlock your true potential.</p>
           </div>
           
-        </div>
-      </div>
-
-      <div className="row text-center cards-group">
-        <div className="col-12">
-          <p className="about_text">Our 4 Sectors of Social Good:</p>
-        </div>
-        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <div className="card text-center">
-              <div className="card-body">
-                <h5 class="card-title">Sustainability</h5>
-                <hr></hr>
-                <p className="card-text">Tackle issues like climate change, energy,
-                food production, water scarcity, and biodiversity </p>
-              </div>
-            </div>
-        </div>
-        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <div className="card text-center">
-              <div className="card-body">
-                <h5 class="card-title">Accessibility</h5>
-                <hr></hr>
-                <p className="card-text">Help make the world more accessible,
-                create tools for different needs! </p>
-              </div>
-            </div>
-        </div>
-        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <div className="card text-center">
-              <div className="card-body">
-                <h5 class="card-title">Education</h5>
-                <hr></hr>
-                <p className="card-text">Find ways to improve education quality, and 
-                increase access to knowledge around the world.</p>
-              </div>
-            </div>
-        </div>
-        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <div className="card text-center">
-              <div className="card-body">
-                <h5 class="card-title">Health</h5>
-                <hr></hr>
-                <p className="card-text">Alert: Engineers Needed!</p>
-              </div>
-            </div>
         </div>
       </div>
     </div>

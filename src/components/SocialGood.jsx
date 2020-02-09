@@ -15,7 +15,7 @@ function SocialGood() {
         </div>
         <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
             <div className="card text-center">
-              <img src={Sustainability} className="card-img-top" />
+              <img src={Sustainability} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 class="card-title">Sustainability</h5>
                 <hr></hr>
@@ -26,7 +26,7 @@ function SocialGood() {
         </div>
         <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
             <div className="card text-center">
-              <img src={Accessibility} className="card-img-top" />
+              <img src={Accessibility} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 class="card-title">Accessibility</h5>
                 <hr></hr>
@@ -37,7 +37,7 @@ function SocialGood() {
         </div>
         <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3">
             <div className="card text-center">
-              <img src={Education} className="card-img-top" />
+              <img src={Education} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 class="card-title">Education</h5>
                 <hr></hr>

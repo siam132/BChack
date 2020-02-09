@@ -1,8 +1,6 @@
 import React from "react";
 import Typical from 'react-typical';
 import witch from "../Side Art.svg";
-import Slide from 'react-reveal/Slide';
-import Fade from 'react-reveal/Fade';
 
 function About() {
 

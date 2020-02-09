@@ -9,7 +9,7 @@ import "typeface-quicksand"
 import "../App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
-import Schedule from "../components/Schedule";
+// import Schedule from "../components/Schedule";
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/Sponsors";
 import Contact from "../components/Contact";
@@ -31,11 +31,13 @@ function App() {
             About
           </a>
         </li>
-        <li className="nav-item">
+
+        {/* <li className="nav-item">
           <a className="nav-link" href="#schedule">
             Schedule
           </a>
-        </li>
+        </li> */}
+
         <li className="nav-item">
           <a className="nav-link" href="#sponsors">
             Sponsors
@@ -57,7 +59,7 @@ function App() {
         <Landing />
         <About />
         <SocialGood />
-        <Schedule />
+        {/* <Schedule /> */}
         <Sponsors />
         <FAQ />
         <Contact />

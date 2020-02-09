@@ -2,6 +2,10 @@ import React from "react";
 import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
 import "bootstrap/dist/css/bootstrap.css";
 
+import "typeface-luckiest-guy";
+import "typeface-nunito";
+import "typeface-quicksand"
+
 import "../App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
@@ -9,6 +13,7 @@ import Schedule from "../components/Schedule";
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/Sponsors";
 import Contact from "../components/Contact";
+import SocialGood from "../components/SocialGood";
 
 function App() {
   return (
@@ -51,6 +56,7 @@ function App() {
       <div className="container-fluid">
         <Landing />
         <About />
+        <SocialGood />
         <Schedule />
         <Sponsors />
         <FAQ />

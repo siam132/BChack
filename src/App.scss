@@ -26,20 +26,29 @@ ul {
 /* hr styling creds: Glyph, by Harry Roberts */
 hr {
   overflow: visible; /* For IE */
-  padding: 0;
-  border: none;
-  border-top: medium double #333;
-  color: #333;
-  text-align: center;
+  border: 0;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc)
 }
 hr:after {
   content: "§";
-  font-weight: 100;
   display: inline-block;
   position: relative;
-  top: -0.7em;
-  font-size: 1.5em;
+  top: -0.75em;
   padding: 0 0.25em;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #3C3C3C;
+  background: white;
 }
 
 a {
@@ -196,11 +205,11 @@ a {
     font-weight: normal;
   }
 
-  .about-additional p {
+  .about-description p {
     padding-left: 1em;
     padding-right: 1em;
     color: black;
-    font-size: 32px;
+    font-size: 24px;
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
@@ -209,10 +218,27 @@ a {
   img.witch {
     margin: 5em;
     width: 508.49px;
-    height: 672.03px;
+    height: 600.03px;
     float: right;
   }
+  
+  .bold {
+    font-weight: bold;
+    color: rgb(142, 29, 203);
+  }
+}
 
+// SOCIAL GOOD
+#socialgood {
+  margin: -15px;  // Reset the margin from an inherited value
+  background:rgb(186, 169, 228);
+
+  .socialgood_text {
+    font-family: Nunito;
+    font-size: 58px;
+    color: #7700E7;
+  }
+  
   .cards-group {
     padding: 5em;
     padding-bottom: 15px;  // to offset the box-shadow (10px) & margin (5px) of the cards
@@ -226,22 +252,19 @@ a {
       color: black;
     }
     img {
-      border-radius: 50%;
-      padding: 5px;
-      border: 2px solid green;
+      // width: 300px;
+      // height: 300px;
+      margin: 0 auto;
     }
     p.card-text {
-      font-size: 18px;
+      font-size: 24px;
+      font-family: Nunito;
+      line-height: 33px;
     }
     .card-title {
-      font-family: fantasy;
-      font-weight: bold;
+      font-family: Quicksand;
+      font-size: 36px;
     }
-  }
-  
-  .bold {
-    font-weight: bold;
-    color: rgb(142, 29, 203);
   }
 }
 

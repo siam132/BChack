@@ -2,6 +2,10 @@ import React from "react";
 import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
 import "bootstrap/dist/css/bootstrap.css";
 
+import "typeface-luckiest-guy";
+import "typeface-nunito";
+import "typeface-quicksand"
+
 import "../App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";

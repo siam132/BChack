@@ -309,20 +309,34 @@ a {
 // FAQ
 #faq {
   margin: -30px;  // Reset the margin from an inherited value
+  padding: 10vw;
   background: linear-gradient(
     180deg,
     rgb(22, 148, 239) 0%,
     rgb(6, 148, 249) 100%
-    );
+  );
+
+  font-family: 'Nunito', sans-serif;
 }
-.accordion__button {
-  margin: 15px;  // Re-add the margin to the buttons
-  box-shadow: 5px 5px rebeccapurple;
-  border: 2px solid #0062cc;
-  margin-top: 35px;
-  text-align: center;
-  font-family: fantasy;
-  border-radius: 20px;
+
+.faq-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.faq-q-and-a {
+  margin: 1.25em;
+}
+
+.faq-question {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.faq-answer {
+  font-size: 1.25em;
+  margin-bottom: 2em;
 }
 
 /* ADD MAP IMAGE, THIS TURNS IT B&W */

@@ -8,6 +8,7 @@ import Sponsors from "../components/Sponsors";
 import FAQ from "../components/FAQ";
 import Schedule from "../components/Schedule";
 import Contact from "../components/Contact";
+import SocialGood from "../components/SocialGood";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
       <div className="container-fluid">
         <Landing />
         <About />
+        <SocialGood />
         <Schedule />
         <Sponsors />
         <FAQ />

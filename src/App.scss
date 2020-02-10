@@ -25,6 +25,15 @@ ul {
 
 nav.navbar {
   justify-content: flex-end;
+  background-color: transparent;
+  transition: background-color 1s;
+}
+
+nav.navbar.scrolled {
+  background-color: rgba(93, 40, 227, 0.75);
+  a {
+    color: white;
+  }
 }
 
 /* hr styling creds: Glyph, by Harry Roberts */

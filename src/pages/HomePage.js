@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 // import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -15,9 +15,22 @@ import Contact from "../components/Contact";
 import SocialGood from "../components/SocialGood";
 
 function App() {
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      const isTop = window.scrollY < 100;
+      if(isTop){
+        setScrolled(false)
+      } else {
+        setScrolled(true)
+      }
+    })
+  });
+
   return (
     <div className="container-fluid">
-    <nav className="navbar fixed-top">
+    <nav className={scrolled ? "navbar fixed-top scrolled" : "navbar fixed-top" }>
       <ul className="nav">
         <li className="nav-item">
           <a className="nav-link active" href="#landing">

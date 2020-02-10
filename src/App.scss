@@ -1,9 +1,6 @@
-// html{
-//   scroll-behavior: smooth;
-// }
 
 body {
-  background-color: #5D28E3;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(63, 0, 255, 0.5) 87.5%, rgba(187, 107, 217, 0.5) 100%);
   margin: 0;
   padding: 0;
   * {
@@ -17,6 +14,11 @@ body {
 h1 {
   width: 100%;
   text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #9400D3;
 }
 
 ul {
@@ -91,7 +93,8 @@ a {
 #faq,
 #about,
 #schedule,
-#contact
+#contact,
+#faq
 {
   padding-top: 5vh;
   padding-bottom: 15vh;
@@ -99,7 +102,6 @@ a {
 
 // LANDING PAGE 
 #landing {
-  margin: -15px;
   background-image: url(./assets/background.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -133,16 +135,6 @@ a {
     text-shadow: 5px 5px purple;
     text-align: center;
     letter-spacing: 10px;
-
-    /*
-    Animated Title
-
-    background-image: url(https://cdn.pixabay.com/photo/2018/06/26/18/42/storm-clouds-3499982_1280.jpg);
-    animation: clouds-moving infinite 20s;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-    animation-timing-function: linear;
-    */
   }
   a.btn:hover {
     background-color: #e852c9c7;
@@ -178,28 +170,17 @@ a {
   }
 }
 
-@keyframes clouds-moving {
-	0% {
-		background-position: 0%;	
-	}
-	50% {
-		background-position: 100%;	
-	}
-	100% {
-		background-position: 0%;
-	}
-}
-
 // ABOUT PAGE
 #about {
-  margin: -15px;  // Reset the margin from an inherited value
   background: linear-gradient(
     180deg,
     rgb(255, 255, 255) 0%,
-    rgb(186, 169, 228) 100%
+    transparent 100%
   );
   color: rgb(142, 29, 203);
-
+  p {
+    color: #4B0082;
+  }
   .about-header h2 {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -237,10 +218,7 @@ a {
   }
 
   img.witch {
-    margin: 5em;
-    width: 508.49px;
-    height: 600.03px;
-    float: right;
+    width: 100%;
   }
   
   .bold {
@@ -251,18 +229,14 @@ a {
 
 // SOCIAL GOOD
 #socialgood {
-  margin: -15px;  // Reset the margin from an inherited value
-  background:rgb(186, 169, 228);
-
   .socialgood_text {
     font-family: Nunito;
     font-size: 58px;
     color: #7700E7;
   }
   
-  .cards-group {
-    padding: 5em;
-    padding-bottom: 15px;  // to offset the box-shadow (10px) & margin (5px) of the cards
+  .card-container {
+    padding-bottom: 20px;  // to offset the box-shadow (10px) & margin (5px) of the cards
   }
   .card {
     margin: 5px 20px;
@@ -293,12 +267,6 @@ a {
 
 // SCHEDULE
 #schedule {
-  margin: -15px;  // Reset the margin from an inherited value
-  background: linear-gradient(
-    180deg,
-    rgb(186, 169, 228) 0%,
-    rgb(22, 148, 239) 100%
-    );
   color: black;
   .schedule {
     margin: 0 auto;
@@ -307,12 +275,6 @@ a {
 
 // CONTACT 
 #contact {
-  margin: -15px;  // Reset the margin from an inherited value
-  background: linear-gradient(
-    180deg,
-    rgb(6, 148, 249) 0%,
-    rgb(248, 254, 79) 100%
-    );
   span.nobreak{
     white-space: nowrap;
   }
@@ -337,29 +299,19 @@ a {
 
 // SPONSORS
 #sponsors {
-  margin: -15px;  // Reset the margin from an inherited value
-  background: linear-gradient(
-    180deg,
-    rgb(45, 149, 224) 0%,
-    rgb(22, 148, 239) 100%
-    );
   img {
-    width: 200px;
-    height: 200px;
-    margin-left: 15px;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 5% 10%;
+  }
+  p {
+    font-size: 24px;
   }
 }
 
 // FAQ
 #faq {
-  margin: -30px;  // Reset the margin from an inherited value
   padding: 10vw;
-  background: linear-gradient(
-    180deg,
-    rgb(22, 148, 239) 0%,
-    rgb(6, 148, 249) 100%
-  );
-
   font-family: 'Nunito', sans-serif;
 }
 

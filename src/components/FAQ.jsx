@@ -17,19 +17,19 @@ function FaqQuestion(props) {
 
 function FAQ() {
   return (
-    <div className="container-fluid">
-      <div className="row" id="faq">
-        <h1 className="faq-title">Frequently Asked Questions</h1>
-          <div className="col-sm left-column" >
-            <FaqQuestion questionNumber={0} />
-            <FaqQuestion questionNumber={2} />
-            <FaqQuestion questionNumber={4} />
-          </div>
-          <div className="col-sm right-column">
-            <FaqQuestion questionNumber={1} />
-            <FaqQuestion questionNumber={3} />
-          </div>
-      </div>
+    <div id="faq" className="row">
+      <h1 className="col-12 faq-title">Frequently Asked Questions</h1>
+        {/* left */}
+        <div className="col">
+          <FaqQuestion questionNumber={0} />
+          <FaqQuestion questionNumber={2} />
+          <FaqQuestion questionNumber={4} />
+        </div>
+        {/* right */}
+        <div className="col">
+          <FaqQuestion questionNumber={1} />
+          <FaqQuestion questionNumber={3} />
+        </div>
     </div>
   );
 }

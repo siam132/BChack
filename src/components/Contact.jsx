@@ -5,21 +5,19 @@ import CS from "../assets/logos/comSciLogo.png";
 
 function Contacts() {
   return (
-    <div id="contact">
+    <div id="contact" className="row">
       {/* TO DO: MAKE THE SLIDE HAPPEN WHEN THE ORGANIZERS SECTION IS VIEWED */}
-      <div className="slide-left">
+      <div className="col-12">
         <h1>Meet the Organizers!</h1>
       </div>
-
-      <div className="row" style={{ padding: 30 }}>
-        <div className="col-4" align="center">
+        <div className="col" align="center">
           <img src={CS} alt="Computer Science Club logo" className="logo cs" />
           <p><b>Computer Science Club </b></p>
           <p>Founders of Hack Brooklyn, got together website, sponsors, clubs and everything in the mix.</p>
           <a href="https://www.instagram.com/bc_compsci/"><i class="fab fa-instagram"></i></a>
           <a href="https://www.facebook.com/groups/bc.cis.club/"><i class="fab fa-facebook"></i></a>
         </div>
-        <div className="col-4" align="center">
+        <div className="col" align="center">
           <img src={WICS} alt="Women in Computer Science logo" className="wics logo" />
           <p><b>Women in Computer Science Club </b></p>
           <p>Founders of Hack Brooklyn, got together website, sponsors, clubs and everything in the mix</p>
@@ -34,7 +32,6 @@ function Contacts() {
           <a href="https://www.instagram.com/explore/locations/101722999919422/brooklyn-college-islamic-society-muslim-womens-educational-initiative/"><i class="fab fa-instagram"></i></a>
           <a href="https://www.facebook.com/BCISO/"><i class="fab fa-facebook"></i></a>
         </div> */}
-      </div>
     </div>
   );
 }

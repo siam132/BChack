@@ -13,6 +13,6 @@ deploy:
   token:
     # Firebase token (please don't abuse it ty :) )
     secure: "Sh1hVAUSj45i0HNQx361GtWG+pFfWGNuB0YWJ1OMo+mtDM0OWcMWxI9KLXr+xYQWMI6PxMMawiOIyI1o2NviyTMPoM1RGxIChbKk0uffj6NPEPFFLrWZMzRtqtkbXcE2W0kePelWZa2iMEQSOb0z4mX/hi7cAw//c9jCwlwFTA/HEGSp2URaHJzGLdcDwywVjFTjnXAIi0LlQ6+gvDEQ9vOzCbZHp1HiGE//Mh4CFIoB/s6xikVHFat4OKATLmpp3t+NVegxbi31EVARuG1WFfpl78rhyHEr8o1+enSDv0fgGD+gURlX4MCxW7GJEkz+5QnTdH+yG97XtexS0lQz7h+y42/3VEMKH26G1ir1HzY2FzTyTIf8u3TGFFwUwJW03Gxjb2j5h1pgwsSHlCuei16tQqlHRrB5bAl9rgQ3LqHw6PcVCtIF7jdvK8pnBRU1VLzoQp86McbqNgKOYMCIZfx0i9/dSR0UJ+pK0PNZrlBIwY1GAc3MsCkL5kdN8AEYT7E/lSg1+rXmi2lueSTwcOPB1Xois4/DXNXYgAPTBoenIWzwbarOp655dfkBQTrw9JfSZYEgzIIGaKFXdnbcVFFIDdlFR8AhQd9u04u9MI6UZN0V6Y4sqXZxVm8Jmc3il1Lb6ny1X/joArnvqBcwJbnU94FTSPHxxLbDVgv+AVk="
-    project: "hack-brooklyn-test"
-  skip_cleanup: true
+  project: "hack-brooklyn-test"
+  cleanup: false
   on: develop  # Test website for developing

@@ -32,11 +32,7 @@ function Landing() {
 
       {/* button to typeform */}
       <div className="col-12">
-
-        <div className="bttn-group">
-          <button href="#" className="btn btn-danger mx-2 px-5 ">Register</button>
-          <button href="#" className="btn btn-success mx-2 px-5">Volunteer</button>
-        </div>
+          <button href="#" className="btn register">Register</button>
       </div>
     </div>
   );

@@ -20,6 +20,16 @@ h1 {
   font-size: 48px;
   color: #9400D3;
 }
+button.register, 
+button.contact {
+  width: 200px;
+  height: 50px;
+  color: #5d28e2;
+  background-color: darkorange;
+  text-shadow: 1px 1px white;
+  border-radius: 25px;
+  font-size: 25px;
+}
 
 ul {
   list-style-type: none;
@@ -83,7 +93,6 @@ a {
     }
   }
 }
-
 .disable-user-select {
   user-select: none;
   cursor: default;
@@ -123,6 +132,7 @@ a {
   .countdown-clock {
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
+    color: #5d28e2;
   }
 
   h1 {
@@ -151,21 +161,6 @@ a {
   a.locater:hover {
     font-size:22px;
     color: #e852c9c7;
-  }
-  div.bttn-group {
-    width: 100%;
-    padding-top: 15px;
-  }
-}
- 
-.bttn-group button {
-  background: transparent;
-  &.btn-danger {
-    color: #fff;
-    border-color: #7d86f2;
-    &:hover {
-      background-color: #7d86f2;
-    }
   }
 }
 

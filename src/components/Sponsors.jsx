@@ -15,7 +15,7 @@ function Sponsors() {
           <img src={Cookies} className="rounded" alt="Linkedin Logo" />
           <img src={LinkedIn} className="rounded" alt="Insomnia Cookies logo" />
         </div>
-        <button type="button" class="btn btn-outline-dark px-5">
+        <button type="button" class="btn contact">
         Contact us
         </button>
       </div>

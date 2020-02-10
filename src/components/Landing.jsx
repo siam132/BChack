@@ -14,7 +14,7 @@ function Landing() {
           
           <div className="col-12">
         
-            <h3>Test please ignore</h3>
+            <h3>Test number 2 please ignore</h3>
             <Zoom cascade duration={3000}><p className="intro">Where Your Fantasies Come Alive</p></Zoom>
             <p><br /></p>
             <h1 className="glitch">HACK <br /> Brooklyn</h1>

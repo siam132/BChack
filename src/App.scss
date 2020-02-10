@@ -22,6 +22,19 @@ ul {
   list-style-type: none;
 }
 
+nav.navbar {
+  justify-content: flex-end;
+  background-color: transparent;
+  transition: background-color 1s;
+}
+
+nav.navbar.scrolled {
+  background-color: rgba(93, 40, 227, 0.75);
+  a {
+    color: white;
+  }
+}
+
 /* hr styling creds: Glyph, by Harry Roberts */
 hr {
   overflow: visible; /* For IE */
@@ -92,19 +105,27 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
-
   min-height: 100vh;
   text-align: center;
   padding: 3%;
+  padding-top: 15%;
+
   * {
     font-size: 25px;
     line-height: 1;
   }
+
   .intro {
     color: #fff;
     letter-spacing: 5px;
     font-family: 'Papyrus', fantasy;
   }
+
+  .countdown-clock {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+  }
+
   h1 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 4em;

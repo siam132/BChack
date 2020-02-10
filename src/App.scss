@@ -93,7 +93,7 @@ a {
 #faq,
 #about,
 #schedule,
-#contact,
+#contact
 {
   padding-top: 5vh;
   padding-bottom: 15vh;
@@ -332,6 +332,18 @@ a {
 .faq-answer {
   font-size: 1.25em;
   margin-bottom: 2em;
+}
+
+// Ground
+#ground {
+  margin: -15px;  // Reset the margin from an inherited value
+  padding: 10vw;
+  background-color: #F7FCE2;
+  background-image: url(./assets/ground.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  min-height: 100vh;
 }
 
 /* ADD MAP IMAGE, THIS TURNS IT B&W */

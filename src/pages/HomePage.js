@@ -1,5 +1,5 @@
 import React from "react";
-import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
+// import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
 import "bootstrap/dist/css/bootstrap.css";
 
 import "typeface-luckiest-guy";
@@ -9,7 +9,6 @@ import "typeface-quicksand"
 import "../App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
-// import Schedule from "../components/Schedule";
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/Sponsors";
 import Contact from "../components/Contact";
@@ -17,12 +16,11 @@ import SocialGood from "../components/SocialGood";
 
 function App() {
   return (
-    <div className="App-header">
-      {/* NAV BAR */}
+    <div className="container-fluid">
+    <nav className="navbar fixed-top">
       <ul className="nav">
         <li className="nav-item">
           <a className="nav-link active" href="#landing">
-            {/* code for home is under "../components/Landing.jsx" */}
             Home
           </a>
         </li>
@@ -31,13 +29,6 @@ function App() {
             About
           </a>
         </li>
-
-        {/* <li className="nav-item">
-          <a className="nav-link" href="#schedule">
-            Schedule
-          </a>
-        </li> */}
-
         <li className="nav-item">
           <a className="nav-link" href="#sponsors">
             Sponsors
@@ -54,17 +45,15 @@ function App() {
           </a>
         </li>
       </ul>
-
-      <div className="container-fluid">
+      </nav>
         <Landing />
         <About />
         <SocialGood />
-        {/* <Schedule /> */}
         <Sponsors />
         <FAQ />
         <Contact />
-      </div>
-      <ScrollUpButton
+
+      {/* <ScrollUpButton
         StopPosition={0}
         ShowAtPosition={150}
         EasingType="easeOutCubic"
@@ -73,7 +62,7 @@ function App() {
         TransitionClassName="ScrollUpButton__Toggled"
         style={{}}
         ToggledStyle={{}}
-      />
+      /> */}
     </div>
   );
 }

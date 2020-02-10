@@ -23,6 +23,10 @@ ul {
   list-style-type: none;
 }
 
+nav.navbar {
+  justify-content: flex-end;
+}
+
 /* hr styling creds: Glyph, by Harry Roberts */
 hr {
   overflow: visible; /* For IE */
@@ -91,10 +95,10 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
-
   min-height: 100vh;
   text-align: center;
   padding: 3%;
+  padding-top: 15%;
 
   * {
     font-size: 25px;

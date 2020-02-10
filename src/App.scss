@@ -95,14 +95,22 @@ a {
   min-height: 100vh;
   text-align: center;
   padding: 3%;
+
   * {
     font-size: 25px;
     line-height: 1;
   }
+
   .intro {
     letter-spacing: 5px;
     font-family: fantasy;
   }
+
+  .countdown-clock {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+  }
+
   h1 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 4em;

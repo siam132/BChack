@@ -8,31 +8,29 @@ import witch from "../Side Art.svg";
 function About() {
 
   const steps = [
-    'educational disparity.', 1000, 
-    'accessibility.', 1000, 
-    'climate change.', 1000, 
-    'social good.', 1000, 
-    'housing inequality.', 1000, 
-    'mental health.', 1000, 
+    'educational disparity.', 1000,
+    'accessibility.', 1000,
+    'climate change.', 1000,
+    'social good.', 1000,
+    'housing inequality.', 1000,
+    'mental health.', 1000,
     'sustainability.', 1000
   ];
 
   return (
-    <div id="about" className="col-lg-14 disable-user-select">
-      <div>
-        <img className="witch" src={witch} alt="witch"/>
-        <div className="ml-5">
-
+    <div id="about" className="disable-user-select">
+      <div className="row">
+        <div className="about col-8">
           <div className="about-header">
             <h2>Welcome to <strong className="bold">Hack Brooklyn!</strong></h2>
           </div>
 
           <div className="about-summary">
             <p>
-              Hack Brooklyn is where your quest begins. Step into a world of magic on <strong className="bold">March 29th</strong> where over 150 of the brightest students in New York will come together to build innovative solutions for <span className="about-summary-solutions"><Typical
-                  wrapper="span"
-                  steps={steps}
-                  loop={Infinity}
+              Hack Brooklyn is where your quest begins. Step into a world of magic on <strong>March 29th</strong> where over 150 of the brightest students in New York will come together to build innovative solutions for <span className="about-summary-solutions"><Typical
+                wrapper="span"
+                steps={steps}
+                loop={Infinity}
               /></span>
             </p>
           </div>
@@ -46,6 +44,9 @@ function About() {
               One of our goals for Hack Brooklyn is to encourage diversity by supporting, boosting, and emboldening women and minorities in tech, as well as creating a safe, inclusive community where we can all work on changing the make-up and attitudes of the tech community. Regardless of who you are, Hack Brooklyn welcomes you. Join us for 12 hours of exploration and discovery and unlock your true potential.
             </p>
           </div>
+        </div>
+        <div className="side-art col-4">
+          <img className="witch" src={witch} alt="witch" />
         </div>
       </div>
     </div>

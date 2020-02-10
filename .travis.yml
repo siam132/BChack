@@ -15,4 +15,4 @@ deploy:
     secure: "aPH8wGeAxmmbGO244i7t4eYCAHbr2jfL1zRVd38N3Ie/thg/IAfKnaK8/yVoNMw3YPEtMP0b6Nspf+zbjLczuaOsCWA5I0N+FfRJK5ytIPcGdiWfH+Z7rUh1nndUoJta+rS7T8NxeLKornC/yPyfSuSYMFOO6RX5IYvpSbXltfx5Jgkc+2jbmfIgo9v1bLMv5fLq1RyUHooO7sCgvYeTGFaekjKU8L7ebXTvD/8ZLNsk+8RYwHJ95TlspGeJr21uFdp7BX8OqOmKQMWmTuxjV9+99mQr2yQ3pgR7KE5AKA8kXxmspWhzDjbFeWPHx3UJfOCDUSTcVXjoK89SZofggD96t+aACTtkuXrecGJv4/nTB81uKBGLf5jdx9pxZe3PZRCy4/GQ/gNzeq9P8yUKuqdX1KGF2kbXuHdvxEy0leQL7N234o/7uQ6Rst68PwA1YxZDO5XAvjR9DeXe12xLOPrAyK9cTA34lAp1qhNzUCdC7uE2JQCEaN7U8ACvMj5XbV0t/KyUMnnrU9zU0Bj5yuK5trU6kBBZJkzChdQBaNwDtm7jB4uyhFkj6fdIDTpiL1WjTBiLbz0W/ei/LU/Vxx+bBl/lEhLr3EfD3SM2UXYNMhIVFUvbDBw64z+t6InqyGrNc6RDQ5bOJJM14O+2XRUGsPIrh7rDVxuJhnNhrGw="
     project: "hack-brooklyn-test"
   skip_cleanup: true
-  on: develop  # Temporary for developing
+  on: develop  # Test website for developing

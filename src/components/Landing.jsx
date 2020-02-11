@@ -1,7 +1,7 @@
 import React from "react";
 import Zoom from 'react-reveal/Zoom';
 import Countdown from 'react-countdown';
-
+import "../styling/Landing.scss"
 
 function Landing() {
   return (

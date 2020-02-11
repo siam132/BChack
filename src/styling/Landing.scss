@@ -1,0 +1,56 @@
+// LANDING PAGE 
+#landing {
+    background-image: url(../assets/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 100vh;
+    text-align: center;
+    padding: 3%;
+    padding-top: 10%;
+  
+    * {
+      font-size: 25px;
+      line-height: 1;
+    }
+  
+    .intro {
+      letter-spacing: 5px;
+      font-family: fantasy;
+    }
+  
+    .countdown-clock {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1em;
+      color: #5d28e2;
+    }
+  
+    h1 {
+      font-family: 'Luckiest Guy', cursive;
+      font-size: 4em;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: #fff;
+      text-shadow: 5px 5px purple;
+      text-align: center;
+      letter-spacing: 10px;
+    }
+    a.btn:hover {
+      background-color: #e852c9c7;
+      color:white;
+      border: 1px solid white;
+    }
+    p, a {
+      font-family: fantasy;
+      font-weight: 900;
+    }
+    a.locater {
+      font-size: 20px;
+      color: #fff;
+    }
+    a.locater:hover {
+      font-size:22px;
+      color: #e852c9c7;
+    }
+  }
+  

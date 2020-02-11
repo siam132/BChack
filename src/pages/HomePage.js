@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import "typeface-luckiest-guy";
 import "typeface-nunito";
-import "typeface-quicksand"
+import "typeface-quicksand";
 
-import "../App.scss";
+import "../styling/App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import FAQ from "../components/FAQ";

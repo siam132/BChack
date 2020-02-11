@@ -1,7 +1,7 @@
 // @ts-check
 import React from "react";
 import FAQData from "../data/FAQ";
-import "../styling/FAQ.scss";
+import "../css/FAQ.scss";
 
 function FaqQuestion(props) {
   return (

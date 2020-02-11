@@ -1,6 +1,11 @@
 // This is universal CSS that applies to all generic html tags
 body {
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(63, 0, 255, 0.5) 87.5%, rgba(187, 107, 217, 0.5) 100%);
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(63, 0, 255, 0.5) 87.5%,
+    rgba(187, 107, 217, 0.5) 100%
+  );
   margin: 0;
   padding: 0;
   * {
@@ -14,13 +19,13 @@ body {
 h1 {
   width: 100%;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-  color: #9400D3;
+  color: #9400d3;
 }
-button.register, 
+button.register,
 button.contact {
   width: 200px;
   height: 50px;
@@ -56,7 +61,7 @@ hr {
   margin-bottom: 1.3em;
   height: 1px;
   background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc)
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 hr:after {
   content: "§";
@@ -72,21 +77,21 @@ hr:after {
   line-height: 44px;
   text-align: center;
 
-  color: #3C3C3C;
+  color: #3c3c3c;
   background: white;
 }
 
 a {
- &.btn {
-  color: black;
-  background: white;
-  border: 1px solid black;
-  margin: 1px;
+  &.btn {
+    color: black;
+    background: white;
+    border: 1px solid black;
+    margin: 1px;
   }
   &.nav-link {
     background: transparent;
     border: transparent;
-    color: #7d86f2;;
+    color: #7d86f2;
     font-size: 1em;
     &:hover {
       color: darkorange;
@@ -102,8 +107,7 @@ a {
 #faq,
 #about,
 #schedule,
-#contact
-{
+#contact {
   padding-top: 5vh;
   padding-bottom: 15vh;
 }

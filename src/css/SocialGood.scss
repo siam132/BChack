@@ -1,0 +1,34 @@
+#socialgood {
+  .socialgood_text {
+    font-family: Nunito;
+    font-size: 58px;
+    color: #7700e7;
+  }
+
+  .card-container {
+    padding-bottom: 20px; // to offset the box-shadow (10px) & margin (5px) of the cards
+  }
+  .card {
+    margin: 5px 20px;
+    height: 100%;
+    box-shadow: 10px 10px #ba81f7;
+    padding: 5px;
+    * {
+      color: black;
+    }
+    img {
+      // width: 300px;
+      // height: 300px;
+      margin: 0 auto;
+    }
+    p.card-text {
+      font-size: 24px;
+      font-family: Nunito;
+      line-height: 33px;
+    }
+    .card-title {
+      font-family: Quicksand;
+      font-size: 36px;
+    }
+  }
+}

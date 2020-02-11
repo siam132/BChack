@@ -6,7 +6,7 @@ import "typeface-luckiest-guy";
 import "typeface-nunito";
 import "typeface-quicksand";
 
-import "../styling/App.scss";
+import "../css/App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import SocialGood from "../components/SocialGood";

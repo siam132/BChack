@@ -1,6 +1,6 @@
 import React from "react";
 import scheduleData from "../data/Schedule";
-import "../css/Schedule.scss";
+import "../scss/Schedule.scss";
 
 function Schedule() {
   return (

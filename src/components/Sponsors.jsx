@@ -1,7 +1,7 @@
 import React from "react";
 import Cookies from "../assets/company_logos/insomniacookies.png";
 import LinkedIn from "../assets/company_logos/linkedin.png";
-import "../css/Sponsors.scss"
+import "../scss/Sponsors.scss"
 
 function Sponsors() {
   return (

@@ -3,7 +3,7 @@ import Sustainability from "../Sustainability.svg";
 import Accessibility from "../Accessibility.svg";
 import Education from "../Education.svg";
 import Health from "../Health.svg";
-import "../css/SocialGood.scss";
+import "../scss/SocialGood.scss";
 
 
 function SocialGood() {

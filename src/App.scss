@@ -1,6 +1,9 @@
 
 body {
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(63, 0, 255, 0.5) 87.5%, rgba(187, 107, 217, 0.5) 100%);
+  background: linear-gradient(180deg, #FFFFFF 0%, 
+                      rgba(63, 0, 255, 0.5) 30.5%, 
+                      rgba(187, 107, 217, 0.5) 60%,
+                      rgba(248, 190, 212, 1) 70%);
   margin: 0;
   padding: 0;
   * {
@@ -327,6 +330,18 @@ a {
 .faq-answer {
   font-size: 1.25em;
   margin-bottom: 2em;
+}
+
+// Ground
+#ground {
+  margin: -15px;  // Reset the margin from an inherited value
+  padding: 10vw;
+  background-color: #F7FCE2;
+  background-image: url(./assets/ground.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  min-height: 100vh;
 }
 
 /* ADD MAP IMAGE, THIS TURNS IT B&W */

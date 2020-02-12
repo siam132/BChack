@@ -1,8 +1,7 @@
 import React from "react";
-import WICS from "../assets/logos/wicsLogo.png";
-import CS from "../assets/logos/comSciLogo.png";
+import WICS from "../assets/logos/wics.png";
+import CS from "../assets/logos/cs-club.png";
 import "../scss/Contact.scss"
-// import MWEI from "../assets/logos/MWEILogo.png";
 
 function Contacts() {
   return (

@@ -1,0 +1,353 @@
+body {
+  background: linear-gradient(180deg, #FFFFFF 0%, 
+                      rgba(63, 0, 255, 0.5) 30.5%, 
+                      rgba(187, 107, 217, 0.5) 60%,
+                      rgba(248, 190, 212, 1) 70%);
+  margin: 0;
+  padding: 0;
+  * {
+    color: white;
+  }
+  h1 {
+    font-family: fantasy;
+  }
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #9400D3;
+}
+button.register, 
+button.contact {
+  width: 200px;
+  height: 50px;
+  color: #5d28e2;
+  background-color: darkorange;
+  text-shadow: 1px 1px white;
+  border-radius: 25px;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav.navbar {
+  justify-content: flex-end;
+  background-color: transparent;
+  transition: background-color 1s;
+}
+
+nav.navbar.scrolled {
+  background-color: rgba(93, 40, 227, 0.75);
+  a {
+    color: white;
+  }
+}
+
+/* hr styling creds: Glyph, by Harry Roberts */
+hr {
+  overflow: visible; /* For IE */
+  border: 0;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc)
+}
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.75em;
+  padding: 0 0.25em;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #3C3C3C;
+  background: white;
+}
+
+a {
+ &.btn {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  margin: 1px;
+  }
+  &.nav-link {
+    background: transparent;
+    border: transparent;
+    color: #7d86f2;;
+    font-size: 1em;
+    &:hover {
+      color: darkorange;
+    }
+  }
+}
+.disable-user-select {
+  user-select: none;
+  cursor: default;
+}
+
+#sponsors,
+#faq,
+#about,
+#schedule,
+#contact
+{
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+}
+
+// LANDING PAGE 
+#landing {
+  background-image: url(../assets/landing-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  min-height: 100vh;
+  text-align: center;
+  padding: 3%;
+  padding-top: 10%;
+
+  * {
+    font-size: 25px;
+    line-height: 1;
+  }
+
+  .intro {
+    letter-spacing: 5px;
+    font-family: fantasy;
+  }
+
+  .countdown-clock {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    color: #5d28e2;
+  }
+
+  h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4em;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: #fff;
+    text-shadow: 5px 5px purple;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+  a.btn:hover {
+    background-color: #e852c9c7;
+    color:white;
+    border: 1px solid white;
+  }
+  p, a {
+    font-family: fantasy;
+    font-weight: 900;
+  }
+  a.locater {
+    font-size: 20px;
+    color: #fff;
+  }
+  a.locater:hover {
+    font-size:22px;
+    color: #e852c9c7;
+  }
+}
+
+// ABOUT PAGE
+#about {
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0%,
+    transparent 100%
+  );
+  color: rgb(142, 29, 203);
+  p {
+    color: #4B0082;
+  }
+  .about-header h2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #9400D3;
+  }
+
+  .about-summary{
+    padding: 1em;
+    color: rgb(142, 29, 203);
+    font-size: 2em;
+    font-size: 32px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .about-text-changing span {
+    color: rgb(142, 29, 203);
+    font-size: 32px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .about-description p {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+    font-size: 24px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  img.witch {
+    width: 100%;
+  }
+  
+  .bold {
+    font-weight: bold;
+    color: rgb(142, 29, 203);
+  }
+}
+
+// SOCIAL GOOD
+#socialgood {
+  .socialgood_text {
+    font-family: Nunito;
+    font-size: 58px;
+    color: #7700E7;
+  }
+  
+  .card-container {
+    padding-bottom: 20px;  // to offset the box-shadow (10px) & margin (5px) of the cards
+  }
+  .card {
+    margin: 5px 20px;
+    height: 100%;
+    box-shadow: 10px 10px #ba81f7;;
+    padding: 5px;
+    * {
+      color: black;
+    }
+    img {
+      // width: 300px;
+      // height: 300px;
+      margin: 0 auto;
+    }
+    p.card-text {
+      font-size: 24px;
+      font-family: Nunito;
+      line-height: 33px;
+    }
+    .card-title {
+      font-family: Quicksand;
+      font-size: 36px;
+    }
+  }
+}
+
+
+
+// SCHEDULE
+#schedule {
+  color: black;
+  .schedule {
+    margin: 0 auto;
+  }
+}
+
+// CONTACT 
+#contact {
+  span.nobreak{
+    white-space: nowrap;
+  }
+  .logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+  }
+  i.fab {
+    margin: 4px;
+    font-size: 41px;
+  }
+}
+
+// FOOTER
+#footer {
+  height: 20vh;
+  padding: 5vh;
+}
+
+// SPONSORS
+#sponsors {
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 5% 10%;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+// FAQ
+#faq {
+  padding: 10vw;
+  font-family: 'Nunito', sans-serif;
+}
+
+.faq-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.faq-q-and-a {
+  margin: 1.25em;
+}
+
+.faq-question {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.faq-answer {
+  font-size: 1.25em;
+  margin-bottom: 2em;
+}
+
+// Ground
+#ground {
+  margin: -15px;  // Reset the margin from an inherited value
+  padding: 10vw;
+  background-color: #F7FCE2;
+  background-image: url(../assets/bottom-ground.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  min-height: 100vh;
+}
+
+/* ADD MAP IMAGE, THIS TURNS IT B&W */
+/* .map {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+} */

@@ -13,7 +13,7 @@ import Sponsors from "../components/Sponsors";
 import Contact from "../components/Contact";
 import Ground from "../components/Ground";
 
-function App() {
+function HomePage() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -81,4 +81,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;

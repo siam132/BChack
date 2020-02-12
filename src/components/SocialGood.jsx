@@ -1,8 +1,8 @@
 import React from "react";
-import Sustainability from "../Sustainability.svg";
-import Accessibility from "../Accessibility.svg";
-import Education from "../Education.svg";
-import Health from "../Health.svg";
+import Sustainability from "../assets/social-good/sustainability.svg";
+import Accessibility from "../assets/social-good/accessibility.svg";
+import Education from "../assets/social-good/education.svg";
+import Health from "../assets/social-good/health.svg";
 import "../scss/SocialGood.scss";
 
 

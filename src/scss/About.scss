@@ -4,13 +4,13 @@
   p {
     color: #4b0082;
   }
-  .about-header h2 {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    color: #9400d3;
-  }
+  // .about-header h2 {
+  //   font-family: "Nunito", sans-serif;
+  //   font-style: normal;
+  //   font-weight: normal;
+  //   font-size: 48px;
+  //   color: #9400d3;
+  // }
 
   .about-summary {
     padding: 1em;
@@ -22,12 +22,11 @@
     font-weight: normal;
   }
 
-  .about-text-changing span {
+  .about-summary-solutions * {
     color: rgb(142, 29, 203);
-    font-size: 32px;
-    font-family: Quicksand;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 800;
+    margin-left: 3px;
   }
 
   .about-description p {

@@ -8,108 +8,119 @@ body {
   );
   margin: 0;
   padding: 0;
+
   * {
     color: white;
+    line-height: 1.5;
   }
+
   h1 {
-    font-family: fantasy;
+    width: 100%;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #9400d3;
   }
-}
-
-h1 {
-  width: 100%;
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  color: #9400d3;
-}
-button.register,
-button.contact {
-  width: 200px;
-  height: 50px;
-  color: #5d28e2;
-  background-color: darkorange;
-  text-shadow: 1px 1px white;
-  border-radius: 25px;
-  font-size: 25px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-nav.navbar {
-  justify-content: flex-end;
-  background-color: transparent;
-  transition: background-color 1s;
-}
-
-nav.navbar.scrolled {
-  background-color: rgba(93, 40, 227, 0.75);
-  a {
-    color: white;
+  
+  h2 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #9400d3;
   }
-}
-
-/* hr styling creds: Glyph, by Harry Roberts */
-hr {
-  overflow: visible; /* For IE */
-  border: 0;
-  margin-top: 1.3em;
-  margin-bottom: 1.3em;
-  height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-hr:after {
-  content: "§";
-  display: inline-block;
-  position: relative;
-  top: -0.75em;
-  padding: 0 0.25em;
-
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: center;
-
-  color: #3c3c3c;
-  background: white;
-}
-
-a {
-  &.btn {
-    color: black;
-    background: white;
-    border: 1px solid black;
-    margin: 1px;
+  p {
+    font-size: 25px;
+    line-height: 1.5;
   }
-  &.nav-link {
-    background: transparent;
-    border: transparent;
-    color: #7d86f2;
-    font-size: 1em;
-    &:hover {
-      color: darkorange;
+  button.register,
+  button.contact {
+    width: 200px;
+    height: 50px;
+    color: #5d28e2;
+    background-color: darkorange;
+    text-shadow: 1px 1px white;
+    border-radius: 25px;
+    font-size: 25px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  nav.navbar {
+    justify-content: flex-end;
+    background-color: transparent;
+    transition: background-color 1s;
+  }
+
+  nav.navbar.scrolled {
+    background-color: rgba(93, 40, 227, 0.75);
+    a {
+      color: white;
     }
   }
-}
-.disable-user-select {
-  user-select: none;
-  cursor: default;
-}
 
-#sponsors,
-#faq,
-#about,
-#schedule,
-#contact {
-  padding-top: 5vh;
-  padding-bottom: 15vh;
+  /* hr styling creds: Glyph, by Harry Roberts */
+  hr {
+    overflow: visible; /* For IE */
+    border: 0;
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+  hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.75em;
+    padding: 0 0.25em;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #3c3c3c;
+    background: white;
+  }
+
+  a {
+    &.btn {
+      color: black;
+      background: white;
+      border: 1px solid black;
+      margin: 1px;
+    }
+    &.nav-link {
+      background: transparent;
+      border: transparent;
+      color: #7d86f2;
+      font-size: 1em;
+      &:hover {
+        color: darkorange;
+      }
+    }
+  }
+  .disable-user-select {
+    user-select: none;
+    cursor: default;
+  }
+
+  #sponsors,
+  #faq,
+  #about,
+  #schedule,
+  #contact {
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+  }
 }
 
 /* ADD MAP IMAGE, THIS TURNS IT B&W */

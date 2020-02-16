@@ -65,7 +65,6 @@ function HomePage() {
       <SocialGood />
       <Sponsors />
       <FAQ />
-      <Contact /> {/* Should probably turn this into an "About the Organizers" section */}
       <Ground />
       {/* <ScrollUpButton
         StopPosition={0}

@@ -17,7 +17,6 @@ body {
   h1 {
     width: 100%;
     text-align: center;
-    font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -25,7 +24,6 @@ body {
   }
   
   h2 {
-    font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -120,6 +118,9 @@ body {
   #contact {
     padding-top: 5vh;
     padding-bottom: 15vh;
+    * {
+      font-family: "Nunito", sans-serif;
+    }
   }
 }
 

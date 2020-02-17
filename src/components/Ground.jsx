@@ -1,4 +1,5 @@
 import React from 'react';
+import '../scss/Ground.scss';
 
 function Ground() {
   return (

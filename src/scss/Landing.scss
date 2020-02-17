@@ -7,26 +7,20 @@
   text-align: center;
   padding: 3%;
   padding-top: 10%;
-
   * {
-    font-size: 25px;
-    line-height: 1;
+    font-size: 1em;
   }
-
+  .brooklyn {
+    display: block;
+  }
   .intro {
     letter-spacing: 5px;
     font-family: fantasy;
   }
 
-  .countdown-clock {
-    font-family: "Quicksand", sans-serif;
-    font-size: 1em;
-    color: #5d28e2;
-  }
-
   h1 {
     font-family: "Luckiest Guy", cursive;
-    font-size: 4em;
+    font-size: 5em;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: #fff;
@@ -34,22 +28,40 @@
     text-align: center;
     letter-spacing: 10px;
   }
-  a.btn:hover {
+  .btn:hover {
     background-color: #e852c9c7;
     color: white;
     border: 1px solid white;
   }
-  p,
-  a {
+  p {
+    font-size: 2rem;
     font-family: fantasy;
     font-weight: 900;
+    &.countdown-clock {
+      color: #5d28e2;
+      font-size: 1em;
+    }
   }
-  a.locater {
-    font-size: 20px;
-    color: #fff;
-  }
-  a.locater:hover {
-    font-size: 22px;
+  .locater:hover {
     color: #e852c9c7;
+  }
+}
+
+
+@media (max-device-width: 600px) {
+  #landing {
+    padding-top: 20%;
+    *, h1, p, a, .locator {
+      color: #5d5455;
+    }
+    h1 {
+      font-size: 11em;
+    }
+    p, a {
+      font-size: 2.5rem;
+    }
+    .countdown-clock {
+      font-size: 2rem;
+    }
   }
 }

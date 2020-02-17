@@ -10,7 +10,7 @@ import About from "../components/About";
 import SocialGood from "../components/SocialGood";
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/Sponsors";
-import Contact from "../components/Contact";
+import Portfolio from "../components/Portfolio";
 import Ground from "../components/Ground";
 
 function HomePage() {
@@ -54,8 +54,8 @@ function HomePage() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#contact">
-              Contact
+            <a className="nav-link" href="#Portfolio">
+              Portfolio
             </a>
           </li>
         </ul>
@@ -65,7 +65,7 @@ function HomePage() {
       <SocialGood />
       <Sponsors />
       <FAQ />
-      <Contact/>
+      <Portfolio/>
       <Ground/>
       {/* <ScrollUpButton
         StopPosition={0}

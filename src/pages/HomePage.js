@@ -65,7 +65,8 @@ function HomePage() {
       <SocialGood />
       <Sponsors />
       <FAQ />
-      <Ground />
+      <Contact/>
+      <Ground/>
       {/* <ScrollUpButton
         StopPosition={0}
         ShowAtPosition={150}

@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar_Logo from "../assets/web-dev-pics/test_avatar.png";
+// import Avatar_Logo from "../assets/web-dev-pics/test_avatar.png";
 import contributor from "../data/Contributor_Info";
 import Contributor from "../sub-components/Contributor";
 import "../scss/Contact.scss";

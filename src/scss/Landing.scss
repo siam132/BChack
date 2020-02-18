@@ -1,55 +1,83 @@
 #landing {
-  background-image: url(../assets/landing-background.svg);
+  // background-image: url(../assets/landing-background.svg);
+  background-image: url(../assets/bg-test.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: bottom;
   min-height: 100vh;
-  text-align: center;
-  padding: 3%;
-  padding-top: 10%;
 
-  * {
-    font-size: 25px;
-    line-height: 1;
+  text-align: center;
+  padding-top: 12.5vh;
+
+  p,
+  a,
+  button {
+    font-family: "Nunito", sans-serif;
   }
 
   .intro {
-    letter-spacing: 5px;
     font-family: fantasy;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 3vh;
   }
 
-  .countdown-clock {
-    font-family: "Quicksand", sans-serif;
-    font-size: 1em;
-    color: #5d28e2;
-  }
-
-  h1 {
-    font-family: "Luckiest Guy", cursive;
-    font-size: 4em;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: #fff;
-    text-shadow: 5px 5px purple;
+  .title {
+    font-family: "Luckiest Guy", sans-serif;
+    font-size: 8vw;
+    text-shadow: 0.25vw 0.25vw #6700b8;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 0.5vw;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff;
+    // line-height: 1;
+    margin-bottom: 5vh;
   }
+
+  .information {
+    margin-bottom: 5vh;
+
+    p.date {
+      font-size: 2.5rem;
+    }
+
+    a.location {
+      font-size: 2rem;
+    }
+  }
+
+  button.register,
+  button.contact {
+    width: 25rem;
+    height: 6.25rem;
+    color: #fff;
+    border-radius: 25px;
+    background-color: darkorange;
+    font-size: 3rem;
+    margin-bottom: 5vh;
+  }
+
   a.btn:hover {
     background-color: #e852c9c7;
     color: white;
     border: 1px solid white;
   }
-  p,
-  a {
-    font-family: fantasy;
-    font-weight: 900;
-  }
+
   a.locater {
     font-size: 20px;
     color: #fff;
   }
+
   a.locater:hover {
     font-size: 22px;
     color: #e852c9c7;
+  }
+
+  span.countdown-clock {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    color: #5d28e2;
   }
 }

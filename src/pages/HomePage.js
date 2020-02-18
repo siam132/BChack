@@ -10,7 +10,7 @@ import About from "../components/About";
 import SocialGood from "../components/SocialGood";
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/Sponsors";
-import Contact from "../components/Contact";
+// import Contact from "../components/Contact";
 import Ground from "../components/Ground";
 
 function HomePage() {

@@ -1,0 +1,17 @@
+#navbar, #navbar * {
+  background-color: transparent;
+  transition: background-color 1s;
+  font-family: 'Nunito', sans-serif;
+
+  nav.nav {
+    justify-content: flex-end;
+  }
+
+  nav.navbar.scrolled {
+    background-color: rgba(93, 40, 227, 0.75);
+
+    a {
+      color: white;
+    }
+  }
+}

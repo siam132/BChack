@@ -6,6 +6,16 @@ Website for Brooklyn College's hackathon.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installation instructions
+
+To install current packages from the package-lock.json **WITHOUT** updating it use:
+
+```
+npm ci
+```
+
+When installing new packages, use `npm install ...`. Keep in mind this **WILL UPDATE** the package-lock.json file.
+
 ## Available Scripts
 
 In the project directory, you can run:

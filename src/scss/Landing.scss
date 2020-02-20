@@ -1,0 +1,69 @@
+#landing {
+  background-image: url(../assets/landing-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 3%;
+  padding-top: 10%;
+  // * {
+  //   font-size: 1em;
+  // }
+  .brooklyn {
+    display: block;
+  }
+  .intro {
+    letter-spacing: 5px;
+    font-family: fantasy;
+  }
+
+  h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 7em;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: #fff;
+    text-shadow: 5px 5px purple;
+    text-align: center;
+    margin: 1rem 0;
+    letter-spacing: 10px;
+  }
+  .btn:hover {
+    background-color: #e852ca;
+    color: white;
+    border: 1px solid white;
+  }
+  p {
+    font-size: 1.5rem;
+    font-family: fantasy;
+    font-weight: 900;
+    &.countdown-clock {
+      color: #5d28e2;
+      font-family: "Nunito", sans-serif;
+      font-weight: 300;
+    }
+  }
+  .locater:hover {
+    color: #e852c9c7;
+  }
+}
+
+
+@media (max-device-width: 600px) {
+  #landing {
+    // padding-top: 20%;
+    h1 {
+      font-size: 11em;
+      margin: 1rem 0;
+    }
+    p, a {
+      font-size: 2.5rem;
+      margin: 1em 0;
+    }
+    .countdown-clock {
+      color: #fff;
+      font-size: 2rem;
+    }
+  }
+}

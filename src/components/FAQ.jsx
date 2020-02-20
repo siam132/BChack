@@ -1,47 +1,37 @@
+// @ts-check
 import React from "react";
 import FAQData from "../data/FAQ";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel
-} from "react-accessible-accordion";
+import "../scss/FAQ.scss";
 
-
-function FAQ() {
+function FaqQuestion(props) {
   return (
-
-    <div className="container-fluid">
-      <div className="row" id="faq">
-        <h1 className="section_title">FAQ</h1>
-        <div className="col-12">
-          {FAQData.map(e => {
-            return <FaqRenderer question={e.Question} answer={e.Answer} />;
-          })}
-        </div>
-        
-
-
-      </div>
+    <div className="faq-q-and-a">
+      <h3 className="faq-question">
+        {FAQData[props.questionNumber].Question}
+      </h3>
+      <p className="faq-answer">
+        {FAQData[props.questionNumber].Answer}
+      </p>
     </div>
   );
 }
 
-function FaqRenderer(props) {
+function FAQ() {
   return (
-    <Accordion allowZeroExpanded={"true"}>
-      <AccordionItem>
-        <AccordionItemHeading className="accordion__heading">
-          <AccordionItemButton className="h3 py-4 accordion__button">
-            {props.question}
-          </AccordionItemButton>
-        </AccordionItemHeading>
-        <AccordionItemPanel className="haccordion__panel h4">
-          <p>{props.answer}</p>
-        </AccordionItemPanel>
-      </AccordionItem>
-    </Accordion>
+    <div id="faq" className="row">
+      <h1 className="col-12 faq-title">Frequently Asked Questions</h1>
+        {/* left */}
+        <div className="col">
+          <FaqQuestion questionNumber={0} />
+          <FaqQuestion questionNumber={2} />
+          <FaqQuestion questionNumber={4} />
+        </div>
+        {/* right */}
+        <div className="col">
+          <FaqQuestion questionNumber={1} />
+          <FaqQuestion questionNumber={3} />
+        </div>
+    </div>
   );
 }
 

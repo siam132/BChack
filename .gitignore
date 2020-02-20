@@ -19,9 +19,17 @@
 .env.production.local
 package-lock.json
 
+
+# VS Code
+.vscode
+
 # WebStorm
 .idea
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Firebase
+/.firebase
+.firebaserc

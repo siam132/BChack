@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "bchacctestsite-vncdqokb",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

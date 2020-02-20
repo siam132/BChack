@@ -2,7 +2,7 @@ import React from "react";
 import contributor from "../data/Contributor_Info";
 import "../scss/Organizers.scss";
 import "../scss/Ground.scss";
-import default_pic from "../assets/web-dev-pics/test_avatar.png"
+import defaultPic from "../assets/web-dev-pics/test_avatar.png";
 
 export default function Organizers() {
     return (
@@ -24,27 +24,26 @@ export default function Organizers() {
 }
 
 export function Contributor(props) {
-  const { first, last, github, pic, role } = props.person;
+  const { first, last, link, pic, role } = props.person;
   return (
     <div>
       <img
-        src={pic.url || default_pic}
+        src={pic || defaultPic}
         alt={`${first} ${last}`}
         className="avatar-logo"
       />
 
       <p>
         <b className="avatar-name">
-          <a href={`${github}`}>{first} {last}</a>
+          <a href={link || '#'}>
+            {first} {last}
+          </a>
         </b>
         <br />
         <b className="avatar-role">
           {role}
         </b>
       </p>
-      {/*       <p>Founders of Hack Brooklyn, got together website, sponsors, clubs and everything in the mix.</p>
-      <a href="https://www.instagram.com/bc_compsci/"></a>
-      <a href="https://www.facebook.com/groups/bc.cis.club/"></a> */}
     </div>
   );
 }

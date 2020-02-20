@@ -27,7 +27,7 @@ function About() {
           <h2>Welcome to <strong className="bold">Hack Brooklyn!</strong></h2>
         </div>
     </div>
-      <div className={String(width > 900 ? 'col-9' : 'col-12' ) + " about-text"}>
+      <div className={String(width > 600 ? 'col-9' : 'col-12' ) + " about-text"}>
         <div className="about-summary">
           <p>
             Hack Brooklyn is where your quest begins. Step into a world of magic on 

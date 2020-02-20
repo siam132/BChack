@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Typical from 'react-typical';
 import witch from "../assets/side-art.svg";
 import "../scss/About.scss";
@@ -6,6 +6,8 @@ import "../scss/About.scss";
 // import Fade from 'react-reveal/Fade';
 
 function About() {
+  // new to hooks, is this valid?
+  let [ width ] = useState(window.screen.width);
 
   const steps = [
     'educational disparity.', 1000,
@@ -25,10 +27,12 @@ function About() {
           <h2>Welcome to <strong className="bold">Hack Brooklyn!</strong></h2>
         </div>
     </div>
-      <div className="col-9">
+      <div className={String(width > 900 ? 'col-9' : 'col-12' ) + " about-text"}>
         <div className="about-summary">
           <p>
-            Hack Brooklyn is where your quest begins. Step into a world of magic on <strong className="bold">March 29th</strong> where over 150 of the brightest students in New York will come together to build innovative solutions for 
+            Hack Brooklyn is where your quest begins. Step into a world of magic on 
+            <strong className="bold">March 29th</strong> where over 150 of the brightest 
+            students in New York will come together to build innovative solutions for 
             <span className="about-summary-solutions">
               <Typical
                 wrapper="span"
@@ -57,7 +61,7 @@ function About() {
             </p> */}
         </div>
       </div>
-      <div className="col-3">
+      <div className="col-3 about-image">
         <img className="witch" src={witch} alt="witch" />
       </div>
     </div>

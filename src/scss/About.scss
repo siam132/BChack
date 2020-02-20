@@ -48,3 +48,11 @@
     color: rgb(142, 29, 203);
   }
 }
+
+@media (max-device-width: 600px) {
+  #about {
+    .about-image {
+      display: none;
+    }
+  }
+}

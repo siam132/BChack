@@ -22,13 +22,6 @@
     font-weight: normal;
   }
 
-  .about-summary-solutions * {
-    color: rgb(142, 29, 203);
-    font-style: normal;
-    font-weight: 800;
-    margin-left: 3px;
-  }
-
   .about-description p {
     padding-left: 1em;
     padding-right: 1em;
@@ -46,5 +39,14 @@
   .bold {
     font-weight: bold;
     color: rgb(142, 29, 203);
+  }
+}
+
+// 577 is the breakpoint for small devices for boostrap. 
+@media (max-device-width: 577px) {
+  #about {
+    .about-image {
+      display: none;
+    }
   }
 }

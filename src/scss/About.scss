@@ -49,7 +49,8 @@
   }
 }
 
-@media (max-device-width: 600px) {
+// 577 is the breakpoint for small devices for boostrap. 
+@media (max-device-width: 577px) {
   #about {
     .about-image {
       display: none;

@@ -4,33 +4,38 @@ import FAQData from "../data/FAQ";
 import "../scss/FAQ.scss";
 
 function FaqQuestion(props) {
+  const { faqItem: { Question, Answer } } = props;
   return (
     <div className="faq-q-and-a">
       <h3 className="faq-question">
-        {FAQData[props.questionNumber].Question}
+        {Question}
       </h3>
       <p className="faq-answer">
-        {FAQData[props.questionNumber].Answer}
+        {Answer}
       </p>
     </div>
   );
 }
 
 function FAQ() {
+  // reorder
+  const data = [
+    FAQData[0],
+    FAQData[1],
+    FAQData[2],
+    FAQData[3],
+    FAQData[4]
+  ];
   return (
-    <div id="faq" className="row">
-      <h1 className="col-12 faq-title">Frequently Asked Questions</h1>
-        {/* left */}
-        <div className="col">
-          <FaqQuestion questionNumber={0} />
-          <FaqQuestion questionNumber={2} />
-          <FaqQuestion questionNumber={4} />
+    <div id="faq">
+      <h1 className="faq-title">Frequently Asked Questions</h1>
+      <div className="row">
+        {data.map((faq) => 
+        <div className="col-lg-6 col-sm-12">
+          <FaqQuestion faqItem={faq} />
         </div>
-        {/* right */}
-        <div className="col">
-          <FaqQuestion questionNumber={1} />
-          <FaqQuestion questionNumber={3} />
-        </div>
+        )}
+      </div>
     </div>
   );
 }

@@ -13,11 +13,25 @@
 }
 
 .faq-question {
-  font-size: 2em;
   font-weight: bold;
+  // small
+  @media (max-device-width: 800px) {
+    font-size: 5.5vw;
+  }
+  // large
+  @media (min-device-width: 800px) {
+    font-size: 3vw;
+  }
 }
 
 .faq-answer {
-  font-size: 1.25em;
   margin-bottom: 2em;
+  // small
+  @media (max-device-width: 800px) {
+    font-size: 3.5vw;
+  }
+  // large
+  @media (min-device-width: 800px) {
+    font-size: 1.5vw;
+  }
 }

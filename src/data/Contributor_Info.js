@@ -1,4 +1,22 @@
-let contributor = [
+export const contributors = [
+  {
+    first: "jon",
+    last: "doe",
+    role: "programmer",
+  },
+  {
+    first: "jon",
+    last: "doe",
+    role: "Version control",
+  },
+  {
+    first: "jon",
+    last: "doe",
+    role: "programmer",
+  }
+];
+
+export const organizers = [
   {
     first: "Kevin",
     last: "Tam",
@@ -36,5 +54,3 @@ let contributor = [
     role: "programmer",
   }
 ];
-
-export default contributor;

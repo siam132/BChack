@@ -1,5 +1,5 @@
 import React from "react";
-import contributor from "../data/Contributor_Info";
+import { contributors, organizers } from "../data/Contributor_Info";
 import "../scss/Organizers.scss";
 import "../scss/Ground.scss";
 import defaultPic from "../assets/web-dev-pics/test_avatar.png";
@@ -7,15 +7,28 @@ import defaultPic from "../assets/web-dev-pics/test_avatar.png";
 export default function Organizers() {
     return (
       <div id="organizers">
-        <div id="organizers-title" className="row">
+        <div className="row organizers-title">
           <div className="col-12">
-            <h1>Meet the Team!</h1>
+            <h1>Meet the Organizers!</h1>
           </div>
         </div>
-        <div id="organizers-listings" className="row">
-          {contributor.map(person => (
+        <div id="organizers-listings" className="row listings">
+          {organizers.map(person => (
             <div className="col-lg-3 col-sm-6 avatar-card" align="center">
-                <Contributor person={person} />
+                <ProfileView person={person} />
+            </div>
+          ))}
+        </div>
+
+        <div className="row organizers-title pt-5">
+          <div className="col-12">
+            <h1>Meet the Contributors!</h1>
+          </div>
+        </div>
+        <div id="contributors-listings" className="row listings">
+          {contributors.map(person => (
+            <div className="col-lg-3 col-sm-6 avatar-card" align="center">
+                <ProfileView person={person} />
             </div>
           ))}
         </div>
@@ -23,7 +36,7 @@ export default function Organizers() {
     );
 }
 
-export function Contributor(props) {
+export function ProfileView(props) {
   const { first, last, link, pic, role } = props.person;
   return (
     <div>

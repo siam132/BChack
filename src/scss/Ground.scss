@@ -1,10 +1,13 @@
 #ground {
-  margin: -15px; // Reset the margin from an inherited value
-  padding: 10vw;
+  // margin: -15px; // Reset the margin from an inherited value
+  // padding: 10vw;
   background-color: #f7fce2;
   background-image: url(../assets/bottom-ground.svg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top left;
-  min-height: 100vh;
+  // min-height: 100vh;
+  img {
+    width: 100%;
+  }
 }

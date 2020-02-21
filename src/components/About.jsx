@@ -1,9 +1,9 @@
 import React from "react";
-import Typical from 'react-typical';
 import witch from "../assets/side-art.svg";
 import "../scss/About.scss";
 // import Slide from 'react-reveal/Slide';
 // import Fade from 'react-reveal/Fade';
+// import Typical from 'react-typical';
 
 function About() {
   const steps = [
@@ -27,13 +27,14 @@ function About() {
           <p>
             Hack Brooklyn is where your quest begins. Step into a world of magic on  
             <strong className="bold"> March 29th </strong>where over 150 of the brightest 
-            students in New York will come together to build innovative solutions for {" "}
-              <Typical
+            students in New York City will come together to build innovative solutions for causes 
+            ranging from the homelessness problem to lack of diversity. 
+              {/* <Typical
                 wrapper="strong"
                 steps={steps}
                 loop={Infinity}
                 className="bold"
-              />
+              /> */}
           </p>
           <br/>
           <p>

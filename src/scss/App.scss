@@ -19,18 +19,18 @@ body {
     text-align: center;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 3em;
     color: #9400d3;
   }
   
   h2 {
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 3em;
     color: #9400d3;
   }
   p {
-    font-size: 25px;
+    font-size: 1.5rem;
     line-height: 1.5;
   }
   button.register,
@@ -133,6 +133,14 @@ body {
       padding: 1rem 3rem;
       font-size: 5em;
       border-radius: 2rem;
+    }
+  }
+  body {
+    h2, h1 {
+      font-size: 5em;
+    }
+    p {
+      font-size: 2.5rem;
     }
   }
 }

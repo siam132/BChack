@@ -10,7 +10,7 @@ import About from "../components/About";
 import SocialGood from "../components/SocialGood";
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/Sponsors";
-import Organizers from "../components/Organizers";
+import Team from "../components/Team";
 import Ground from "../components/Ground";
 
 function HomePage() {
@@ -65,7 +65,7 @@ function HomePage() {
       <SocialGood />
       <Sponsors />
       <FAQ />
-      <Organizers />
+      <Team />
       <Ground />
       {/* <ScrollUpButton
         StopPosition={0}

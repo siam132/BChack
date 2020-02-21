@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Contributors, Organizers } from "../data/Contributor_Info";
-import "../scss/Organizers.scss";
-import "../scss/Ground.scss";
 import defaultPic from "../assets/web-dev-pics/test_avatar.png";
+import "../scss/Organizers.scss";
 
 export default function Team() {
   const [ width ] = useState(window.screen.width)

@@ -61,7 +61,7 @@ export const Contributors = [
     first: "Shahidullah",
     last: "Rahman",
     link: "https://github.com/siam132",
-    pic: "/team-pics/siam.jpeg"
+    pic: "/team-pics/siam.jpg"
   },
   {
     first: "Unis",

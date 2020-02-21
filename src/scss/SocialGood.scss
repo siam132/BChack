@@ -1,15 +1,18 @@
 #socialgood {
   .socialgood_text {
     font-family: Nunito;
-    font-size: 58px;
+    font-size: 3em;
     color: #7700e7;
+    margin-bottom: 1em;
   }
-
   .card-container {
-    padding-bottom: 20px; // to offset the box-shadow (10px) & margin (5px) of the cards
+    padding-bottom: 2em; // to offset the box-shadow (10px) & margin (5px) of the cards
+  }
+  .card-group {
+    margin:0 5vw;
+    justify-content: center;
   }
   .card {
-    margin: 5px 20px;
     height: 100%;
     box-shadow: 10px 10px #ba81f7;
     padding: 5px;
@@ -22,13 +25,37 @@
       margin: 0 auto;
     }
     p.card-text {
-      font-size: 24px;
+      font-size: 1em;
       font-family: Nunito;
-      line-height: 33px;
+      line-height: 1.3;
     }
     .card-title {
       font-family: Quicksand;
-      font-size: 36px;
+      font-size: 1.5em;
+      line-height: 2;
+    }
+  }
+}
+
+@media (max-device-width: 450px) {
+  #socialgood {
+    .socialgood_text {
+      font-size: 7em;
+    }
+    .card-container{
+      .card {
+        .card-img-top {
+          padding: 0 5em;
+        }
+        .card-title {
+          font-size: 3em;
+          font-weight: 600;
+          letter-spacing: 2px;
+        }
+        .card-text {
+          font-size: 2em;
+        }
+      }
     }
   }
 }

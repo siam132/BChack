@@ -26,6 +26,7 @@ function Sponsors() {
           <img className="silver rounded" src={ Etsy } alt="Etsy logo" />
           <img className="silver rounded" src={ WiTNY } alt="WiTNY logo" />
           <img className="silver rounded" src={ DigitalOcean } alt="DigitalOcean logo" />
+          <br />
           <img className="bronze rounded" src={ Google } alt="Google logo" />
           <img className="bronze rounded" src={ Asana } alt="Asana logo" />
           <img className="bronze rounded" src={ Cookies } alt="Insomnia Cookies Logo" />

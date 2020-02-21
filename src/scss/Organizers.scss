@@ -1,36 +1,41 @@
 #organizers {
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-top: 5vw;
-  padding-bottom: 5vw;
-}
-
-#organizers-title {
-  span.nobreak {
-    white-space: nowrap;
+  padding: 2vw 3vw;
+  background: linear-gradient(transparent 40%, #f8bfd5 100%);
+  h1 {
+    margin-bottom: 1rem;
+  }
+  .listings {
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  .avatar {
+    padding: 1em;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    p {
+      font-size: 1.5em;
+      font-family: "Nunito", sans-serif;
+    }
+    a {
+      color: #383d41;
+    }
   }
 }
 
-.avatar-card {
-  min-height: 1.2em;
-  padding-top: 3em;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-.avatar-logo {
-  width: 15em;
-  height: 15em;
-  border-radius: 50%;
-  border: 3px solid white;
-  margin-bottom: 15px;
-}
-
-.avatar-name {
-  font-size: 1em;
-  color: navy;
-}
-
-.avatar-role {
-  color: rgb(63, 62, 62);
+@media (max-device-width: 500px) {
+  #organizers {
+    h1 {
+      font-size: 5rem;
+    }
+    .avatar {
+      padding: 2em;
+      p {
+        font-size: 3em;
+      }
+    }
+  }
 }

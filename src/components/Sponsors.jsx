@@ -16,26 +16,27 @@ function Sponsors() {
     <div id="sponsors" className="text-center row">
       <div className="col-12">
         <h2 className="col-12 text-center">Sponsors & Friends</h2>
-        <p>
-          Huge thanks to our sponsors and partners for their support! Care about empowering diverse 
-          students to tackle large-scale issues around the world? Get in touch with us to 
-          support the cause. 
+        <p className="thanks">
+          Huge thanks to all of our sponsors and partners for their amazing support!
         </p>
         <div>
           <img className="silver rounded" src={ LinkedIn } alt="LinkedIn logo" />
           <img className="silver rounded" src={ Etsy } alt="Etsy logo" />
-          <img className="silver rounded" src={ WiTNY } alt="WiTNY logo" />
           <img className="silver rounded" src={ DigitalOcean } alt="DigitalOcean logo" />
+          <img className="silver rounded" src={ WiTNY } alt="WiTNY logo" />
           <br />
           <img className="bronze rounded" src={ Google } alt="Google logo" />
           <img className="bronze rounded" src={ Asana } alt="Asana logo" />
-          <img className="bronze rounded" src={ Cookies } alt="Insomnia Cookies Logo" />
-          <img className="bronze rounded" src={ CTP } alt="Cuny Tech Prep logo" />
-          <img className="bronze rounded" src={ TRiO } alt="TRiO Logo" />
+          <img className="bronze rounded" src={ Cookies } alt="Insomnia Cookies logo" />
+          <img className="bronze rounded" src={ CTP } alt="CUNY Tech Prep logo" />
+          <img className="bronze rounded" src={ TRiO } alt="TRiO logo" />
           <img className="bronze rounded" src={ Calexico } alt="Calexico logo" />
         </div>
+        <p className="sponsor">
+          Care about empowering diverse students to tackle large-scale issues around the world? <br /> Get in touch with us to support the cause. 
+        </p>
         <button type="button" class="btn contact">
-        Contact us
+          Contact us
         </button>
       </div>
     </div>

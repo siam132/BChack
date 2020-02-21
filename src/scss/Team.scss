@@ -1,6 +1,7 @@
-#organizers {
-  padding: 2vw 3vw;
-  background: linear-gradient(transparent 40%, #f8bfd5 100%);
+#team {
+  padding: 0 7.5vw;
+  // background: linear-gradient(transparent 40%, #f8bfd5 100%);
+  
   h1 {
     margin-bottom: 1rem;
   }
@@ -27,7 +28,7 @@
 }
 
 @media (max-device-width: 500px) {
-  #organizers {
+  #team {
     h1 {
       font-size: 5rem;
     }

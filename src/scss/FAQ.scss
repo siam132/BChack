@@ -1,21 +1,29 @@
 #faq {
-  padding: 10vw;
-  .faq-title {
+  padding: 7.5vw;
+  margin-bottom: -5vh;
+  
+  h2.faq-title {
     font-family: "Nunito", sans-serif;
-    font-size: 3em;
-    margin-bottom: 1em;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5vh;
   }
+  
   .faq-q-and-a {
     margin: 1.25em;
   }
+  
   .faq-question {
     font-weight: bold;
     font-size: 2em;
+    margin-bottom: 1vh;
+    
     // extra small
     @media (max-device-width: 550px) {
       font-size: 3.5em;
     }
   }
+  
   .faq-answer {
     margin-bottom: 2em;
     font-size: 1.5em;

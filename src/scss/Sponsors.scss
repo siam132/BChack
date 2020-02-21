@@ -1,14 +1,27 @@
 #sponsors {
+  // background: linear-gradient(transparent 40%, rgba(242, 153, 74, 0.1) 100%);
   img {
     max-width: 15vw;
     max-height: 15vw;
     margin: 5% 10%;
   }
+
   img.silver {
     max-width: 33vw;
     max-height: 33vw;
   }
-  p {
+
+  p.thanks {
+    color: purple;
     margin: 0 5%;
+  }
+
+  p.sponsor {
+    color: orangered;
+    margin: 0 5%;
+  }
+
+  button.contact {
+    margin-top: 5vh;
   }
 }

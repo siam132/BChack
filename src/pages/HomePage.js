@@ -7,6 +7,7 @@ import "../scss/App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import SocialGood from "../components/SocialGood";
+import Schedule from "../components/Schedule";
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/Sponsors";
 import Team from "../components/Team";
@@ -62,9 +63,10 @@ function HomePage() {
       <Landing />
       <About />
       <SocialGood />
-      <Sponsors />
+      <Schedule />
       <FAQ />
       <Team />
+      <Sponsors />
       <Ground />
     </div>
   );

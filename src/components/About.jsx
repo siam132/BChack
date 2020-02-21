@@ -1,12 +1,11 @@
 import React from "react";
-import Typical from 'react-typical';
 import witch from "../assets/side-art.svg";
 import "../scss/About.scss";
 // import Slide from 'react-reveal/Slide';
 // import Fade from 'react-reveal/Fade';
+// import Typical from 'react-typical';
 
 function About() {
-
   const steps = [
     'educational disparity.', 1000,
     'accessibility.', 1000,
@@ -19,25 +18,25 @@ function About() {
   ];
 
   return (
-    <div id="about" className="disable-user-select row">
+    <div id="about" className="row">
       <div className="col-12">
-        <div className="about-header text-center">
-          <h2>Welcome to <strong className="bold">Hack Brooklyn!</strong></h2>
-        </div>
-    </div>
-      <div className="col-9">
+        <h2 className="about-header text-center">Welcome to <strong className="bold">Hack Brooklyn!</strong></h2>
+      </div>
+      <div className="col about-text">
         <div className="about-summary">
           <p>
-            Hack Brooklyn is where your quest begins. Step into a world of magic on <strong className="bold">March 29th</strong> where over 150 of the brightest students in New York will come together to build innovative solutions for 
-            <span className="about-summary-solutions">
-              <Typical
-                wrapper="span"
+            Hack Brooklyn is where your quest begins. Step into a world of magic on  
+            <strong className="bold"> March 29th </strong>where over 150 of the brightest 
+            students in New York City will come together to build innovative solutions for causes 
+            ranging from the homelessness problem to lack of diversity. 
+              {/* <Typical
+                wrapper="strong"
                 steps={steps}
                 loop={Infinity}
-              />
-            </span>
+                className="bold"
+              /> */}
           </p>
-          <br />
+          <br/>
           <p>
             Over the course of 12 hours, teams of up to four students will collaborate to use the technology 
             of today to solve present-day problems and create the world of tomorrow. Create a project, 
@@ -57,7 +56,7 @@ function About() {
             </p> */}
         </div>
       </div>
-      <div className="col-3">
+      <div className="col-3 about-image">
         <img className="witch" src={witch} alt="witch" />
       </div>
     </div>

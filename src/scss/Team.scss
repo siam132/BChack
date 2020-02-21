@@ -1,0 +1,41 @@
+#organizers {
+  padding: 2vw 3vw;
+  background: linear-gradient(transparent 40%, #f8bfd5 100%);
+  h1 {
+    margin-bottom: 1rem;
+  }
+  .listings {
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  .avatar {
+    padding: 1em;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    p {
+      font-size: 1.5em;
+      font-family: "Nunito", sans-serif;
+    }
+    a {
+      color: #383d41;
+    }
+  }
+}
+
+@media (max-device-width: 500px) {
+  #organizers {
+    h1 {
+      font-size: 5rem;
+    }
+    .avatar {
+      padding: 2em;
+      p {
+        font-size: 3em;
+      }
+    }
+  }
+}

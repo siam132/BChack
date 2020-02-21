@@ -15,7 +15,7 @@ function Sponsors() {
   return (
     <div id="sponsors" className="text-center row">
       <div className="col-12">
-        <h1>Sponsors</h1>
+        <h2 className="col-12 text-center">Sponsors & Friends</h2>
         <p>
           Huge thanks to our sponsors and partners for their support! Care about empowering diverse 
           students to tackle large-scale issues around the world? Get in touch with us to 
@@ -26,6 +26,7 @@ function Sponsors() {
           <img className="silver rounded" src={ Etsy } alt="Etsy logo" />
           <img className="silver rounded" src={ WiTNY } alt="WiTNY logo" />
           <img className="silver rounded" src={ DigitalOcean } alt="DigitalOcean logo" />
+          <br />
           <img className="bronze rounded" src={ Google } alt="Google logo" />
           <img className="bronze rounded" src={ Asana } alt="Asana logo" />
           <img className="bronze rounded" src={ Cookies } alt="Insomnia Cookies Logo" />

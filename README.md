@@ -1,5 +1,7 @@
 # Hack Brooklyn Website
 
+[![Build Status](https://travis-ci.com/siam132/BChack.svg?token=BNPZNJw4UdvzW11zpiCC&branch=develop)](https://travis-ci.com/siam132/BChack)
+
 Website for Brooklyn College's hackathon.
 
 ---
@@ -49,4 +51,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 =======
-[![Build Status](https://travis-ci.com/siam132/BChack.svg?token=BNPZNJw4UdvzW11zpiCC&branch=develop)](https://travis-ci.com/siam132/BChack)

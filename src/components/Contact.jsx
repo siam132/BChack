@@ -25,13 +25,6 @@ function Contacts() {
           <a href="https://www.instagram.com/bc_wics_/"><i class="fab fa-instagram"></i></a>
           <a href="https://www.facebook.com/BCWomenInCS/"><i class="fab fa-facebook"></i></a>
         </div>
-        {/* <div className="col-4" align="center">
-          <img src={MWEI} className="MWEI logo" />
-          <p><b>Muslim Women's Education Initiative</b></p>
-          <p>Helping Hands on Hack Day for a Seamless Hack Experience</p>
-          <a href="https://www.instagram.com/explore/locations/101722999919422/brooklyn-college-islamic-society-muslim-womens-educational-initiative/"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.facebook.com/BCISO/"><i class="fab fa-facebook"></i></a>
-        </div> */}
     </div>
   );
 }

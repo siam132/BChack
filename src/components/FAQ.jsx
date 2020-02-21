@@ -1,5 +1,5 @@
 // @ts-check
-import React from "react";
+import React, {useState} from "react";
 import FAQData from "../data/FAQ";
 import "../scss/FAQ.scss";
 
@@ -18,6 +18,7 @@ function FaqQuestion(props) {
 }
 
 function FAQ() {
+  const [ width ] = useState(window.screen.width)
   // reorder
   const data = [
     FAQData[0],
@@ -31,7 +32,7 @@ function FAQ() {
       <h1 className="faq-title">Frequently Asked Questions</h1>
       <div className="row">
         {data.map((faq) => 
-        <div className="col-lg-6 col-sm-12">
+        <div className={ width < 600 ? "col-12" : "col-md-6"}>
           <FaqQuestion faqItem={faq} />
         </div>
         )}

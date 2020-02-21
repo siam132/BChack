@@ -30,7 +30,7 @@ function Team() {
   );
 }
 
-export function ProfileView(props) {
+function ProfileView(props) {
   const { first, last, link, pic } = props.person;
   return (
     <div className="avatar">
@@ -49,3 +49,5 @@ export function ProfileView(props) {
     </div>
   );
 }
+
+export default Team;

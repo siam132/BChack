@@ -19,29 +19,29 @@ body {
     text-align: center;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 3em;
     color: #9400d3;
   }
   
   h2 {
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 3em;
     color: #9400d3;
   }
   p {
-    font-size: 25px;
+    font-size: 1.5rem;
     line-height: 1.5;
   }
   button.register,
   button.contact {
-    width: 200px;
-    height: 50px;
-    color: #5d28e2;
+    color: white;
+    padding: 0rem 2rem;
     background-color: darkorange;
-    text-shadow: 1px 1px white;
-    border-radius: 25px;
-    font-size: 25px;
+    border-radius: 1rem;
+    font-size: 2em;
+    margin-top: 1rem;
+    font-family: 'Nunito', sans-serif;
   }
 
   ul {
@@ -52,6 +52,7 @@ body {
     justify-content: flex-end;
     background-color: transparent;
     transition: background-color 1s;
+    font-family: 'Nunito', sans-serif;
   }
 
   nav.navbar.scrolled {
@@ -120,6 +121,26 @@ body {
     padding-bottom: 15vh;
     * {
       font-family: "Nunito", sans-serif;
+    }
+  }
+}
+
+@media (max-device-width: 600px) {
+  #landing, #sponsors {
+    button.register,
+    button.contact {
+      margin-top: 2rem;
+      padding: 1rem 3rem;
+      font-size: 5em;
+      border-radius: 2rem;
+    }
+  }
+  body {
+    h2, h1 {
+      font-size: 5em;
+    }
+    p {
+      font-size: 2.5rem;
     }
   }
 }

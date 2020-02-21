@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 import { Contributors, Organizers } from "../data/Contributor_Info";
 import defaultPic from "../assets/web-dev-pics/test_avatar.png";
-import "../scss/Organizers.scss";
+import "../scss/Team.scss";
 
-export default function Team() {
+function Team() {
   const [ width ] = useState(window.screen.width)
   return (
     <div id="organizers" className="row">
       <div className="col-12">
-        <div className="organizers-title">
-          <h1>Meet the Organizers!</h1>
-        </div>
+        <h2 className="col-12 text-center">Meet the Organizers!</h2>
         <div id="organizers-listings" className="row listings">
         {Organizers.map(person => (
           <div className={ width < 500 ? "col-6" : "col-3" } align="center">
@@ -19,9 +17,7 @@ export default function Team() {
         ))}
         </div>
 
-        <div className="organizers-title">
-          <h1>Meet the Contributors!</h1>
-        </div>
+        <h2 className="col-12 text-center">Meet the Contributors!</h2>
         <div id="contributors-listings" className="row listings">
         {Contributors.map(person => (
           <div className={ width < 500 ? "col-6" : "col-3" } align="center">

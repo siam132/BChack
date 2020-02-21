@@ -10,9 +10,7 @@ function SocialGood() {
 
   return (
     <div id="socialgood" className="row justify-content-center">
-        <div className="col-12 text-center">
-          <p className="socialgood_text">Our 4 Sectors of Social Good</p>
-        </div>
+        <h2 className="col-12 text-center">Our 4 Sectors of Social Good</h2>
         <div className="card-group">
           <div className={(width < 450 ? "col-9" : "col-md-6 col-lg-3") + " card-container"}>
             <div className="card text-center">

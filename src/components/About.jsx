@@ -20,10 +20,8 @@ function About() {
   return (
     <div id="about" className="row">
       <div className="col-12">
-        <div className="about-header text-center">
-          <h2>Welcome to <strong className="bold">Hack Brooklyn!</strong></h2>
-        </div>
-    </div>
+        <h2 className="about-header text-center">Welcome to <strong className="bold">Hack Brooklyn!</strong></h2>
+      </div>
       <div className="col about-text">
         <div className="about-summary">
           <p>

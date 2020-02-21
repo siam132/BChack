@@ -19,7 +19,7 @@ function FaqQuestion(props) {
 function FAQ() {
   return (
     <div id="faq" className="row">
-      <h1 className="col-12 faq-title">Frequently Asked Questions</h1>
+      <h2 className="col-12 text-center">Frequently Asked Questions</h2>
         {/* left */}
         <div className="col">
           <FaqQuestion questionNumber={0} />

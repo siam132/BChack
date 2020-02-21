@@ -1,6 +1,6 @@
 let FAQ = [
   {
-    Question: "What is a \"hackathon\"?",
+    Question: 'What is a "hackathon"?',
     Answer:
       "A hackathon is a creative event for tech enthusiasts to gather and share their ideas. Hackathon participants typically form groups to work from scratch on a software or hardware project ‘hack’ in a given limited time. What will they build? The only limit is their imagination!"
   },
@@ -23,6 +23,11 @@ let FAQ = [
     Question: "How much does it cost?",
     Answer:
       "Attendance is entirely free, and the food is on us. But we’ll have to ask for 12 hours of your time!"
+  },
+  {
+    Question: "(waiting for other PR)",
+    Answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
 ];
 

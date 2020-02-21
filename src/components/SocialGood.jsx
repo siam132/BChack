@@ -6,10 +6,10 @@ import Health from "../assets/social-good/health.svg";
 import "../scss/SocialGood.scss";
 
 function SocialGood() {
-  const [ width ] = useState(window.screen.width)
+  const [ width ] = useState(window.screen.width);
 
   return (
-    <div id="socialgood" className="row justify-content-center">
+    <div id="socialgood" className="row">
         <h2 className="col-12 text-center">Our 4 Sectors of Social Good</h2>
         <div className="card-group">
           <div className={(width < 450 ? "col-9" : "col-md-6 col-lg-3") + " card-container"}>

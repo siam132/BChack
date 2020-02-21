@@ -14,7 +14,7 @@ function SocialGood() {
         <div className="col-12 text-center">
           <p className="socialgood_text">Our 4 Sectors of Social Good</p>
         </div>
-        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3 card-container">
+        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 py-3">
           <div className="card text-center">
             <img src={Sustainability} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -25,7 +25,7 @@ function SocialGood() {
             </div>
           </div>
         </div>
-        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3 card-container">
+        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 py-3">
           <div className="card text-center">
             <img src={Accessibility} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -36,7 +36,7 @@ function SocialGood() {
             </div>
           </div>
         </div>
-        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3 card-container">
+        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 py-3">
           <div className="card text-center">
             <img src={Education} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -47,7 +47,7 @@ function SocialGood() {
             </div>
           </div>
         </div>
-        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3 card-container">
+        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 py-3">
           <div className="card text-center">
             <img src={Health} className="card-img-top" alt="..." />
             <div className="card-body">

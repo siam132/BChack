@@ -18,7 +18,7 @@ function About() {
   ];
 
   return (
-    <div id="about" className="disable-user-select row">
+    <div id="about" className="row">
       <div className="col-12">
         <div className="about-header text-center">
           <h2>Welcome to <strong className="bold">Hack Brooklyn!</strong></h2>
@@ -27,18 +27,17 @@ function About() {
       <div className="col about-text">
         <div className="about-summary">
           <p>
-            Hack Brooklyn is where your quest begins. Step into a world of magic on 
-            <strong className="bold">March 29th</strong> where over 150 of the brightest 
-            students in New York will come together to build innovative solutions for 
-            <span className="about-summary-solutions">
+            Hack Brooklyn is where your quest begins. Step into a world of magic on  
+            <strong className="bold"> March 29th </strong>where over 150 of the brightest 
+            students in New York will come together to build innovative solutions for {" "}
               <Typical
-                wrapper="span"
+                wrapper="strong"
                 steps={steps}
                 loop={Infinity}
+                className="bold"
               />
-            </span>
           </p>
-          <br />
+          <br/>
           <p>
             Over the course of 12 hours, teams of up to four students will collaborate to use the technology 
             of today to solve present-day problems and create the world of tomorrow. Create a project, 

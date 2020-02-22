@@ -33,7 +33,6 @@ function HomePage() {
     <div id="homepage" className="container-fluid">
       <div id="content">
         <Navbar
-          pullLeft
           expand="lg"
           fixed="top"
           className={scrolled ? "scrolled" : ""}

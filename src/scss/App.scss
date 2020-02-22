@@ -22,7 +22,7 @@ body {
     font-size: 3em;
     color: #9400d3;
   }
-  
+
   h2 {
     font-style: normal;
     font-weight: normal;
@@ -42,7 +42,7 @@ body {
     border-radius: 1rem;
     font-size: 2em;
     margin-top: 1rem;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
   }
 
   ul {
@@ -50,16 +50,36 @@ body {
   }
 
   nav.navbar {
-    justify-content: flex-end;
-    background-color: transparent;
-    transition: background-color 1s;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
+    transition: background-color 0.5s;
+
+    .navbar-logo {
+      height: 2rem;
+      width: 2rem;
+    }
+
+    a.navbar-brand {
+      color: #ffffff !important;
+      font-family: "Luckiest Guy", sans-serif;
+      text-shadow: 2px 2px 0px rgba(104, 0, 184, 0.5);
+      letter-spacing: 1px;
+      margin-left: -1px;
+    }
+
+    a {
+      color: #7d86f2 !important;
+      font-size: 1.25rem;
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+    }
   }
 
   nav.navbar.scrolled {
-    background-color: rgba(93, 40, 227, 0.75);
+    background-color: rgba(105, 46, 254, 0.5);
+
     a {
-      color: white;
+      display: block;
+      color: white !important;
     }
   }
 
@@ -123,7 +143,48 @@ body {
 }
 
 @media (max-device-width: 600px) {
-  #landing, #sponsors {
+  nav.navbar {
+    font-family: "Nunito", sans-serif;
+    background-color: rgba(93, 40, 227, 0.75);
+    transition: background-color 0.5s;
+    padding: 2vh;
+
+    .navbar-logo {
+      height: 5rem !important;
+      width: 5rem !important;
+    }
+
+    a.navbar-brand {
+      color: #ffffff !important;
+      font-family: "Luckiest Guy", sans-serif;
+      text-shadow: 2px 2px 0px rgba(104, 0, 184, 0.5);
+      letter-spacing: 1px;
+      vertical-align: middle;
+      font-size: 3rem !important;
+    }
+
+    a.nav-link {
+      color: #ffffff !important;
+      font-weight: bold !important;
+      font-size: 4rem !important;
+      margin-top: 1rem !important;
+      margin-bottom: 1rem !important;
+      margin-left: 1rem !important;
+    }
+  }
+
+  nav.navbar.scrolled {
+    background-color: rgba(105, 46, 254, 0.1);
+  }
+
+  .navbar-menu {
+    border: 0;
+    float: left !important;
+    font-size: 3rem;
+  }
+
+  #landing,
+  #sponsors {
     button.register,
     button.contact {
       margin-top: 2rem;
@@ -133,7 +194,8 @@ body {
     }
   }
   body {
-    h2, h1 {
+    h2,
+    h1 {
       font-size: 5em;
     }
     p {

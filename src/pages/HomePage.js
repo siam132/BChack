@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { Navbar, Nav } from "react-bootstrap";
+
 import "typeface-luckiest-guy";
 import "typeface-nunito";
 import "typeface-quicksand";
 
 import "../scss/App.scss";
+
 import Landing from "../components/Landing";
 import About from "../components/About";
 import SocialGood from "../components/SocialGood";
@@ -27,45 +30,45 @@ function HomePage() {
   });
 
   return (
-    <div className="container-fluid">
-      <nav
-        className={scrolled ? "navbar fixed-top scrolled" : "navbar fixed-top"}
-      >
-        <ul className="nav">
-          <li className="nav-item">
-            <a className="nav-link active" href="#landing">
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#about">
-              About
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#sponsors">
-              Sponsors
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#faq">
-              FAQ
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#organizers">
-              Organizers
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <Landing />
-      <About />
-      <SocialGood />
-      <Sponsors />
-      <FAQ />
-      <Team />
-      <Ground />
+    <div id="homepage" className="container-fluid">
+      <div id="content">
+        <Navbar
+          expand="lg"
+          fixed="top"
+          className={scrolled ? "scrolled" : ""}
+        >
+          <Navbar.Brand href="#landing">
+            <img
+              src="logo192.png"
+              alt="Logo"
+              className="navbar-logo img-responsive d-inline-block align-middle"
+            />
+            &nbsp;HACK BROOKLYN
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="navbar-content"
+            className="navbar-menu ml-auto"
+          />
+          <Navbar.Collapse id="navbar-content">
+            <Nav className="ml-auto">
+              <Nav.Link href="#landing">Home</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#schedule">Schedule</Nav.Link>
+              <Nav.Link href="#faq">FAQ</Nav.Link>
+              <Nav.Link href="#organizers">Organizers</Nav.Link>
+              <Nav.Link href="#sponsors">Sponsors</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+
+        <Landing />
+        <About />
+        <SocialGood />
+        <Sponsors />
+        <FAQ />
+        <Team />
+        <Ground />
+      </div>
     </div>
   );
 }

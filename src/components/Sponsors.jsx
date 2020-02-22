@@ -34,9 +34,12 @@ function Sponsors() {
           <img className="bronze rounded" src={ TRiO } alt="TRiO Logo" />
           <img className="bronze rounded" src={ Calexico } alt="Calexico logo" />
         </div>
-        <button type="button" class="btn contact">
-        Contact us
-        </button>
+        <a href="mailto:sponsor@hackbrooklyn.org">
+          <button type="button" class="btn contact">
+            Contact us
+          </button>
+        </a>
+        
       </div>
     </div>
   );

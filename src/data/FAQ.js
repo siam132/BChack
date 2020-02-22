@@ -2,7 +2,7 @@ let FAQ = [
   {
     Question: "What is a hackathon?",
     Answer:
-      'A hackathon is a creative event for tech enthusiasts to gather and share their ideas. Participants typically form groups to work on a software or hardware "hack". What will they build during their time here? The only limit is their imagination!'
+      "A hackathon is a creative event where people interested in solving problems in today\'s world gather together and share their ideas. Participants work on a software or hardware project, What will they build during their time here? The only limit is their imagination!"
   },
   {
     Question: "I’m not a programmer! Can I still attend?",
@@ -12,7 +12,7 @@ let FAQ = [
   {
     Question: "What should I bring with me?",
     Answer:
-      "Make sure to bring a valid ID! The rest will depend on what you will need to work on your project. We also recommend bringing your laptop, your phone, chargers for your devices, toiletries, a change of clothes, and a blanket."
+      "Make sure to bring a valid ID at the very least! We recommend bringing your laptop, your phone, chargers for your devices, toiletries, a change of clothes, and a blanket. The rest will depend on what you will need to work on your project."
   },
   {
     Question: "Do I need a team to participate?",

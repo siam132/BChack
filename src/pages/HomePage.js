@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "typeface-luckiest-guy";
 import "typeface-nunito";
 import "typeface-quicksand";
+import "typeface-delius";
 
 import "../scss/App.scss";
 import Landing from "../components/Landing";

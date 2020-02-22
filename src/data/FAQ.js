@@ -26,7 +26,7 @@ let FAQ = [
   },
   {
     Question: "Do you offer travel reimbursement?",
-    Answer: "We are unable to offer any travel reimbursements at this time."
+    Answer: "Unfortunately, we are unable to offer any travel reimbursements at this time."
   }
 ];
 

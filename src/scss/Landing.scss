@@ -52,19 +52,21 @@
 
 @media (max-device-width: 600px) {
   #landing {
-    // padding-top: 20%;
+    padding-top: 15%;
+
     h1 {
       font-size: 11em;
       margin: 1rem 0;
     }
+
     p, a {
       font-size: 2.5rem;
       margin: 1em 0;
     }
+
     .countdown-clock {
       color: #fff;
       font-size: 2rem;
-     
     }
   }
 }

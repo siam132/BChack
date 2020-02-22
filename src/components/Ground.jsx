@@ -5,7 +5,7 @@ import Background from "../assets/bottom-ground.svg";
 function Ground() {
   return (
     <div id="ground" className="row">
-        <img src={ Background } />
+        <img alt="..." src={ Background } />
     </div>
   );
 }

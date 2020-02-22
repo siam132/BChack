@@ -6,16 +6,16 @@ import "../scss/About.scss";
 // import Typical from 'react-typical';
 
 function About() {
-  const steps = [
-    'educational disparity.', 1000,
-    'accessibility.', 1000,
-    'diversity.', 1000,
-    'climate change.', 1000,
-    'social good.', 1000,
-    'housing inequality.', 1000,
-    'mental health.', 1000,
-    'sustainability.', 1000
-  ];
+  // const steps = [
+  //   'educational disparity.', 1000,
+  //   'accessibility.', 1000,
+  //   'diversity.', 1000,
+  //   'climate change.', 1000,
+  //   'social good.', 1000,
+  //   'housing inequality.', 1000,
+  //   'mental health.', 1000,
+  //   'sustainability.', 1000
+  // ];
 
   return (
     <div id="about" className="row">

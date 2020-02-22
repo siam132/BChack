@@ -50,7 +50,6 @@ body {
   }
 
   nav.navbar {
-    background-color: rgba(105, 46, 254, 0.01);
     font-family: "Nunito", sans-serif;
     transition: background-color 0.5s;
 
@@ -72,7 +71,6 @@ body {
       font-size: 1.25rem;
       margin-left: 0.5vw;
       margin-right: 0.5vw;
-      // font-weight: bold;
     }
   }
 
@@ -146,11 +144,10 @@ body {
 
 @media (max-device-width: 600px) {
   nav.navbar {
-    padding: 2vh;
-    justify-content: flex-end;
-    background-color: transparent;
-    transition: background-color 0.5s;
     font-family: "Nunito", sans-serif;
+    background-color: rgba(105, 46, 254, 0.75);
+    transition: background-color 0.5s;
+    padding: 2vh;
 
     .navbar-logo {
       height: 5rem !important;
@@ -161,13 +158,13 @@ body {
       color: #ffffff !important;
       font-family: "Luckiest Guy", sans-serif;
       text-shadow: 2px 2px 0px rgba(104, 0, 184, 0.5);
-      letter-spacing: 1px; 
+      letter-spacing: 1px;
       vertical-align: middle;
       font-size: 3rem !important;
     }
 
     a.nav-link {
-      color: #7d86f2 !important;
+      color: #ffffff !important;
       font-size: 5rem !important;
       margin-top: 1rem !important;
       margin-bottom: 1rem !important;
@@ -176,21 +173,13 @@ body {
   }
 
   nav.navbar.scrolled {
-    background-color: rgba(93, 40, 227, 0.75);
-
-    a {
-      color: white !important;
-    }
+    background-color: rgba(105, 46, 254, 0.1);
   }
 
   .navbar-menu {
-    // width: 1vw;
-    // background-color: rgba(93, 40, 227, 0.1);
     border: 0;
     float: left !important;
     font-size: 3rem;
-    // padding: 1rem;
-    // margin-left: 10vw;
   }
 
   #landing,

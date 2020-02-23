@@ -10,7 +10,7 @@ import "../scss/App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import SocialGood from "../components/SocialGood";
-import Schedule from "../components/Schedule";
+// import Schedule from "../components/Schedule";
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/Sponsors";
 import Team from "../components/Team";
@@ -54,7 +54,7 @@ function HomePage() {
             <Nav className="ml-auto">
               <Nav.Link href="#landing">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#schedule">Schedule</Nav.Link>
+              {/* <Nav.Link href="#schedule">Schedule</Nav.Link> */}
               <Nav.Link href="#faq">FAQ</Nav.Link>
               <Nav.Link href="#team">Team</Nav.Link>
               <Nav.Link href="#sponsors">Sponsors</Nav.Link>
@@ -65,7 +65,7 @@ function HomePage() {
         <Landing />
         <About />
         <SocialGood />
-        <Schedule />
+        {/* <Schedule /> */}
         <FAQ />
         <Team />
         <Sponsors />

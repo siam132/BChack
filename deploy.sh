@@ -1,0 +1,2 @@
+yarn build
+firebase deploy

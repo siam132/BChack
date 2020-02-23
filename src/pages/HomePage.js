@@ -4,6 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import "typeface-luckiest-guy";
 import "typeface-nunito";
 import "typeface-quicksand";
+import "typeface-delius";
 
 import "../scss/App.scss";
 

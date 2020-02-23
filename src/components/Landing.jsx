@@ -23,9 +23,15 @@ function Landing() {
             }
           }}
         />
+
         <div class="bttn-wrapper">
-          <button href="#" className="btn register">Register</button>
+          <button href="#" className="register">Registration opens tomorrow!</button>
         </div>
+
+        {/* <div class="bttn-wrapper">
+          <button href="#" className="btn register">Register</button>
+        </div> */}
+        
       </div>
     </div>
   );

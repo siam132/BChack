@@ -10,6 +10,7 @@ import "../scss/App.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import SocialGood from "../components/SocialGood";
+import Schedule from "../components/Schedule";
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/Sponsors";
 import Team from "../components/Team";
@@ -55,7 +56,7 @@ function HomePage() {
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#schedule">Schedule</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
-              <Nav.Link href="#organizers">Organizers</Nav.Link>
+              <Nav.Link href="#team">Team</Nav.Link>
               <Nav.Link href="#sponsors">Sponsors</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -64,9 +65,10 @@ function HomePage() {
         <Landing />
         <About />
         <SocialGood />
-        <Sponsors />
+        <Schedule />
         <FAQ />
         <Team />
+        <Sponsors />
         <Ground />
       </div>
     </div>

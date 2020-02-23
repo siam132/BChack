@@ -20,17 +20,17 @@ function Sponsors() {
           Huge thanks to all of our sponsors and partners for their amazing support!
         </p>
         <div>
-          <img className="silver rounded" src={ LinkedIn } alt="LinkedIn logo" />
-          <img className="silver rounded" src={ Etsy } alt="Etsy logo" />
-          <img className="silver rounded" src={ DigitalOcean } alt="DigitalOcean logo" />
-          <img className="silver rounded" src={ WiTNY } alt="WiTNY logo" />
+          <a href="https://www.linkedin.com/company/linkedin/life/af8c939d-a352-40da-a06e-eb8c2b35bbd4/" target="_blank" rel="noopener noreferrer"><img className="silver rounded" src={ LinkedIn } alt="LinkedIn logo" /></a>
+          <a href="https://www.etsy.com/about?ref=ftr" target="_blank" rel="noopener noreferrer"><img className="silver rounded" src={ Etsy } alt="Etsy logo" /></a>
+          <a href="https://www.digitalocean.com/about/" target="_blank" rel="noopener noreferrer"><img className="silver rounded" src={ DigitalOcean } alt="DigitalOcean logo" /></a>
+          <a href="https://witny.org/" target="_blank" rel="noopener noreferrer"><img className="silver rounded" src={ WiTNY } alt="WiTNY logo" /></a>
           <br />
-          <img className="bronze rounded" src={ Google } alt="Google logo" />
-          <img className="bronze rounded" src={ Asana } alt="Asana logo" />
-          <img className="bronze rounded" src={ Cookies } alt="Insomnia Cookies logo" />
-          <img className="bronze rounded" src={ CTP } alt="CUNY Tech Prep logo" />
-          <img className="bronze rounded" src={ TRiO } alt="TRiO logo" />
-          <img className="bronze rounded" src={ Calexico } alt="Calexico logo" />
+          <a href="https://about.google/" target="_blank" rel="noopener noreferrer"><img className="bronze rounded" src={ Google } alt="Google logo" /></a>
+          <a href="https://asana.com/company" target="_blank" rel="noopener noreferrer"><img className="bronze rounded" src={ Asana } alt="Asana logo" /></a>
+          <a href="https://insomniacookies.com/about" target="_blank" rel="noopener noreferrer"><img className="bronze rounded" src={ Cookies } alt="Insomnia Cookies logo" /></a>
+          <a href="https://cunytechprep.nyc/" target="_blank" rel="noopener noreferrer"><img className="bronze rounded" src={ CTP } alt="CUNY Tech Prep logo" /></a>
+          <a href="https://www2.ed.gov/programs/triostudsupp/index.html" target="_blank" rel="noopener noreferrer"><img className="bronze rounded" src={ TRiO } alt="TRiO logo" /></a>
+          <a href="https://www.calexico.com/" target="_blank" rel="noopener noreferrer"><img className="bronze rounded" src={ Calexico } alt="Calexico logo" /></a>
         </div>
         
         <p className="sponsor">

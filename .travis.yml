@@ -3,10 +3,8 @@ node_js:
     - "stable"
 install:
   - npm ci
-  # - npm install -g codecov
 script:
   - yarn build
-  # - codecov
 
 deploy:
   provider: firebase

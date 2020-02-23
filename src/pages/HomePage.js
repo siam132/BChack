@@ -56,7 +56,7 @@ function HomePage() {
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#schedule">Schedule</Nav.Link>
               <Nav.Link href="#faq">FAQ</Nav.Link>
-              <Nav.Link href="#organizers">Organizers</Nav.Link>
+              <Nav.Link href="#team">Team</Nav.Link>
               <Nav.Link href="#sponsors">Sponsors</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -65,9 +65,10 @@ function HomePage() {
         <Landing />
         <About />
         <SocialGood />
-        <Sponsors />
+        <Schedule />
         <FAQ />
         <Team />
+        <Sponsors />
         <Ground />
       </div>
     </div>

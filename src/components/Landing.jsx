@@ -48,11 +48,12 @@ function Landing() {
           }}
         /> */}
 
-        <div class="bttn-wrapper">
-          <button href="#" className="btn register">
+        <a href="https://typeform.com" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn contact">
             Register
           </button>
-        </div>
+        </a>
+
       </div>
     </div>
   );

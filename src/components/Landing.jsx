@@ -1,6 +1,6 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
-import Countdown from "react-countdown";
+// import Countdown from "react-countdown";
 import "../scss/Landing.scss";
 
 function Landing() {
@@ -16,7 +16,7 @@ function Landing() {
           HACK<span class="brooklyn">BROOKLYN</span>
         </h1>
 
-        <p className="date-and-time">March 29th, 2020: 7:00 am - 9:00 pm</p>
+        <p className="date-and-time">March 29th, 2020 | 7:00 am - 9:00 pm</p>
         <p>
           <a
             className="locater"
@@ -25,7 +25,8 @@ function Landing() {
             Brooklyn College
           </a>
         </p>
-        <Countdown
+
+        {/* <Countdown
           date={new Date("Mar 29, 2020 00:00:00 EST")}
           renderer={({ days, hours, minutes, seconds, completed }) => {
             if (!completed) {
@@ -45,14 +46,13 @@ function Landing() {
               return <p className="countdown-clock">Hack on!</p>;
             }
           }}
-        />
+        /> */}
 
         <a href="https://hackbrooklyn.typeform.com/to/KDXwk3" target="_blank" rel="noopener noreferrer">
           <button type="button" class="btn contact">
             Register
           </button>
         </a>
-
       </div>
     </div>
   );

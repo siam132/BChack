@@ -2,11 +2,10 @@
 body {
   background: linear-gradient(
     180deg,
-    #ffffff 10%,
-    rgba(109, 73, 255, 0.5) 25%,
-    
+    #ffffff 5%,
+    rgba(109, 73, 255, 0.6) 25%,
     rgba(255, 145, 231, 0.5) 75%,
-    rgba(242, 153, 74, 0.5) 100%
+    rgba(255, 178, 110, 0.6) 95%
   );
   
   margin: 0;
@@ -146,6 +145,17 @@ body {
 }
 
 @media (max-device-width: 600px) {
+  body {
+    background: linear-gradient(
+      180deg,
+      #ffffff 5%,
+      rgba(109, 73, 255, 0.5) 20%,
+      rgba(109, 73, 255, 0.6) 50%,
+      rgba(255, 145, 231, 0.6) 80%,
+      rgba(255, 178, 110, 0.6) 95%
+    );
+  }
+  
   nav.navbar {
     font-family: "Nunito", sans-serif;
     background-color: rgba(93, 40, 227, 0.75);

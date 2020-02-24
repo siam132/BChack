@@ -2,7 +2,7 @@ let FAQ = [
   {
     Question: "What is a hackathon?",
     Answer:
-      "A hackathon is a creative event where people interested in solving problems in today's world gather together and share their ideas. Participants work on a software or hardware project, What will they build during their time here? The only limit is their imagination!"
+      "A hackathon is a creative event where people interested in solving problems in today's world gather together and share their ideas. Participants work on a software or hardware project. What will they build during their time here? The only limit is their imagination!"
   },
   {
     Question: "I’m not a programmer! Can I still attend?",

@@ -39,7 +39,7 @@ function HomePage() {
           fixed="top"
           className={scrolled ? "scrolled" : ""}
         >
-          <Navbar.Brand href="#landing">
+          <Navbar.Brand href="/">
             <img
               src="logo192.png"
               alt="Logo"

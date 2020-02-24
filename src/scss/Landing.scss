@@ -28,7 +28,8 @@
     -webkit-text-fill-color: #fff;
     text-shadow: 8px 8px 0px rgba(128, 0, 128, 0.5);
     text-align: center;
-    margin: 2rem 0;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
     letter-spacing: 7.5px;
   }
 
@@ -45,7 +46,7 @@
     font-size: 1.75rem;
   }
 
-  .countdown-clock {
+  /* .countdown-clock {
     color: #fff;
     font-size: 1.25rem;
     font-weight: 300;
@@ -54,7 +55,7 @@
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-  }
+  } */
 
   .btn:hover {
     background-color: #e852ca;

@@ -49,7 +49,7 @@ function Landing() {
         /> */}
 
         <a href="https://hackbrooklyn.typeform.com/to/KDXwk3" target="_blank" rel="noopener noreferrer">
-          <button type="button" class="btn register">
+          <button type="button" className="btn register">
             Register
           </button>
         </a>

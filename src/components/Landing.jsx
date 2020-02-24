@@ -47,7 +47,7 @@ function Landing() {
           }}
         />
 
-        <a href="https://typeform.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://hackbrooklyn.typeform.com/to/KDXwk3" target="_blank" rel="noopener noreferrer">
           <button type="button" class="btn contact">
             Register
           </button>

@@ -54,6 +54,9 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
 
+    <!-- Add the standard Performance Monitoring library -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-performance.js"></script>
+
     <script>
       // Your web app's Firebase configuration
       var firebaseConfig = {
@@ -69,6 +72,7 @@
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
+      firebase.performance();
     </script>
   </body>
 </html>

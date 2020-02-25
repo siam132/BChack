@@ -1,0 +1,58 @@
+#about {
+  background: linear-gradient(180deg, #ffffff 0%, transparent 100%);
+  
+  color: rgb(142, 29, 203);
+  margin-bottom: -15vh;
+
+  p {
+    color: #4b0082;
+    margin-left: 2vw;
+  }
+
+  h2 {
+    margin-bottom: 1vh;
+  }
+
+  .about-summary {
+    padding: 1em;
+    color: rgb(142, 29, 203);
+    font-size: 2em;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .about-description p {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+    font-size: 24px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  img.witch {
+    width: 100%;
+  }
+
+  .bold {
+    font-weight: bold;
+    color: rgb(142, 29, 203);
+  }
+}
+
+// 577 is the breakpoint for small devices for boostrap.
+@media (max-device-width: 577px) {
+  #about {
+    margin-bottom: -15vh;
+
+    p {
+      font-size: 3rem;
+    }
+
+    .about-image {
+      display: none;
+    }
+  }
+}

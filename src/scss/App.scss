@@ -1,0 +1,232 @@
+// This is universal CSS that applies to all generic html tags
+body {
+  background: linear-gradient(
+    180deg,
+    #ffffff 5%,
+    rgba(109, 73, 255, 0.6) 25%,
+    rgba(255, 145, 231, 0.5) 75%,
+    rgba(255, 178, 110, 0.6) 95%
+  );
+  
+  margin: 0;
+  padding: 0;
+
+  * {
+    color: white;
+    line-height: 1.5;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    color: #9400d3;
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    color: #9400d3;
+    margin-bottom: 1em;
+  }
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  button.register,
+  button.contact {
+    color: white;
+    padding: 0rem 2rem;
+    background-color: darkorange;
+    border-radius: 1rem;
+    font-size: 2em;
+    margin-top: 1rem;
+    font-family: "Nunito", sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  nav.navbar {
+    font-family: "Nunito", sans-serif;
+    transition: background-color 0.5s;
+
+    .navbar-logo {
+      height: 2rem;
+      width: 2rem;
+    }
+
+    a.navbar-brand {
+      color: #ffffff !important;
+      font-family: "Luckiest Guy", sans-serif;
+      text-shadow: 2px 2px 0px rgba(128, 0, 128, 0.5);
+      letter-spacing: 1px;
+      margin-left: -1px;
+    }
+
+    a {
+      color: #7d86f2 !important;
+      font-size: 1.25rem;
+      margin-left: 0.5vw;
+      margin-right: 0.5vw;
+    }
+  }
+
+  nav.navbar.scrolled {
+    background-color: rgba(105, 46, 254, 0.5);
+
+    a {
+      display: block;
+      color: white !important;
+    }
+  }
+
+  /* hr styling creds: Glyph, by Harry Roberts */
+  hr {
+    overflow: visible; /* For IE */
+    border: 0;
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+  hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.75em;
+    padding: 0 0.25em;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #3c3c3c;
+    background: white;
+  }
+
+  a {
+    &.btn {
+      color: black;
+      background: white;
+      border: 1px solid black;
+      margin: 1px;
+    }
+    &.nav-link {
+      background: transparent;
+      border: transparent;
+      color: #7d86f2;
+      font-size: 1em;
+      &:hover {
+        color: darkorange;
+      }
+    }
+  }
+  #sponsors,
+  #faq,
+  #about,
+  #schedule,
+  #socialgood,
+  #team {
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+    * {
+      font-family: "Nunito", sans-serif;
+    }
+  }
+}
+
+@media (max-device-width: 600px) {
+  body {
+    background: linear-gradient(
+      180deg,
+      #ffffff 5%,
+      rgba(109, 73, 255, 0.5) 20%,
+      rgba(109, 73, 255, 0.6) 50%,
+      rgba(255, 145, 231, 0.6) 80%,
+      rgba(255, 178, 110, 0.6) 95%
+    );
+  }
+  
+  nav.navbar {
+    font-family: "Nunito", sans-serif;
+    background-color: rgba(93, 40, 227, 0.75);
+    transition: background-color 0.5s;
+    padding: 2vh;
+
+    .navbar-logo {
+      height: 5rem !important;
+      width: 5rem !important;
+    }
+
+    a.navbar-brand {
+      color: #ffffff !important;
+      font-family: "Luckiest Guy", sans-serif;
+      text-shadow: 2px 2px 0px rgba(104, 0, 184, 0.5);
+      letter-spacing: 1px;
+      vertical-align: middle;
+      font-size: 3rem !important;
+    }
+
+    a.nav-link {
+      color: #ffffff !important;
+      font-weight: bold !important;
+      font-size: 4rem !important;
+      margin-top: 1rem !important;
+      margin-bottom: 1rem !important;
+      margin-left: 1rem !important;
+    }
+  }
+
+  nav.navbar.scrolled {
+    background-color: rgba(105, 46, 254, 0.1);
+  }
+
+  .navbar-menu {
+    border: 0;
+    float: left !important;
+    font-size: 3rem;
+  }
+
+  #landing,
+  #sponsors {
+    button.register,
+    button.contact {
+      margin-top: 2rem;
+      padding: 1rem 3rem;
+      font-size: 5em;
+      border-radius: 2rem;
+    }
+  }
+  body {
+    h2,
+    h1 {
+      font-size: 5em;
+    }
+    p {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.disable-user-select {
+  user-select: none;
+  cursor: default;
+}
+
+/* ADD MAP IMAGE, THIS TURNS IT B&W */
+/* .map {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+} */

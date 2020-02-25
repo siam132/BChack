@@ -1,72 +1,79 @@
-import React from "react";
-import "../App.scss";
-import "bootstrap/dist/css/bootstrap.css";
-import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
+import React, { useState, useEffect } from "react";
+import { Navbar, Nav } from "react-bootstrap";
+
+import "typeface-luckiest-guy";
+import "typeface-nunito";
+import "typeface-quicksand";
+import "typeface-delius";
+
+import "../scss/App.scss";
+
 import Landing from "../components/Landing";
 import About from "../components/About";
-import Sponsors from "../components/Sponsors";
+import SocialGood from "../components/SocialGood";
+// import Schedule from "../components/Schedule";
 import FAQ from "../components/FAQ";
-import Schedule from "../components/Schedule";
-import Contact from "../components/Contact";
+import Sponsors from "../components/Sponsors";
+import Team from "../components/Team";
+import Ground from "../components/Ground";
 
-function App() {
+function HomePage() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const isTop = window.scrollY < 100;
+      if (isTop) {
+        setScrolled(false);
+      } else {
+        setScrolled(true);
+      }
+    });
+  });
+
   return (
-    <div className="App-header">
-      {/* NAV BAR */}
-      <ul className="nav">
-        <li className="nav-item">
-          <a className="nav-link active" href="#landing">
-            {/* code for home is under "../components/Landing.jsx" */}
-            Home
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#about">
-            About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#schedule">
-            Schedule
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#sponsors">
-            Sponsors
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#faq">
-            FAQ
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#contact">
-            Contact
-          </a>
-        </li>
-      </ul>
+    <div id="homepage" className="container-fluid">
+      <div id="content">
+        <Navbar
+          expand="lg"
+          fixed="top"
+          className={scrolled ? "scrolled" : ""}
+        >
+          <Navbar.Brand href="/">
+            <img
+              src="logo192.png"
+              alt="Logo"
+              className="navbar-logo img-responsive d-inline-block align-middle"
+            />
+            &nbsp;HACK BROOKLYN
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="navbar-content"
+            className="navbar-menu ml-auto"
+          />
+          <Navbar.Collapse id="navbar-content">
+            <Nav className="ml-auto">
+              <Nav.Link href="#landing">Home</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
+              {/* <Nav.Link href="#schedule">Schedule</Nav.Link> */}
+              <Nav.Link href="#faq">FAQ</Nav.Link>
+              <Nav.Link href="#team">Team</Nav.Link>
+              <Nav.Link href="#sponsors">Sponsors</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
 
-      <div className="container-fluid">
         <Landing />
         <About />
-        <Schedule />
-        <Sponsors />
+        <SocialGood />
+        {/* <Schedule /> */}
         <FAQ />
-        <Contact />
+        <Team />
+        <Sponsors />
+        <Ground />
       </div>
-      <ScrollUpButton
-        StopPosition={0}
-        ShowAtPosition={150}
-        EasingType="easeOutCubic"
-        AnimationDuration={1000}
-        ContainerClassName="ScrollUpButton__Container"
-        TransitionClassName="ScrollUpButton__Toggled"
-        style={{}}
-        ToggledStyle={{}}
-      />
     </div>
   );
 }
 
-export default App;
+export default HomePage;

@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Feldicouth Norm";
+  src: url("../assets/fonts/feldicouth-norm.woff") format("woff");
+}
+
+#landing {
+  background: #fff;
+  background-image: url(../assets/landing-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 9%;
+
+  .intro {
+    letter-spacing: 2px;
+    font-family: "Papyrus", "Feldicouth Norm", fantasy;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-family: "Luckiest Guy", sans-serif;
+    font-size: 7rem;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: #fff;
+    text-shadow: 8px 8px 0px rgba(128, 0, 128, 0.5);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 7.5px;
+  }
+
+  .brooklyn {
+    display: block;
+  }
+
+  p {
+    font-size: 2rem;
+    font-family: "Nunito", sans-serif;
+  }
+
+  a.locater {
+    font-size: 1.75rem;
+  }
+
+  /* .countdown-clock {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  } */
+
+  .btn:hover {
+    background-color: #e852ca;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .locater:hover {
+    color: #e852c9c7;
+  }
+}
+
+@media (max-device-width: 600px) {
+  #landing {
+    padding-top: 20%;
+    background-position: 75%;
+
+    .intro {
+      font-size: 3rem;
+    }
+
+    h1 {
+      font-size: 11rem;
+      margin: 1rem 0;
+      padding-top: 2vh;
+    }
+
+    p {
+      font-size: 3.25rem;
+    }
+
+    a.locater {
+      font-size: 2.75rem;
+    }
+
+    .countdown-clock {
+      color: #fff;
+      font-size: 2.25rem !important;
+      margin-top: 3rem;
+    }
+
+    button.register {
+      margin-top: 2.5vh;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+#ground {
+  margin: -15px; // Reset the margin from an inherited value
+  // background-color: rgba(242, 153, 74, 0.5);
+  background-image: url(../assets/ground-background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom 100%;
+  min-height: 100vh;
+
+  @media (max-device-width: 600px) {
+    background-position: 65%;
+  }
+}

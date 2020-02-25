@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns/website#">
   <head>
+    <meta property="og:title" content="Hack Brooklyn" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://hackbrooklyn.org/logo2048.png" />
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name=”viewport” content="width=device-width, initial-scale=1.0">
-    <link rel=”stylesheet” href=”css/bootstrap.css”>
-    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Brooklyn College's first-ever hackathon!"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Montserrat&display=swap" rel="stylesheet">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -23,28 +23,57 @@
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
-
+      
       Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Hack Brooklyn</title>
-    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/34d93ab251.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>You need to enable JavaScript to view this website.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
-
+      
       You can add webfonts, meta tags, or analytics to this file.
       The build step will place the bundled scripts into the <body> tag.
+        
+        To begin the development, run `npm start` or `yarn start`.
+        To create a production bundle, use `npm run build` or `yarn build`.
+      -->
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <link rel=”stylesheet” href=”css/bootstrap.css”> <link rel=”stylesheet”
+    href=”css/bootstrap-responsive.css”>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+
+    <!-- Add the standard Performance Monitoring library -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-performance.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyD2cAExXjH5oYCOjhrdhWtKKkh91nmrlWI",
+        authDomain: "hackbrooklyn-2b403.firebaseapp.com",
+        databaseURL: "https://hackbrooklyn-2b403.firebaseio.com",
+        projectId: "hackbrooklyn-2b403",
+        storageBucket: "hackbrooklyn-2b403.appspot.com",
+        messagingSenderId: "850350064300",
+        appId: "1:850350064300:web:543efb8876161c4f689509",
+        measurementId: "G-HWB4RW3X4S"
+      };
+      
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+      firebase.performance();
+    </script>
   </body>
 </html>

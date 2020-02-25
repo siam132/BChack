@@ -1,0 +1,37 @@
+#faq {
+  padding: 7.5vw;
+  margin-bottom: -5vh;
+  
+  h2.faq-title {
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  
+  .faq-q-and-a {
+    margin: 1.25em;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 1vh;
+    
+    // extra small
+    @media (max-device-width: 550px) {
+      font-size: 3.5em;
+    }
+  }
+  
+  .faq-answer {
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    // small
+    @media (max-device-width: 550px) {
+      font-size: 2em;
+    }
+    // extra small
+    @media (max-device-width: 550px) {
+      font-size: 2.5em;
+    }
+  }
+}

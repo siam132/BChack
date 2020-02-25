@@ -33,3 +33,6 @@ yarn-error.log*
 # Firebase
 /.firebase
 .firebaserc
+
+# Deploy script
+deploy.sh

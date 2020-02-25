@@ -38,7 +38,7 @@ function Sponsors() {
         </p>
 
         <a href="mailto:sponsor@hackbrooklyn.org">
-          <button type="button" class="btn contact">
+          <button type="button" className="btn contact">
             Contact us
           </button>
         </a>

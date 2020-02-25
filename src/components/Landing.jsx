@@ -48,11 +48,11 @@ function Landing() {
           }}
         /> */}
 
-        <div class="bttn-wrapper">
-          <button href="#" className="btn register">
+        <a href="https://hackbrooklyn.typeform.com/to/KDXwk3" target="_blank" rel="noopener noreferrer">
+          <button type="button" className="btn register">
             Register
           </button>
-        </div>
+        </a>
       </div>
     </div>
   );

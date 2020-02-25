@@ -1,4 +1,6 @@
 import React from "react";
+
+import Bloomberg from "../assets/company-logos/bloomberg.png";
 import Cookies from "../assets/company-logos/insomniacookies.png";
 import LinkedIn from "../assets/company-logos/linkedin.png";
 import Etsy from "../assets/company-logos/etsy.png";
@@ -24,6 +26,7 @@ function Sponsors() {
           <a href="https://www.etsy.com/about?ref=ftr" target="_blank" rel="noopener noreferrer"><img className="silver rounded" src={ Etsy } alt="Etsy logo" /></a>
           <a href="https://www.digitalocean.com/about/" target="_blank" rel="noopener noreferrer"><img className="silver rounded" src={ DigitalOcean } alt="DigitalOcean logo" /></a>
           <a href="https://witny.org/" target="_blank" rel="noopener noreferrer"><img className="silver rounded" src={ WiTNY } alt="WiTNY logo" /></a>
+          <a href="https://www.bloomberg.com/" target="_blank" rel="noopener noreferrer"><img className="silver rounded" src={ Bloomberg } alt="Bloomberg logo" /></a>
           <br />
           <a href="https://about.google/" target="_blank" rel="noopener noreferrer"><img className="bronze rounded" src={ Google } alt="Google logo" /></a>
           <a href="https://asana.com/company" target="_blank" rel="noopener noreferrer"><img className="bronze rounded" src={ Asana } alt="Asana logo" /></a>

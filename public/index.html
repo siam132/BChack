@@ -48,13 +48,27 @@
     href=”css/bootstrap-responsive.css”>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="/__/firebase/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="/__/firebase/7.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
 
-    <!-- Initialize Firebase -->
-    <script src="/__/firebase/init.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyD2cAExXjH5oYCOjhrdhWtKKkh91nmrlWI",
+        authDomain: "hackbrooklyn-2b403.firebaseapp.com",
+        databaseURL: "https://hackbrooklyn-2b403.firebaseio.com",
+        projectId: "hackbrooklyn-2b403",
+        storageBucket: "hackbrooklyn-2b403.appspot.com",
+        messagingSenderId: "850350064300",
+        appId: "1:850350064300:web:543efb8876161c4f689509",
+        measurementId: "G-HWB4RW3X4S"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>

@@ -6,7 +6,7 @@
     <meta property="og:image" content="https://hackbrooklyn.org/logo2048.png" />
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
     <meta name="theme-color" content="#000000" />
     <meta
@@ -29,32 +29,8 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Hack Brooklyn</title>
-    <!-- Google Tag Manager -->
-    <script>
-      (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-T28H72D");
-    </script>
-    <!-- End Google Tag Manager -->
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-T28H72D"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <noscript>You need to enable JavaScript to view this website.</noscript>
     <div id="root"></div>
     <!--
@@ -81,21 +57,6 @@
     <!-- Add the standard Performance Monitoring library -->
     <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-performance.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-158926102-4"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-158926102-4");
-    </script>
-
     <script>
       // Your web app's Firebase configuration
       var firebaseConfig = {
@@ -108,7 +69,7 @@
         appId: "1:850350064300:web:543efb8876161c4f689509",
         measurementId: "G-HWB4RW3X4S"
       };
-
+      
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();

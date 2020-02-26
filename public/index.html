@@ -57,6 +57,21 @@
     <!-- Add the standard Performance Monitoring library -->
     <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-performance.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-158926102-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-158926102-4");
+    </script>
+
     <script>
       // Your web app's Firebase configuration
       var firebaseConfig = {
@@ -69,7 +84,7 @@
         appId: "1:850350064300:web:543efb8876161c4f689509",
         measurementId: "G-HWB4RW3X4S"
       };
-      
+
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();

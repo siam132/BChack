@@ -1,9 +1,10 @@
-import React, { useState } from "react";
-import Sustainability from "../assets/social-good/sustainability.svg";
-import Accessibility from "../assets/social-good/accessibility.svg";
-import Education from "../assets/social-good/education.svg";
-import Health from "../assets/social-good/health.svg";
-import "../scss/SocialGood.scss";
+import React, { useState } from 'react';
+
+import '../scss/SocialGood.scss';
+import Sustainability from '../assets/social-good/sustainability.svg';
+import Accessibility from '../assets/social-good/accessibility.svg';
+import Education from '../assets/social-good/education.svg';
+import Health from '../assets/social-good/health.svg';
 
 function SocialGood() {
   const [ width ] = useState(window.screen.width);
@@ -16,7 +17,7 @@ function SocialGood() {
             <div className="card text-center">
               <img src={Sustainability} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">Sustainability</h5>
+                <h5 className="card-title">Sustainability</h5>
                 <hr></hr>
                 <p className="card-text">Tackle issues like climate change, energy,
                   food production, water scarcity, and biodiversity </p>
@@ -27,7 +28,7 @@ function SocialGood() {
             <div className="card text-center">
               <img src={Accessibility} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">Accessibility</h5>
+                <h5 className="card-title">Accessibility</h5>
                 <hr></hr>
                 <p className="card-text">Help make the world more accessible and
                   create tools for people with different needs! </p>
@@ -38,7 +39,7 @@ function SocialGood() {
             <div className="card text-center">
               <img src={Education} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">Education</h5>
+                <h5 className="card-title">Education</h5>
                 <hr></hr>
                 <p className="card-text">Improve education quality and
                   increase access to knowledge around the world.</p>
@@ -49,7 +50,7 @@ function SocialGood() {
             <div className="card text-center">
               <img src={Health} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">Health</h5>
+                <h5 className="card-title">Health</h5>
                 <hr></hr>
                 <p className="card-text">How can technology be used to solve some of 
                 the problems around health and health care? 

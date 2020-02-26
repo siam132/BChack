@@ -1,7 +1,8 @@
-import React from "react";
-import Zoom from "react-reveal/Zoom";
-// import Countdown from "react-countdown";
-import "../scss/Landing.scss";
+import React from 'react';
+
+import '../scss/Landing.scss';
+import Zoom from 'react-reveal/Zoom';
+// import Countdown from 'react-countdown';
 
 function Landing() {
   return (
@@ -13,7 +14,7 @@ function Landing() {
           </Zoom>
         </p>
         <h1 className="disable-user-select">
-          HACK<span class="brooklyn">BROOKLYN</span>
+          HACK<span className="brooklyn">BROOKLYN</span>
         </h1>
 
         <p className="date-and-time">March 29th, 2020 | 7:00 am - 9:00 pm</p>

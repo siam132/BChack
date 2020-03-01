@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import '../scss/Landing.scss';
-import Zoom from 'react-reveal/Zoom';
+import "../scss/Landing.scss";
+import Zoom from "react-reveal/Zoom";
 // import Countdown from 'react-countdown';
 
 function Landing() {
@@ -49,11 +49,18 @@ function Landing() {
           }}
         /> */}
 
-        <a href="https://hackbrooklyn.typeform.com/to/KDXwk3" target="_blank" rel="noopener noreferrer">
+
+        <a
+          href="https://hackbrooklyn.typeform.com/to/KDXwk3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button type="button" className="btn register">
             Register
           </button>
         </a>
+
+        <p className="application-period">Applications open:<br />3/2 12:00 am - 3/21 11:59 pm</p>
       </div>
     </div>
   );

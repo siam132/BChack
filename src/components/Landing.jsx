@@ -51,7 +51,7 @@ function Landing() {
 
 
         <a
-          href="https://hackbrooklyn.typeform.com/to/KDXwk3"
+          href="https://hackbrooklyn.typeform.com/to/wOd4nK"
           target="_blank"
           rel="noopener noreferrer"
         >

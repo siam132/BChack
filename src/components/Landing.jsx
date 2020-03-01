@@ -60,7 +60,7 @@ function Landing() {
           </button>
         </a>
 
-        <p className="application-period">Applications open:<br />3/2 12:00 am - 3/21 11:59 pm</p>
+        <p className="application-period">Applications now open:<br />3/2 12:00 am - 3/21 11:59 pm</p>
       </div>
     </div>
   );

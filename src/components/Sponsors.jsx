@@ -25,16 +25,16 @@ function Sponsors() {
         {/* prettier-ignore */}
         <div>
           {/* Silver Tier */}
+          <Sponsor sponsor="Google" tier="silver" logo={Google} link="https://about.google" />
           <Sponsor sponsor="LinkedIn" tier="silver" logo={LinkedIn} link="https://www.linkedin.com/company/linkedin" />
           <Sponsor sponsor="Etsy" tier="silver" logo={Etsy} link="https://www.etsy.com/about" />
-          <Sponsor sponsor="DigitalOcean" tier="silver" logo={DigitalOcean} link="http://do.co/studenthackathon" />
-          <Sponsor sponsor="WiTNY" tier="silver" logo={WiTNY} link="https://witny.org" />
           <Sponsor sponsor="Bloomberg" tier="silver" logo={Bloomberg} link="https://www.bloomberg.com" />
+          <Sponsor sponsor="WiTNY" tier="silver" logo={WiTNY} link="https://witny.org" />
+          <Sponsor sponsor="DigitalOcean" tier="silver" logo={DigitalOcean} link="http://do.co/studenthackathon" />
 
           <br />
 
           {/* Bronze Tier and Friends */}
-          <Sponsor sponsor="Google" tier="bronze" logo={Google} link="https://about.google" />
           <Sponsor sponsor="Asana" tier="bronze" logo={Asana} link="https://asana.com/company" />
           <Sponsor sponsor="Insomnia Cookies" tier="bronze" logo={Cookies} link="https://insomniacookies.com/about" />
           <Sponsor sponsor="CUNY Tech Prep" tier="bronze" logo={CTP} link="https://cunytechprep.nyc" />

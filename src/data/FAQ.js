@@ -10,9 +10,14 @@ let FAQ = [
       "Absolutely! Hackathons aren't only for programmers! Students from other disciplines are just as important as programmers when it comes to creating a well-rounded project. If you are a passionate learner looking to build something amazing, we invite you to hack with us!"
   },
   {
+    Question: "Who can apply?",
+    Answer:
+      "Hack Brooklyn is open to all CUNY students! Unfortunately, we are unable to accomodate students from other colleges at this time."
+  },
+  {
     Question: "What should I bring with me?",
     Answer:
-      "Make sure to bring a valid ID at the very least! We recommend bringing your laptop, your phone, chargers for your devices, toiletries, a change of clothes, and a blanket. The rest will depend on what you will need to work on your project."
+      "Make sure to bring a valid ID at the very least! We recommend bringing your laptop, your phone, and chargers for your devices. The rest will depend on what you will need to work on your project. We will also have hardware available for borrowing!"
   },
   {
     Question: "Do I need a team to participate?",

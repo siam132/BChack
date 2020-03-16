@@ -35,7 +35,6 @@ function Sponsors() {
           <br />
 
           {/* Bronze Tier and Friends */}
-          <Sponsor sponsor="Asana" tier="bronze" logo={Asana} link="https://asana.com/company" />
           <Sponsor sponsor="Insomnia Cookies" tier="bronze" logo={Cookies} link="https://insomniacookies.com/about" />
           <Sponsor sponsor="CUNY Tech Prep" tier="bronze" logo={CTP} link="https://cunytechprep.nyc" />
           <Sponsor sponsor="TRiO" tier="bronze" logo={TRiO} link="https://www2.ed.gov/programs/triostudsupp/index.html" />

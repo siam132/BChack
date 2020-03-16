@@ -7,7 +7,6 @@ import Etsy from "../assets/company-logos/etsy.png";
 import DigitalOcean from "../assets/company-logos/digitalocean.png";
 import Google from "../assets/company-logos/google.png";
 import WiTNY from "../assets/company-logos/witny.png";
-import Asana from "../assets/company-logos/asana.png";
 import CTP from "../assets/company-logos/ctp.png";
 import TRiO from "../assets/company-logos/trio.png";
 import Calexico from "../assets/company-logos/calexico.png";

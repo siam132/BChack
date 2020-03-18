@@ -7,7 +7,6 @@ import Etsy from "../assets/company-logos/etsy.png";
 import DigitalOcean from "../assets/company-logos/digitalocean.png";
 import Google from "../assets/company-logos/google.png";
 import WiTNY from "../assets/company-logos/witny.png";
-import Asana from "../assets/company-logos/asana.png";
 import CTP from "../assets/company-logos/ctp.png";
 import TRiO from "../assets/company-logos/trio.png";
 import Calexico from "../assets/company-logos/calexico.png";
@@ -35,7 +34,6 @@ function Sponsors() {
           <br />
 
           {/* Bronze Tier and Friends */}
-          <Sponsor sponsor="Asana" tier="bronze" logo={Asana} link="https://asana.com/company" />
           <Sponsor sponsor="Insomnia Cookies" tier="bronze" logo={Cookies} link="https://insomniacookies.com/about" />
           <Sponsor sponsor="CUNY Tech Prep" tier="bronze" logo={CTP} link="https://cunytechprep.nyc" />
           <Sponsor sponsor="TRiO" tier="bronze" logo={TRiO} link="https://www2.ed.gov/programs/triostudsupp/index.html" />

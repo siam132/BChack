@@ -17,7 +17,7 @@ function Landing() {
           HACK<span className="brooklyn">BROOKLYN</span>
         </h1>
 
-        <p className="date-and-time">March 29th, 2020 | 7:00 am - 9:00 pm</p>
+        <p className="date-and-time">March 29th 8:00 am - March 30 8:00 am</p>
         <p>
           <a
             className="locater"

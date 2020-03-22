@@ -44,7 +44,7 @@ function About() {
           </p>
           <br />
           <p>
-            Over the course of 12 hours, teams of up to four students will
+            Over the course of 24 hours, teams of up to four students will
             collaborate to use the technology of today to solve present-day
             problems and create the world of tomorrow. Create a project, acquire
             new skills, and network with other hackers and companies as you

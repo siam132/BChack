@@ -20,7 +20,7 @@ function Landing() {
         <p className="date-and-time">March 29th 8:00 am - March 30th 8:00 am</p>
         <p>
           <a className="locater" href="http://www.brooklyn.cuny.edu/">
-            Hosted by Brooklyn College
+            Virtual hackathon hosted by Brooklyn College
           </a>
         </p>
 

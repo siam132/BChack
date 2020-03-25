@@ -7,7 +7,7 @@ import witch from "../assets/side-art.svg";
 // import Typical from 'react-typical';
 
 function About() {
-/*   const steps = [
+  /*   const steps = [
     'educational disparity.', 1000,
     'accessibility.', 1000,
     'diversity.', 1000,
@@ -30,11 +30,10 @@ function About() {
           <p>
             Hack Brooklyn is where your quest begins. Step into a world of magic
             on
-            <strong className="bold"> March 29th </strong>where over 150 of the
+            <strong className="bold"> March 29th </strong>where over 250 of the
             brightest students in New York City will come together to build
             innovative solutions for causes ranging from homelessness to the
             lack of diversity.
-
             {/* <Typical
                 wrapper="strong"
                 steps={steps}
@@ -55,14 +54,6 @@ function About() {
             basics of programming to the hottest and latest technologies, you’ll
             leave Hack Brooklyn with something new.
           </p>
-
-          {/* <p>
-            One of our goals for Hack Brooklyn is to encourage diversity by supporting, boosting, 
-            and emboldening women and minorities in tech, as well as creating a safe, inclusive community 
-            where we can all work on changing the make-up and attitudes of the tech community. Regardless 
-            of who you are, Hack Brooklyn welcomes you. Join us for 12 hours of exploration and discovery 
-            and unlock your true potential.
-            </p> */}
         </div>
       </div>
       <div className="col-3 about-image">

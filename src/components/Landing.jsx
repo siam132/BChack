@@ -29,9 +29,7 @@ function Landing() {
           renderer={({ days, completed }) => {
             if (!completed) {
               return (
-                <p className="countdown-clock-days">
-                  {String(days) + " days"}
-                </p>
+                <p className="countdown-clock-days">{String(days) + " days"}</p>
               );
             } else {
               return <p className="countdown-clock">Hack on!</p>;

@@ -51,16 +51,20 @@
     margin-top: 1vh;
   }
 
-  /* .countdown-clock {
+  .countdown-clock-days {
     color: #fff;
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
     margin-top: 2rem;
+  }
+
+  .countdown-clock {
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: bold;
     margin-bottom: 2rem;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  } */
+  }
 
   .btn:hover {
     background-color: #e852ca;

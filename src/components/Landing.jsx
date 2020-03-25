@@ -2,7 +2,7 @@ import React from "react";
 
 import "../scss/Landing.scss";
 import Zoom from "react-reveal/Zoom";
-// import Countdown from 'react-countdown';
+import Countdown from "react-countdown";
 
 function Landing() {
   return (
@@ -17,25 +17,35 @@ function Landing() {
           HACK<span className="brooklyn">BROOKLYN</span>
         </h1>
 
-        <p className="date-and-time">March 29th 8:00 am - March 30 8:00 am</p>
+        <p className="date-and-time">March 29th 8:00 am - March 30th 8:00 am</p>
         <p>
-          <a
-            className="locater"
-            href="https://hackbrooklyn.devpost.com"
-          >
-            Virtual hackathon hosted by Brooklyn College
+          <a className="locater" href="http://www.brooklyn.cuny.edu/">
+            Hosted by Brooklyn College
           </a>
         </p>
 
-        {/* <Countdown
-          date={new Date("Mar 29, 2020 00:00:00 EST")}
-          renderer={({ days, hours, minutes, seconds, completed }) => {
+        <Countdown
+          date={new Date("Mar 29, 2020 08:00:00 EST")}
+          renderer={({ days, completed }) => {
+            if (!completed) {
+              return (
+                <p className="countdown-clock-days">
+                  {String(days) + " days"}
+                </p>
+              );
+            } else {
+              return <p className="countdown-clock">Hack on!</p>;
+            }
+          }}
+        />
+
+        <Countdown
+          date={new Date("Mar 29, 2020 08:00:00 EST")}
+          renderer={({ hours, minutes, seconds, completed }) => {
             if (!completed) {
               return (
                 <p className="countdown-clock">
-                  {String(days) +
-                    " days, " +
-                    String(hours) +
+                  {String(hours) +
                     " hours, " +
                     String(minutes) +
                     " minutes, and " +
@@ -47,10 +57,9 @@ function Landing() {
               return <p className="countdown-clock">Hack on!</p>;
             }
           }}
-        /> */}
+        />
 
-
-        <a
+        {/* <a
           href="https://hackbrooklyn.typeform.com/to/wOd4nK"
           target="_blank"
           rel="noopener noreferrer"
@@ -58,9 +67,7 @@ function Landing() {
           <button type="button" className="btn register">
             Register
           </button>
-        </a>
-
-        <p className="application-period">Applications now open:<br />3/2 12:00 am - 3/21 11:59 pm</p>
+        </a> */}
       </div>
     </div>
   );

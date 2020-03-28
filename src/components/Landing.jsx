@@ -26,10 +26,12 @@ function Landing() {
 
         <Countdown
           date={new Date("Mar 29, 2020 08:00:00 EST")}
-          renderer={({ days, completed }) => {
+          renderer={({ hours, completed }) => {
             if (!completed) {
               return (
-                <p className="countdown-clock-days">{String(days) + " days"}</p>
+                <p className="countdown-clock-hours">
+                  {String(hours) + " hours,"}
+                </p>
               );
             } else {
               return <p className="countdown-clock">Hack on!</p>;
@@ -39,13 +41,11 @@ function Landing() {
 
         <Countdown
           date={new Date("Mar 29, 2020 08:00:00 EST")}
-          renderer={({ hours, minutes, seconds, completed }) => {
+          renderer={({ minutes, seconds, completed }) => {
             if (!completed) {
               return (
                 <p className="countdown-clock">
-                  {String(hours) +
-                    " hours, " +
-                    String(minutes) +
+                  {String(minutes) +
                     " minutes, and " +
                     String(seconds) +
                     " seconds to go!"}

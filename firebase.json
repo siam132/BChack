@@ -1,7 +1,19 @@
 {
   "hosting": {
     "public": "build",
+    "cleanUrls": true,
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+
+    "rewrites": [
+      {
+        "source": "/tracks",
+        "destination": "/files/tracks.pdf"
+      },
+      {
+        "source": "/schedule",
+        "destination": "/files/schedule.pdf"
+      }
+    ],
 
     "headers": [
       {

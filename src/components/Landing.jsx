@@ -25,7 +25,7 @@ function Landing() {
         </p>
 
         <Countdown
-          date={new Date("Mar 29, 2020 08:00:00 EST")}
+          date={new Date("Mar 29, 2020 08:00:00 EDT")}
           renderer={({ hours, completed }) => {
             if (!completed) {
               return (
@@ -39,8 +39,8 @@ function Landing() {
           }}
         />
 
-        <Countdown
-          date={new Date("Mar 29, 2020 08:00:00 EST")}
+        {/* <Countdown
+          date={new Date("Mar 29, 2020 08:00:00 EDT")}
           renderer={({ minutes, seconds, completed }) => {
             if (!completed) {
               return (
@@ -55,7 +55,7 @@ function Landing() {
               return <p className="countdown-clock">Hack on!</p>;
             }
           }}
-        />
+        /> */}
 
         {/* <a
           href="https://hackbrooklyn.typeform.com/to/wOd4nK"

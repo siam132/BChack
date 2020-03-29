@@ -24,8 +24,10 @@ function Landing() {
           </a>
         </p>
 
+        <p className="countdown-clock-time-left">Time Left:</p>
+
         <Countdown
-          date={new Date("Mar 29, 2020 08:00:00 EDT")}
+          date={new Date("Mar 30, 2020 08:00:00 EDT")}
           renderer={({ hours, completed }) => {
             if (!completed) {
               return (
@@ -34,13 +36,13 @@ function Landing() {
                 </p>
               );
             } else {
-              return <p className="countdown-clock-hours">Hack on!</p>;
+              return <p className="countdown-clock-hours">Time's up!</p>;
             }
           }}
         />
 
-        {/* <Countdown
-          date={new Date("Mar 29, 2020 08:00:00 EDT")}
+        <Countdown
+          date={new Date("Mar 30, 2020 08:00:00 EDT")}
           renderer={({ minutes, seconds, completed }) => {
             if (!completed) {
               return (
@@ -48,14 +50,14 @@ function Landing() {
                   {String(minutes) +
                     " minutes, and " +
                     String(seconds) +
-                    " seconds to go!"}
+                    " seconds"}
                 </p>
               );
             } else {
-              return <p className="countdown-clock">Hack on!</p>;
+              return <p className="countdown-clock">Time's up!</p>;
             }
           }}
-        /> */}
+        />
 
         {/* <a
           href="https://hackbrooklyn.typeform.com/to/wOd4nK"

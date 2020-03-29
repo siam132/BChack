@@ -34,7 +34,7 @@ function Landing() {
                 </p>
               );
             } else {
-              return <p className="countdown-clock">Hack on!</p>;
+              return <p className="countdown-clock-hours">Hack on!</p>;
             }
           }}
         />

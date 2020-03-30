@@ -2,7 +2,7 @@ import React from "react";
 
 import "../scss/Landing.scss";
 import Zoom from "react-reveal/Zoom";
-import Countdown from "react-countdown";
+// import Countdown from "react-countdown";
 
 function Landing() {
   return (
@@ -24,9 +24,9 @@ function Landing() {
           </a>
         </p>
 
-        <p className="countdown-clock-time-left">Time Left:</p>
+        {/* <p className="countdown-clock-time-left">Time Left:</p> */}
 
-        <Countdown
+        {/* <Countdown
           date={new Date("Mar 30, 2020 08:00:00 EDT")}
           renderer={({ hours, completed }) => {
             if (!completed) {
@@ -39,9 +39,9 @@ function Landing() {
               return <p className="countdown-clock-hours">Time's up!</p>;
             }
           }}
-        />
+        /> */}
 
-        <Countdown
+        {/* <Countdown
           date={new Date("Mar 30, 2020 08:00:00 EDT")}
           renderer={({ minutes, seconds, completed }) => {
             if (!completed) {
@@ -57,7 +57,7 @@ function Landing() {
               return <p className="countdown-clock">Time's up!</p>;
             }
           }}
-        />
+        /> */}
 
         {/* <a
           href="https://hackbrooklyn.typeform.com/to/wOd4nK"

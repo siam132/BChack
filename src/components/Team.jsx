@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import { Contributors, Organizers } from "../data/Contributor_Info";
 import defaultPic from "../assets/web-dev-pics/test_avatar.png";
 import "../scss/Team.scss";

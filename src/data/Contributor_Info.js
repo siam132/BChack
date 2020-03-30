@@ -27,7 +27,7 @@ export const Organizers = [
     first: "Vincent",
     last: "Xie",
     link: "https://www.linkedin.com/in/vincent-xie-6603431a2/",
-    pic: "/team-pics/vincent.jpeg"
+    pic: "/team-pics/vincent.jpg"
   },
   {
     first: "Reham",

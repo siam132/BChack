@@ -40,22 +40,38 @@
   p {
     font-size: 2rem;
     font-family: "Nunito", sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
   }
 
   a.locater {
     font-size: 1.75rem;
   }
 
-  /* .countdown-clock {
+  p.application-period {
+    margin-top: 1vh;
+  }
+
+  .countdown-clock-time-left {
     color: #fff;
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    // font-weight: bold;
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  } */
+    // margin-bottom: -0.5rem;
+  }
+
+  .countdown-clock-hours {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: -0.5rem;
+  }
+
+  .countdown-clock {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
   .btn:hover {
     background-color: #e852ca;
@@ -84,21 +100,43 @@
     }
 
     p {
-      font-size: 3.25rem;
+      font-size: 3rem;
+      margin-bottom: 1rem;
     }
 
     a.locater {
       font-size: 2.75rem;
     }
 
+    .countdown-clock-time-left {
+      color: #fff;
+      font-family: "Quicksand", sans-serif;
+      font-size: 3rem;
+      margin-top: 3rem;
+      margin-bottom: -2rem;
+    }
+
+    .countdown-clock-hours {
+      color: #fff;
+      font-family: "Quicksand", sans-serif;
+      font-size: 5rem;
+      font-weight: bold;
+      margin-top: 3rem;
+      margin-bottom: -0.5rem;
+    }
+  
     .countdown-clock {
       color: #fff;
-      font-size: 2.25rem !important;
-      margin-top: 3rem;
+      font-size: 3rem;
+      font-weight: bold;
     }
 
     button.register {
       margin-top: 2.5vh;
+    }
+
+    p.application-period {
+      margin-top: 2vh;
     }
   }
 }
